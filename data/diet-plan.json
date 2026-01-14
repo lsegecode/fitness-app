@@ -1,0 +1,981 @@
+{
+    "weekly_diet": {
+        "monday": {
+            "focus": "High Protein - Back Day",
+            "total_calories": 2500,
+            "macros": {
+                "protein": "180g",
+                "carbs": "250g",
+                "fats": "80g"
+            },
+            "meals": [
+                {
+                    "meal": "Breakfast",
+                    "time": "7:00 AM",
+                    "foods": [
+                        {
+                            "name": "Scrambled eggs",
+                            "portion": "3 eggs",
+                            "calories": 210,
+                            "protein": "18g"
+                        },
+                        {
+                            "name": "Whole wheat toast",
+                            "portion": "2 slices",
+                            "calories": 160,
+                            "protein": "6g"
+                        },
+                        {
+                            "name": "Avocado",
+                            "portion": "1/2",
+                            "calories": 120,
+                            "protein": "1g"
+                        },
+                        {
+                            "name": "Orange juice",
+                            "portion": "1 glass",
+                            "calories": 110,
+                            "protein": "2g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Mid-Morning Snack",
+                    "time": "10:00 AM",
+                    "foods": [
+                        {
+                            "name": "Greek yogurt",
+                            "portion": "200g",
+                            "calories": 130,
+                            "protein": "20g"
+                        },
+                        {
+                            "name": "Mixed nuts",
+                            "portion": "30g",
+                            "calories": 180,
+                            "protein": "5g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Lunch",
+                    "time": "1:00 PM",
+                    "foods": [
+                        {
+                            "name": "Grilled chicken breast",
+                            "portion": "200g",
+                            "calories": 330,
+                            "protein": "62g"
+                        },
+                        {
+                            "name": "Brown rice",
+                            "portion": "1 cup",
+                            "calories": 220,
+                            "protein": "5g"
+                        },
+                        {
+                            "name": "Steamed broccoli",
+                            "portion": "1 cup",
+                            "calories": 55,
+                            "protein": "4g"
+                        },
+                        {
+                            "name": "Olive oil dressing",
+                            "portion": "1 tbsp",
+                            "calories": 120,
+                            "protein": "0g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Pre-Workout",
+                    "time": "4:00 PM",
+                    "foods": [
+                        {
+                            "name": "Banana",
+                            "portion": "1 medium",
+                            "calories": 105,
+                            "protein": "1g"
+                        },
+                        {
+                            "name": "Protein shake",
+                            "portion": "1 scoop",
+                            "calories": 120,
+                            "protein": "25g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Dinner",
+                    "time": "7:30 PM",
+                    "foods": [
+                        {
+                            "name": "Salmon fillet",
+                            "portion": "200g",
+                            "calories": 400,
+                            "protein": "40g"
+                        },
+                        {
+                            "name": "Sweet potato",
+                            "portion": "1 medium",
+                            "calories": 115,
+                            "protein": "2g"
+                        },
+                        {
+                            "name": "Mixed salad",
+                            "portion": "2 cups",
+                            "calories": 50,
+                            "protein": "2g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Evening Snack",
+                    "time": "9:00 PM",
+                    "foods": [
+                        {
+                            "name": "Cottage cheese",
+                            "portion": "150g",
+                            "calories": 120,
+                            "protein": "15g"
+                        },
+                        {
+                            "name": "Berries",
+                            "portion": "1/2 cup",
+                            "calories": 40,
+                            "protein": "1g"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tuesday": {
+            "focus": "High Protein - Push Day",
+            "total_calories": 2600,
+            "macros": {
+                "protein": "185g",
+                "carbs": "270g",
+                "fats": "75g"
+            },
+            "meals": [
+                {
+                    "meal": "Breakfast",
+                    "time": "7:00 AM",
+                    "foods": [
+                        {
+                            "name": "Oatmeal",
+                            "portion": "1 cup",
+                            "calories": 150,
+                            "protein": "5g"
+                        },
+                        {
+                            "name": "Whey protein",
+                            "portion": "1 scoop",
+                            "calories": 120,
+                            "protein": "25g"
+                        },
+                        {
+                            "name": "Blueberries",
+                            "portion": "1/2 cup",
+                            "calories": 40,
+                            "protein": "1g"
+                        },
+                        {
+                            "name": "Almond butter",
+                            "portion": "1 tbsp",
+                            "calories": 100,
+                            "protein": "3g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Mid-Morning Snack",
+                    "time": "10:00 AM",
+                    "foods": [
+                        {
+                            "name": "Hard boiled eggs",
+                            "portion": "2 eggs",
+                            "calories": 140,
+                            "protein": "12g"
+                        },
+                        {
+                            "name": "Apple",
+                            "portion": "1 medium",
+                            "calories": 95,
+                            "protein": "0g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Lunch",
+                    "time": "1:00 PM",
+                    "foods": [
+                        {
+                            "name": "Turkey breast",
+                            "portion": "200g",
+                            "calories": 280,
+                            "protein": "54g"
+                        },
+                        {
+                            "name": "Quinoa",
+                            "portion": "1 cup",
+                            "calories": 220,
+                            "protein": "8g"
+                        },
+                        {
+                            "name": "Roasted vegetables",
+                            "portion": "1.5 cups",
+                            "calories": 120,
+                            "protein": "4g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Pre-Workout",
+                    "time": "4:00 PM",
+                    "foods": [
+                        {
+                            "name": "Rice cakes",
+                            "portion": "2 cakes",
+                            "calories": 70,
+                            "protein": "2g"
+                        },
+                        {
+                            "name": "Peanut butter",
+                            "portion": "1 tbsp",
+                            "calories": 95,
+                            "protein": "4g"
+                        },
+                        {
+                            "name": "Honey",
+                            "portion": "1 tsp",
+                            "calories": 20,
+                            "protein": "0g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Dinner",
+                    "time": "7:30 PM",
+                    "foods": [
+                        {
+                            "name": "Lean beef steak",
+                            "portion": "200g",
+                            "calories": 400,
+                            "protein": "50g"
+                        },
+                        {
+                            "name": "Baked potato",
+                            "portion": "1 medium",
+                            "calories": 160,
+                            "protein": "4g"
+                        },
+                        {
+                            "name": "Asparagus",
+                            "portion": "8 spears",
+                            "calories": 30,
+                            "protein": "3g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Evening Snack",
+                    "time": "9:00 PM",
+                    "foods": [
+                        {
+                            "name": "Casein protein",
+                            "portion": "1 scoop",
+                            "calories": 110,
+                            "protein": "24g"
+                        },
+                        {
+                            "name": "Almonds",
+                            "portion": "15g",
+                            "calories": 90,
+                            "protein": "3g"
+                        }
+                    ]
+                }
+            ]
+        },
+        "wednesday": {
+            "focus": "High Carb - Leg Day",
+            "total_calories": 2800,
+            "macros": {
+                "protein": "170g",
+                "carbs": "320g",
+                "fats": "85g"
+            },
+            "meals": [
+                {
+                    "meal": "Breakfast",
+                    "time": "7:00 AM",
+                    "foods": [
+                        {
+                            "name": "Pancakes (whole grain)",
+                            "portion": "3 medium",
+                            "calories": 300,
+                            "protein": "9g"
+                        },
+                        {
+                            "name": "Maple syrup",
+                            "portion": "2 tbsp",
+                            "calories": 100,
+                            "protein": "0g"
+                        },
+                        {
+                            "name": "Eggs",
+                            "portion": "2 eggs",
+                            "calories": 140,
+                            "protein": "12g"
+                        },
+                        {
+                            "name": "Fresh fruit",
+                            "portion": "1 cup",
+                            "calories": 80,
+                            "protein": "1g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Mid-Morning Snack",
+                    "time": "10:00 AM",
+                    "foods": [
+                        {
+                            "name": "Protein bar",
+                            "portion": "1 bar",
+                            "calories": 200,
+                            "protein": "20g"
+                        },
+                        {
+                            "name": "Banana",
+                            "portion": "1 medium",
+                            "calories": 105,
+                            "protein": "1g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Lunch",
+                    "time": "1:00 PM",
+                    "foods": [
+                        {
+                            "name": "Chicken thighs",
+                            "portion": "200g",
+                            "calories": 360,
+                            "protein": "40g"
+                        },
+                        {
+                            "name": "Pasta",
+                            "portion": "1.5 cups",
+                            "calories": 330,
+                            "protein": "12g"
+                        },
+                        {
+                            "name": "Marinara sauce",
+                            "portion": "1/2 cup",
+                            "calories": 70,
+                            "protein": "2g"
+                        },
+                        {
+                            "name": "Parmesan cheese",
+                            "portion": "2 tbsp",
+                            "calories": 45,
+                            "protein": "4g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Pre-Workout",
+                    "time": "4:00 PM",
+                    "foods": [
+                        {
+                            "name": "White rice",
+                            "portion": "1/2 cup",
+                            "calories": 100,
+                            "protein": "2g"
+                        },
+                        {
+                            "name": "Chicken breast",
+                            "portion": "100g",
+                            "calories": 165,
+                            "protein": "31g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Dinner",
+                    "time": "7:30 PM",
+                    "foods": [
+                        {
+                            "name": "Cod fillet",
+                            "portion": "200g",
+                            "calories": 180,
+                            "protein": "40g"
+                        },
+                        {
+                            "name": "Mashed potatoes",
+                            "portion": "1 cup",
+                            "calories": 240,
+                            "protein": "4g"
+                        },
+                        {
+                            "name": "Green beans",
+                            "portion": "1 cup",
+                            "calories": 35,
+                            "protein": "2g"
+                        },
+                        {
+                            "name": "Butter",
+                            "portion": "1 tbsp",
+                            "calories": 100,
+                            "protein": "0g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Evening Snack",
+                    "time": "9:00 PM",
+                    "foods": [
+                        {
+                            "name": "Greek yogurt",
+                            "portion": "200g",
+                            "calories": 130,
+                            "protein": "20g"
+                        },
+                        {
+                            "name": "Granola",
+                            "portion": "1/4 cup",
+                            "calories": 120,
+                            "protein": "3g"
+                        }
+                    ]
+                }
+            ]
+        },
+        "thursday": {
+            "focus": "High Protein - Back Day",
+            "total_calories": 2500,
+            "macros": {
+                "protein": "180g",
+                "carbs": "250g",
+                "fats": "80g"
+            },
+            "meals": [
+                {
+                    "meal": "Breakfast",
+                    "time": "7:00 AM",
+                    "foods": [
+                        {
+                            "name": "Egg white omelette",
+                            "portion": "6 whites",
+                            "calories": 100,
+                            "protein": "21g"
+                        },
+                        {
+                            "name": "Spinach & mushrooms",
+                            "portion": "1 cup",
+                            "calories": 40,
+                            "protein": "4g"
+                        },
+                        {
+                            "name": "Whole wheat bagel",
+                            "portion": "1 bagel",
+                            "calories": 250,
+                            "protein": "10g"
+                        },
+                        {
+                            "name": "Cream cheese (light)",
+                            "portion": "2 tbsp",
+                            "calories": 70,
+                            "protein": "3g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Mid-Morning Snack",
+                    "time": "10:00 AM",
+                    "foods": [
+                        {
+                            "name": "Tuna pouch",
+                            "portion": "1 pouch",
+                            "calories": 100,
+                            "protein": "22g"
+                        },
+                        {
+                            "name": "Whole grain crackers",
+                            "portion": "6 crackers",
+                            "calories": 120,
+                            "protein": "3g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Lunch",
+                    "time": "1:00 PM",
+                    "foods": [
+                        {
+                            "name": "Grilled chicken breast",
+                            "portion": "200g",
+                            "calories": 330,
+                            "protein": "62g"
+                        },
+                        {
+                            "name": "Jasmine rice",
+                            "portion": "1 cup",
+                            "calories": 200,
+                            "protein": "4g"
+                        },
+                        {
+                            "name": "Stir-fried vegetables",
+                            "portion": "1 cup",
+                            "calories": 80,
+                            "protein": "3g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Pre-Workout",
+                    "time": "4:00 PM",
+                    "foods": [
+                        {
+                            "name": "Protein shake",
+                            "portion": "1 scoop",
+                            "calories": 120,
+                            "protein": "25g"
+                        },
+                        {
+                            "name": "Oat bar",
+                            "portion": "1 bar",
+                            "calories": 150,
+                            "protein": "4g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Dinner",
+                    "time": "7:30 PM",
+                    "foods": [
+                        {
+                            "name": "Pork tenderloin",
+                            "portion": "200g",
+                            "calories": 280,
+                            "protein": "48g"
+                        },
+                        {
+                            "name": "Roasted sweet potato",
+                            "portion": "1 medium",
+                            "calories": 115,
+                            "protein": "2g"
+                        },
+                        {
+                            "name": "Brussels sprouts",
+                            "portion": "1 cup",
+                            "calories": 60,
+                            "protein": "4g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Evening Snack",
+                    "time": "9:00 PM",
+                    "foods": [
+                        {
+                            "name": "Cottage cheese",
+                            "portion": "150g",
+                            "calories": 120,
+                            "protein": "15g"
+                        },
+                        {
+                            "name": "Walnuts",
+                            "portion": "20g",
+                            "calories": 130,
+                            "protein": "3g"
+                        }
+                    ]
+                }
+            ]
+        },
+        "friday": {
+            "focus": "Moderate - Push Day",
+            "total_calories": 2400,
+            "macros": {
+                "protein": "175g",
+                "carbs": "240g",
+                "fats": "75g"
+            },
+            "meals": [
+                {
+                    "meal": "Breakfast",
+                    "time": "7:00 AM",
+                    "foods": [
+                        {
+                            "name": "Protein smoothie",
+                            "portion": "16 oz",
+                            "calories": 350,
+                            "protein": "35g"
+                        },
+                        {
+                            "name": "Toast with avocado",
+                            "portion": "1 slice",
+                            "calories": 180,
+                            "protein": "4g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Mid-Morning Snack",
+                    "time": "10:00 AM",
+                    "foods": [
+                        {
+                            "name": "String cheese",
+                            "portion": "2 sticks",
+                            "calories": 160,
+                            "protein": "14g"
+                        },
+                        {
+                            "name": "Grapes",
+                            "portion": "1 cup",
+                            "calories": 60,
+                            "protein": "1g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Lunch",
+                    "time": "1:00 PM",
+                    "foods": [
+                        {
+                            "name": "Salmon",
+                            "portion": "200g",
+                            "calories": 400,
+                            "protein": "40g"
+                        },
+                        {
+                            "name": "Couscous",
+                            "portion": "1 cup",
+                            "calories": 175,
+                            "protein": "6g"
+                        },
+                        {
+                            "name": "Mediterranean salad",
+                            "portion": "1.5 cups",
+                            "calories": 100,
+                            "protein": "3g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Pre-Workout",
+                    "time": "4:00 PM",
+                    "foods": [
+                        {
+                            "name": "Energy balls",
+                            "portion": "2 balls",
+                            "calories": 140,
+                            "protein": "6g"
+                        },
+                        {
+                            "name": "Green tea",
+                            "portion": "1 cup",
+                            "calories": 0,
+                            "protein": "0g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Dinner",
+                    "time": "7:30 PM",
+                    "foods": [
+                        {
+                            "name": "Chicken stir-fry",
+                            "portion": "300g",
+                            "calories": 400,
+                            "protein": "45g"
+                        },
+                        {
+                            "name": "Brown rice",
+                            "portion": "1 cup",
+                            "calories": 220,
+                            "protein": "5g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Evening Snack",
+                    "time": "9:00 PM",
+                    "foods": [
+                        {
+                            "name": "Protein pudding",
+                            "portion": "1 cup",
+                            "calories": 150,
+                            "protein": "20g"
+                        }
+                    ]
+                }
+            ]
+        },
+        "saturday": {
+            "focus": "High Carb - Leg Day",
+            "total_calories": 2700,
+            "macros": {
+                "protein": "165g",
+                "carbs": "310g",
+                "fats": "80g"
+            },
+            "meals": [
+                {
+                    "meal": "Breakfast",
+                    "time": "8:00 AM",
+                    "foods": [
+                        {
+                            "name": "French toast",
+                            "portion": "3 slices",
+                            "calories": 350,
+                            "protein": "12g"
+                        },
+                        {
+                            "name": "Turkey bacon",
+                            "portion": "4 strips",
+                            "calories": 120,
+                            "protein": "12g"
+                        },
+                        {
+                            "name": "Fresh berries",
+                            "portion": "1 cup",
+                            "calories": 80,
+                            "protein": "1g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Mid-Morning Snack",
+                    "time": "10:30 AM",
+                    "foods": [
+                        {
+                            "name": "Protein muffin",
+                            "portion": "1 muffin",
+                            "calories": 200,
+                            "protein": "15g"
+                        },
+                        {
+                            "name": "Almond milk latte",
+                            "portion": "12 oz",
+                            "calories": 80,
+                            "protein": "2g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Lunch",
+                    "time": "1:00 PM",
+                    "foods": [
+                        {
+                            "name": "Beef burger (lean)",
+                            "portion": "200g patty",
+                            "calories": 400,
+                            "protein": "40g"
+                        },
+                        {
+                            "name": "Whole wheat bun",
+                            "portion": "1 bun",
+                            "calories": 150,
+                            "protein": "6g"
+                        },
+                        {
+                            "name": "Sweet potato fries",
+                            "portion": "1 cup",
+                            "calories": 200,
+                            "protein": "2g"
+                        },
+                        {
+                            "name": "Side salad",
+                            "portion": "1 cup",
+                            "calories": 50,
+                            "protein": "2g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Pre-Workout",
+                    "time": "4:00 PM",
+                    "foods": [
+                        {
+                            "name": "Bagel with honey",
+                            "portion": "1 bagel",
+                            "calories": 300,
+                            "protein": "10g"
+                        },
+                        {
+                            "name": "Banana",
+                            "portion": "1 medium",
+                            "calories": 105,
+                            "protein": "1g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Dinner",
+                    "time": "7:30 PM",
+                    "foods": [
+                        {
+                            "name": "Grilled lamb chops",
+                            "portion": "200g",
+                            "calories": 350,
+                            "protein": "40g"
+                        },
+                        {
+                            "name": "Roasted potatoes",
+                            "portion": "1.5 cups",
+                            "calories": 200,
+                            "protein": "4g"
+                        },
+                        {
+                            "name": "Grilled zucchini",
+                            "portion": "1 cup",
+                            "calories": 30,
+                            "protein": "2g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Evening Snack",
+                    "time": "9:00 PM",
+                    "foods": [
+                        {
+                            "name": "Casein shake",
+                            "portion": "1 scoop",
+                            "calories": 110,
+                            "protein": "24g"
+                        },
+                        {
+                            "name": "Dark chocolate",
+                            "portion": "20g",
+                            "calories": 100,
+                            "protein": "2g"
+                        }
+                    ]
+                }
+            ]
+        },
+        "sunday": {
+            "focus": "Rest Day - Maintenance",
+            "total_calories": 2200,
+            "macros": {
+                "protein": "150g",
+                "carbs": "220g",
+                "fats": "75g"
+            },
+            "meals": [
+                {
+                    "meal": "Breakfast",
+                    "time": "9:00 AM",
+                    "foods": [
+                        {
+                            "name": "Eggs Benedict (light)",
+                            "portion": "2 eggs",
+                            "calories": 350,
+                            "protein": "20g"
+                        },
+                        {
+                            "name": "Fresh fruit salad",
+                            "portion": "1 cup",
+                            "calories": 80,
+                            "protein": "1g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Brunch Snack",
+                    "time": "11:30 AM",
+                    "foods": [
+                        {
+                            "name": "Smoothie bowl",
+                            "portion": "1 bowl",
+                            "calories": 300,
+                            "protein": "15g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Lunch",
+                    "time": "2:00 PM",
+                    "foods": [
+                        {
+                            "name": "Grilled fish tacos",
+                            "portion": "3 tacos",
+                            "calories": 450,
+                            "protein": "35g"
+                        },
+                        {
+                            "name": "Black beans",
+                            "portion": "1/2 cup",
+                            "calories": 115,
+                            "protein": "8g"
+                        },
+                        {
+                            "name": "Guacamole",
+                            "portion": "3 tbsp",
+                            "calories": 75,
+                            "protein": "1g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Afternoon Snack",
+                    "time": "5:00 PM",
+                    "foods": [
+                        {
+                            "name": "Greek yogurt parfait",
+                            "portion": "1 cup",
+                            "calories": 200,
+                            "protein": "18g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Dinner",
+                    "time": "7:00 PM",
+                    "foods": [
+                        {
+                            "name": "Roasted chicken",
+                            "portion": "200g",
+                            "calories": 340,
+                            "protein": "50g"
+                        },
+                        {
+                            "name": "Wild rice",
+                            "portion": "1 cup",
+                            "calories": 165,
+                            "protein": "7g"
+                        },
+                        {
+                            "name": "Steamed vegetables",
+                            "portion": "1.5 cups",
+                            "calories": 75,
+                            "protein": "4g"
+                        }
+                    ]
+                },
+                {
+                    "meal": "Evening Snack",
+                    "time": "9:00 PM",
+                    "foods": [
+                        {
+                            "name": "Herbal tea",
+                            "portion": "1 cup",
+                            "calories": 0,
+                            "protein": "0g"
+                        },
+                        {
+                            "name": "Rice cakes with almond butter",
+                            "portion": "2 cakes",
+                            "calories": 170,
+                            "protein": "5g"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
