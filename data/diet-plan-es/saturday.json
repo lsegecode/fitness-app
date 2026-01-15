@@ -1,0 +1,144 @@
+{
+    "day": "Sábado",
+    "focus": "Alto en Carbohidratos - Día de Piernas",
+    "total_calories": 2700,
+    "macros": {
+        "protein": "165g",
+        "carbs": "310g",
+        "fats": "80g"
+    },
+    "meals": [
+        {
+            "meal": "Desayuno",
+            "time": "8:00",
+            "foods": [
+                {
+                    "name": "Tostadas francesas",
+                    "portion": "3 rebanadas",
+                    "calories": 350,
+                    "protein": "12g"
+                },
+                {
+                    "name": "Tocino de pavo",
+                    "portion": "4 tiras",
+                    "calories": 120,
+                    "protein": "12g"
+                },
+                {
+                    "name": "Frutos rojos frescos",
+                    "portion": "1 taza",
+                    "calories": 80,
+                    "protein": "1g"
+                }
+            ]
+        },
+        {
+            "meal": "Colación Matutina",
+            "time": "10:30",
+            "foods": [
+                {
+                    "name": "Muffin de proteína",
+                    "portion": "1 muffin",
+                    "calories": 200,
+                    "protein": "15g"
+                },
+                {
+                    "name": "Latte con leche de almendras",
+                    "portion": "350ml",
+                    "calories": 80,
+                    "protein": "2g"
+                }
+            ]
+        },
+        {
+            "meal": "Almuerzo",
+            "time": "13:00",
+            "foods": [
+                {
+                    "name": "Hamburguesa de res magra",
+                    "portion": "200g",
+                    "calories": 400,
+                    "protein": "40g"
+                },
+                {
+                    "name": "Pan integral",
+                    "portion": "1 unidad",
+                    "calories": 150,
+                    "protein": "6g"
+                },
+                {
+                    "name": "Papas fritas de batata",
+                    "portion": "1 taza",
+                    "calories": 200,
+                    "protein": "2g"
+                },
+                {
+                    "name": "Ensalada pequeña",
+                    "portion": "1 taza",
+                    "calories": 50,
+                    "protein": "2g"
+                }
+            ]
+        },
+        {
+            "meal": "Pre-Entreno",
+            "time": "16:00",
+            "foods": [
+                {
+                    "name": "Bagel con miel",
+                    "portion": "1 bagel",
+                    "calories": 300,
+                    "protein": "10g"
+                },
+                {
+                    "name": "Banana",
+                    "portion": "1 mediana",
+                    "calories": 105,
+                    "protein": "1g"
+                }
+            ]
+        },
+        {
+            "meal": "Cena",
+            "time": "19:30",
+            "foods": [
+                {
+                    "name": "Chuletas de cordero a la parrilla",
+                    "portion": "200g",
+                    "calories": 350,
+                    "protein": "40g"
+                },
+                {
+                    "name": "Papas asadas",
+                    "portion": "1.5 tazas",
+                    "calories": 200,
+                    "protein": "4g"
+                },
+                {
+                    "name": "Calabacín a la parrilla",
+                    "portion": "1 taza",
+                    "calories": 30,
+                    "protein": "2g"
+                }
+            ]
+        },
+        {
+            "meal": "Colación Nocturna",
+            "time": "21:00",
+            "foods": [
+                {
+                    "name": "Batido de caseína",
+                    "portion": "1 scoop",
+                    "calories": 110,
+                    "protein": "24g"
+                },
+                {
+                    "name": "Chocolate negro",
+                    "portion": "20g",
+                    "calories": 100,
+                    "protein": "2g"
+                }
+            ]
+        }
+    ]
+}

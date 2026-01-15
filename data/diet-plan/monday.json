@@ -1,0 +1,150 @@
+{
+    "day": "Monday",
+    "focus": "High Protein - Back Day",
+    "total_calories": 2500,
+    "macros": {
+        "protein": "180g",
+        "carbs": "250g",
+        "fats": "80g"
+    },
+    "meals": [
+        {
+            "meal": "Breakfast",
+            "time": "7:00 AM",
+            "foods": [
+                {
+                    "name": "Scrambled eggs",
+                    "portion": "3 eggs",
+                    "calories": 210,
+                    "protein": "18g"
+                },
+                {
+                    "name": "Whole wheat toast",
+                    "portion": "2 slices",
+                    "calories": 160,
+                    "protein": "6g"
+                },
+                {
+                    "name": "Avocado",
+                    "portion": "1/2",
+                    "calories": 120,
+                    "protein": "1g"
+                },
+                {
+                    "name": "Orange juice",
+                    "portion": "1 glass",
+                    "calories": 110,
+                    "protein": "2g"
+                }
+            ]
+        },
+        {
+            "meal": "Mid-Morning Snack",
+            "time": "10:00 AM",
+            "foods": [
+                {
+                    "name": "Greek yogurt",
+                    "portion": "200g",
+                    "calories": 130,
+                    "protein": "20g"
+                },
+                {
+                    "name": "Mixed nuts",
+                    "portion": "30g",
+                    "calories": 180,
+                    "protein": "5g"
+                }
+            ]
+        },
+        {
+            "meal": "Lunch",
+            "time": "1:00 PM",
+            "foods": [
+                {
+                    "name": "Grilled chicken breast",
+                    "portion": "200g",
+                    "calories": 330,
+                    "protein": "62g"
+                },
+                {
+                    "name": "Brown rice",
+                    "portion": "1 cup",
+                    "calories": 220,
+                    "protein": "5g"
+                },
+                {
+                    "name": "Steamed broccoli",
+                    "portion": "1 cup",
+                    "calories": 55,
+                    "protein": "4g"
+                },
+                {
+                    "name": "Olive oil dressing",
+                    "portion": "1 tbsp",
+                    "calories": 120,
+                    "protein": "0g"
+                }
+            ]
+        },
+        {
+            "meal": "Pre-Workout",
+            "time": "4:00 PM",
+            "foods": [
+                {
+                    "name": "Banana",
+                    "portion": "1 medium",
+                    "calories": 105,
+                    "protein": "1g"
+                },
+                {
+                    "name": "Protein shake",
+                    "portion": "1 scoop",
+                    "calories": 120,
+                    "protein": "25g"
+                }
+            ]
+        },
+        {
+            "meal": "Dinner",
+            "time": "7:30 PM",
+            "foods": [
+                {
+                    "name": "Salmon fillet",
+                    "portion": "200g",
+                    "calories": 400,
+                    "protein": "40g"
+                },
+                {
+                    "name": "Sweet potato",
+                    "portion": "1 medium",
+                    "calories": 115,
+                    "protein": "2g"
+                },
+                {
+                    "name": "Mixed salad",
+                    "portion": "2 cups",
+                    "calories": 50,
+                    "protein": "2g"
+                }
+            ]
+        },
+        {
+            "meal": "Evening Snack",
+            "time": "9:00 PM",
+            "foods": [
+                {
+                    "name": "Cottage cheese",
+                    "portion": "150g",
+                    "calories": 120,
+                    "protein": "15g"
+                },
+                {
+                    "name": "Berries",
+                    "portion": "1/2 cup",
+                    "calories": 40,
+                    "protein": "1g"
+                }
+            ]
+        }
+    ]
+}

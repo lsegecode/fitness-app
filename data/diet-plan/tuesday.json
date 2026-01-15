@@ -1,0 +1,150 @@
+{
+    "day": "Tuesday",
+    "focus": "High Protein - Push Day",
+    "total_calories": 2600,
+    "macros": {
+        "protein": "185g",
+        "carbs": "270g",
+        "fats": "75g"
+    },
+    "meals": [
+        {
+            "meal": "Breakfast",
+            "time": "7:00 AM",
+            "foods": [
+                {
+                    "name": "Oatmeal",
+                    "portion": "1 cup",
+                    "calories": 150,
+                    "protein": "5g"
+                },
+                {
+                    "name": "Whey protein",
+                    "portion": "1 scoop",
+                    "calories": 120,
+                    "protein": "25g"
+                },
+                {
+                    "name": "Blueberries",
+                    "portion": "1/2 cup",
+                    "calories": 40,
+                    "protein": "1g"
+                },
+                {
+                    "name": "Almond butter",
+                    "portion": "1 tbsp",
+                    "calories": 100,
+                    "protein": "3g"
+                }
+            ]
+        },
+        {
+            "meal": "Mid-Morning Snack",
+            "time": "10:00 AM",
+            "foods": [
+                {
+                    "name": "Hard boiled eggs",
+                    "portion": "2 eggs",
+                    "calories": 140,
+                    "protein": "12g"
+                },
+                {
+                    "name": "Apple",
+                    "portion": "1 medium",
+                    "calories": 95,
+                    "protein": "0g"
+                }
+            ]
+        },
+        {
+            "meal": "Lunch",
+            "time": "1:00 PM",
+            "foods": [
+                {
+                    "name": "Turkey breast",
+                    "portion": "200g",
+                    "calories": 280,
+                    "protein": "54g"
+                },
+                {
+                    "name": "Quinoa",
+                    "portion": "1 cup",
+                    "calories": 220,
+                    "protein": "8g"
+                },
+                {
+                    "name": "Roasted vegetables",
+                    "portion": "1.5 cups",
+                    "calories": 120,
+                    "protein": "4g"
+                }
+            ]
+        },
+        {
+            "meal": "Pre-Workout",
+            "time": "4:00 PM",
+            "foods": [
+                {
+                    "name": "Rice cakes",
+                    "portion": "2 cakes",
+                    "calories": 70,
+                    "protein": "2g"
+                },
+                {
+                    "name": "Peanut butter",
+                    "portion": "1 tbsp",
+                    "calories": 95,
+                    "protein": "4g"
+                },
+                {
+                    "name": "Honey",
+                    "portion": "1 tsp",
+                    "calories": 20,
+                    "protein": "0g"
+                }
+            ]
+        },
+        {
+            "meal": "Dinner",
+            "time": "7:30 PM",
+            "foods": [
+                {
+                    "name": "Lean beef steak",
+                    "portion": "200g",
+                    "calories": 400,
+                    "protein": "50g"
+                },
+                {
+                    "name": "Baked potato",
+                    "portion": "1 medium",
+                    "calories": 160,
+                    "protein": "4g"
+                },
+                {
+                    "name": "Asparagus",
+                    "portion": "8 spears",
+                    "calories": 30,
+                    "protein": "3g"
+                }
+            ]
+        },
+        {
+            "meal": "Evening Snack",
+            "time": "9:00 PM",
+            "foods": [
+                {
+                    "name": "Casein protein",
+                    "portion": "1 scoop",
+                    "calories": 110,
+                    "protein": "24g"
+                },
+                {
+                    "name": "Almonds",
+                    "portion": "15g",
+                    "calories": 90,
+                    "protein": "3g"
+                }
+            ]
+        }
+    ]
+}

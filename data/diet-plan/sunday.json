@@ -1,0 +1,120 @@
+{
+    "day": "Sunday",
+    "focus": "Rest Day - Maintenance",
+    "total_calories": 2200,
+    "macros": {
+        "protein": "150g",
+        "carbs": "220g",
+        "fats": "75g"
+    },
+    "meals": [
+        {
+            "meal": "Breakfast",
+            "time": "9:00 AM",
+            "foods": [
+                {
+                    "name": "Eggs Benedict (light)",
+                    "portion": "2 eggs",
+                    "calories": 350,
+                    "protein": "20g"
+                },
+                {
+                    "name": "Fresh fruit salad",
+                    "portion": "1 cup",
+                    "calories": 80,
+                    "protein": "1g"
+                }
+            ]
+        },
+        {
+            "meal": "Brunch Snack",
+            "time": "11:30 AM",
+            "foods": [
+                {
+                    "name": "Smoothie bowl",
+                    "portion": "1 bowl",
+                    "calories": 300,
+                    "protein": "15g"
+                }
+            ]
+        },
+        {
+            "meal": "Lunch",
+            "time": "2:00 PM",
+            "foods": [
+                {
+                    "name": "Grilled fish tacos",
+                    "portion": "3 tacos",
+                    "calories": 450,
+                    "protein": "35g"
+                },
+                {
+                    "name": "Black beans",
+                    "portion": "1/2 cup",
+                    "calories": 115,
+                    "protein": "8g"
+                },
+                {
+                    "name": "Guacamole",
+                    "portion": "3 tbsp",
+                    "calories": 75,
+                    "protein": "1g"
+                }
+            ]
+        },
+        {
+            "meal": "Afternoon Snack",
+            "time": "5:00 PM",
+            "foods": [
+                {
+                    "name": "Greek yogurt parfait",
+                    "portion": "1 cup",
+                    "calories": 200,
+                    "protein": "18g"
+                }
+            ]
+        },
+        {
+            "meal": "Dinner",
+            "time": "7:00 PM",
+            "foods": [
+                {
+                    "name": "Roasted chicken",
+                    "portion": "200g",
+                    "calories": 340,
+                    "protein": "50g"
+                },
+                {
+                    "name": "Wild rice",
+                    "portion": "1 cup",
+                    "calories": 165,
+                    "protein": "7g"
+                },
+                {
+                    "name": "Steamed vegetables",
+                    "portion": "1.5 cups",
+                    "calories": 75,
+                    "protein": "4g"
+                }
+            ]
+        },
+        {
+            "meal": "Evening Snack",
+            "time": "9:00 PM",
+            "foods": [
+                {
+                    "name": "Herbal tea",
+                    "portion": "1 cup",
+                    "calories": 0,
+                    "protein": "0g"
+                },
+                {
+                    "name": "Rice cakes with almond butter",
+                    "portion": "2 cakes",
+                    "calories": 170,
+                    "protein": "5g"
+                }
+            ]
+        }
+    ]
+}

@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal fitness tracker for gym routines and diet plans">
-    <title>FitTrack Pro - Your Personal Fitness Companion</title>
+    <title>Tracker Pro - Lsegecode</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="app-container">
         <header class="app-header">
             <div class="logo">
                 <span class="logo-icon">💪</span>
-                <span class="logo-text">FitTrack<span class="logo-accent">Pro</span></span>
+                <span class="logo-text">Tracker<span class="logo-accent">Pro</span></span>
             </div>
-            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
-                <span></span><span></span><span></span>
-            </button>
+            <div class="header-right">
+                <div class="lang-switcher" id="langSwitcher">
+                    <button class="lang-btn active" data-lang="en" title="English">
+                        <span class="lang-flag">🇺🇸</span>
+                        <span class="lang-code">EN</span>
+                    </button>
+                    <button class="lang-btn" data-lang="es" title="Español">
+                        <span class="lang-flag">🇦🇷</span>
+                        <span class="lang-code">AR</span>
+                    </button>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
         </header>
+
 
         <nav class="main-nav" id="mainNav">
             <div class="nav-tabs">
@@ -62,4 +78,5 @@
     </div>
     <script src="app.js"></script>
 </body>
+
 </html>

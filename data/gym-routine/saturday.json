@@ -1,0 +1,87 @@
+{
+    "day": "Saturday",
+    "focus": "Legs (Posterior Chain) + Calisthenics + Abs",
+    "blocks": [
+        {
+            "category": "Warm-up",
+            "order": 1,
+            "exercises": [
+                "Hip circles",
+                "Step-ups (low height)",
+                "Scapular activation"
+            ]
+        },
+        {
+            "category": "Main Compounds (Heavy)",
+            "order": 2,
+            "exercises": [
+                {
+                    "name": "Conventional Deadlift",
+                    "sets": 3,
+                    "reps": 6
+                },
+                {
+                    "name": "Goblet Squat (Dumbbell)",
+                    "sets": 3,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "category": "Calisthenics & Unilateral",
+            "order": 3,
+            "exercises": [
+                {
+                    "name": "Bulgarian Split Squat",
+                    "sets": 3,
+                    "reps": 10
+                },
+                {
+                    "name": "Box Jumps or Step-ups",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Lying Leg Curl (Camilla isquios)",
+                    "sets": 3,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "category": "Abs (Core Strength)",
+            "order": 4,
+            "exercises": [
+                {
+                    "name": "Ab Wheel Rollout",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Plank",
+                    "sets": 3,
+                    "reps": "1 min"
+                },
+                {
+                    "name": "Hanging Leg Raises",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Russian Twists",
+                    "sets": 3,
+                    "reps": 20
+                }
+            ]
+        },
+        {
+            "category": "Stretching",
+            "order": 5,
+            "exercises": [
+                "Cobra Stretch (Abs)",
+                "Hamstring stretch",
+                "Deep Glute stretch"
+            ]
+        }
+    ]
+}

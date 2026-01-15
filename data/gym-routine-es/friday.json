@@ -1,0 +1,102 @@
+{
+    "day": "Viernes",
+    "focus": "Hombros (Forma 3D) + Tríceps + Pecho",
+    "blocks": [
+        {
+            "category": "Calentamiento",
+            "order": 1,
+            "exercises": [
+                "Rotaciones externas del manguito rotador",
+                "Aperturas dinámicas de pecho"
+            ]
+        },
+        {
+            "category": "Calistenia",
+            "order": 2,
+            "exercises": [
+                {
+                    "name": "Flexiones normales",
+                    "sets": 1,
+                    "reps": 12
+                },
+                {
+                    "name": "Flexiones diamante",
+                    "sets": 1,
+                    "reps": 12
+                },
+                {
+                    "name": "Flexiones pike",
+                    "sets": 1,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "category": "Hombros",
+            "order": 3,
+            "exercises": [
+                {
+                    "name": "Press Arnold",
+                    "sets": 4,
+                    "reps": 10
+                },
+                {
+                    "name": "Elevaciones laterales inclinadas (Polea o Mancuerna)",
+                    "sets": 4,
+                    "reps": 15
+                },
+                {
+                    "name": "Face Pulls (Enfoque deltoides posterior)",
+                    "sets": 3,
+                    "reps": 15
+                }
+            ]
+        },
+        {
+            "category": "Tríceps",
+            "order": 4,
+            "exercises": [
+                {
+                    "name": "Fondos (Banco o barras paralelas)",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Extensiones con cuerda en polea",
+                    "sets": 3,
+                    "reps": 15
+                },
+                {
+                    "name": "Press de banca agarre cerrado",
+                    "sets": 3,
+                    "reps": 10
+                }
+            ]
+        },
+        {
+            "category": "Pecho",
+            "order": 5,
+            "exercises": [
+                {
+                    "name": "Aperturas inclinadas con mancuernas",
+                    "sets": 3,
+                    "reps": 15
+                },
+                {
+                    "name": "Press de pecho en máquina",
+                    "sets": 3,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "category": "Enfriamiento y Estiramientos",
+            "order": 6,
+            "exercises": [
+                "Postura del niño",
+                "Estiramiento de hombros",
+                "Estiramiento cobra"
+            ]
+        }
+    ]
+}

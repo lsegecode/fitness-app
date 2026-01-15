@@ -1,0 +1,120 @@
+{
+    "day": "Domingo",
+    "focus": "Día de Descanso - Mantenimiento",
+    "total_calories": 2200,
+    "macros": {
+        "protein": "150g",
+        "carbs": "220g",
+        "fats": "75g"
+    },
+    "meals": [
+        {
+            "meal": "Desayuno",
+            "time": "9:00",
+            "foods": [
+                {
+                    "name": "Huevos Benedictinos (light)",
+                    "portion": "2 huevos",
+                    "calories": 350,
+                    "protein": "20g"
+                },
+                {
+                    "name": "Ensalada de frutas frescas",
+                    "portion": "1 taza",
+                    "calories": 80,
+                    "protein": "1g"
+                }
+            ]
+        },
+        {
+            "meal": "Colación Brunch",
+            "time": "11:30",
+            "foods": [
+                {
+                    "name": "Bowl de smoothie",
+                    "portion": "1 bowl",
+                    "calories": 300,
+                    "protein": "15g"
+                }
+            ]
+        },
+        {
+            "meal": "Almuerzo",
+            "time": "14:00",
+            "foods": [
+                {
+                    "name": "Tacos de pescado a la parrilla",
+                    "portion": "3 tacos",
+                    "calories": 450,
+                    "protein": "35g"
+                },
+                {
+                    "name": "Frijoles negros",
+                    "portion": "1/2 taza",
+                    "calories": 115,
+                    "protein": "8g"
+                },
+                {
+                    "name": "Guacamole",
+                    "portion": "3 cdas",
+                    "calories": 75,
+                    "protein": "1g"
+                }
+            ]
+        },
+        {
+            "meal": "Colación Vespertina",
+            "time": "17:00",
+            "foods": [
+                {
+                    "name": "Parfait de yogur griego",
+                    "portion": "1 taza",
+                    "calories": 200,
+                    "protein": "18g"
+                }
+            ]
+        },
+        {
+            "meal": "Cena",
+            "time": "19:00",
+            "foods": [
+                {
+                    "name": "Pollo asado",
+                    "portion": "200g",
+                    "calories": 340,
+                    "protein": "50g"
+                },
+                {
+                    "name": "Arroz salvaje",
+                    "portion": "1 taza",
+                    "calories": 165,
+                    "protein": "7g"
+                },
+                {
+                    "name": "Verduras al vapor",
+                    "portion": "1.5 tazas",
+                    "calories": 75,
+                    "protein": "4g"
+                }
+            ]
+        },
+        {
+            "meal": "Colación Nocturna",
+            "time": "21:00",
+            "foods": [
+                {
+                    "name": "Té de hierbas",
+                    "portion": "1 taza",
+                    "calories": 0,
+                    "protein": "0g"
+                },
+                {
+                    "name": "Tortitas de arroz con mantequilla de almendras",
+                    "portion": "2 unidades",
+                    "calories": 170,
+                    "protein": "5g"
+                }
+            ]
+        }
+    ]
+}

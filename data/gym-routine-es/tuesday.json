@@ -1,0 +1,98 @@
+{
+    "day": "Martes",
+    "focus": "Pecho + Tríceps + Hombros (Empuje)",
+    "blocks": [
+        {
+            "category": "Calentamiento y Movilidad",
+            "order": 1,
+            "exercises": [
+                "Rotaciones de hombros con banda",
+                "Flexiones en pared",
+                "Círculos de brazos"
+            ]
+        },
+        {
+            "category": "Calistenia",
+            "order": 2,
+            "exercises": [
+                {
+                    "name": "Flexiones diamante",
+                    "sets": 3,
+                    "reps": "Al fallo"
+                },
+                {
+                    "name": "Fondos en banco",
+                    "sets": 3,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "category": "Fuerza (Pecho)",
+            "order": 3,
+            "exercises": [
+                {
+                    "name": "Press de banca con barra",
+                    "sets": 4,
+                    "reps": 8
+                },
+                {
+                    "name": "Press inclinado con mancuernas",
+                    "sets": 3,
+                    "reps": 10
+                },
+                {
+                    "name": "Aperturas en polea",
+                    "sets": 3,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "category": "Hombros",
+            "order": 4,
+            "exercises": [
+                {
+                    "name": "Press militar con mancuernas",
+                    "sets": 3,
+                    "reps": 10
+                },
+                {
+                    "name": "Elevaciones laterales",
+                    "sets": 3,
+                    "reps": 15
+                },
+                {
+                    "name": "Elevaciones frontales",
+                    "sets": 2,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "category": "Tríceps",
+            "order": 5,
+            "exercises": [
+                {
+                    "name": "Extensión de tríceps en polea",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Press francés con barra EZ",
+                    "sets": 3,
+                    "reps": 10
+                }
+            ]
+        },
+        {
+            "category": "Enfriamiento",
+            "order": 6,
+            "exercises": [
+                "Estiramiento de pecho en puerta",
+                "Estiramiento de tríceps sobre la cabeza",
+                "Rotaciones de cuello"
+            ]
+        }
+    ]
+}

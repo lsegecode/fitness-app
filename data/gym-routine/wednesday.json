@@ -1,0 +1,78 @@
+{
+    "day": "Wednesday",
+    "focus": "Legs (Quad Dominant) + Aerobic Resistance",
+    "blocks": [
+        {
+            "category": "Warm-up",
+            "order": 1,
+            "exercises": [
+                "Leg Swings (Front/Side)",
+                "Bodyweight Squats",
+                "Glute Bridges"
+            ]
+        },
+        {
+            "category": "Main Compounds (Heavy)",
+            "order": 2,
+            "exercises": [
+                {
+                    "name": "Barbell Back Squat",
+                    "sets": 4,
+                    "reps": 8
+                },
+                {
+                    "name": "Romanian Deadlift (RDL)",
+                    "sets": 3,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "category": "Machines & Volume",
+            "order": 3,
+            "exercises": [
+                {
+                    "name": "Leg Press (Prensa)",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Leg Extensions (Camilla)",
+                    "sets": 3,
+                    "reps": 15
+                },
+                {
+                    "name": "Walking Lunges (Estocadas)",
+                    "sets": 3,
+                    "reps": "20 steps"
+                }
+            ]
+        },
+        {
+            "category": "Aerobic Finisher (High Intensity)",
+            "order": 4,
+            "notes": "Perform as a circuit for 10 minutes",
+            "exercises": [
+                {
+                    "name": "Kettlebell Swings or Dumbbell Swings",
+                    "sets": 4,
+                    "reps": "45 sec"
+                },
+                {
+                    "name": "Burpees",
+                    "sets": 4,
+                    "reps": "45 sec"
+                }
+            ]
+        },
+        {
+            "category": "Stretching",
+            "order": 5,
+            "exercises": [
+                "Quad stretch",
+                "Hamstring stretch",
+                "Pigeon pose (Glutes)"
+            ]
+        }
+    ]
+}

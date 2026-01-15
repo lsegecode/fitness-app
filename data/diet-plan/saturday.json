@@ -1,0 +1,144 @@
+{
+    "day": "Saturday",
+    "focus": "High Carb - Leg Day",
+    "total_calories": 2700,
+    "macros": {
+        "protein": "165g",
+        "carbs": "310g",
+        "fats": "80g"
+    },
+    "meals": [
+        {
+            "meal": "Breakfast",
+            "time": "8:00 AM",
+            "foods": [
+                {
+                    "name": "French toast",
+                    "portion": "3 slices",
+                    "calories": 350,
+                    "protein": "12g"
+                },
+                {
+                    "name": "Turkey bacon",
+                    "portion": "4 strips",
+                    "calories": 120,
+                    "protein": "12g"
+                },
+                {
+                    "name": "Fresh berries",
+                    "portion": "1 cup",
+                    "calories": 80,
+                    "protein": "1g"
+                }
+            ]
+        },
+        {
+            "meal": "Mid-Morning Snack",
+            "time": "10:30 AM",
+            "foods": [
+                {
+                    "name": "Protein muffin",
+                    "portion": "1 muffin",
+                    "calories": 200,
+                    "protein": "15g"
+                },
+                {
+                    "name": "Almond milk latte",
+                    "portion": "12 oz",
+                    "calories": 80,
+                    "protein": "2g"
+                }
+            ]
+        },
+        {
+            "meal": "Lunch",
+            "time": "1:00 PM",
+            "foods": [
+                {
+                    "name": "Beef burger (lean)",
+                    "portion": "200g patty",
+                    "calories": 400,
+                    "protein": "40g"
+                },
+                {
+                    "name": "Whole wheat bun",
+                    "portion": "1 bun",
+                    "calories": 150,
+                    "protein": "6g"
+                },
+                {
+                    "name": "Sweet potato fries",
+                    "portion": "1 cup",
+                    "calories": 200,
+                    "protein": "2g"
+                },
+                {
+                    "name": "Side salad",
+                    "portion": "1 cup",
+                    "calories": 50,
+                    "protein": "2g"
+                }
+            ]
+        },
+        {
+            "meal": "Pre-Workout",
+            "time": "4:00 PM",
+            "foods": [
+                {
+                    "name": "Bagel with honey",
+                    "portion": "1 bagel",
+                    "calories": 300,
+                    "protein": "10g"
+                },
+                {
+                    "name": "Banana",
+                    "portion": "1 medium",
+                    "calories": 105,
+                    "protein": "1g"
+                }
+            ]
+        },
+        {
+            "meal": "Dinner",
+            "time": "7:30 PM",
+            "foods": [
+                {
+                    "name": "Grilled lamb chops",
+                    "portion": "200g",
+                    "calories": 350,
+                    "protein": "40g"
+                },
+                {
+                    "name": "Roasted potatoes",
+                    "portion": "1.5 cups",
+                    "calories": 200,
+                    "protein": "4g"
+                },
+                {
+                    "name": "Grilled zucchini",
+                    "portion": "1 cup",
+                    "calories": 30,
+                    "protein": "2g"
+                }
+            ]
+        },
+        {
+            "meal": "Evening Snack",
+            "time": "9:00 PM",
+            "foods": [
+                {
+                    "name": "Casein shake",
+                    "portion": "1 scoop",
+                    "calories": 110,
+                    "protein": "24g"
+                },
+                {
+                    "name": "Dark chocolate",
+                    "portion": "20g",
+                    "calories": 100,
+                    "protein": "2g"
+                }
+            ]
+        }
+    ]
+}

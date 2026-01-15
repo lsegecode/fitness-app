@@ -1,0 +1,129 @@
+{
+    "day": "Jueves",
+    "focus": "Espalda + Bíceps + Abdominales (Anchura)",
+    "blocks": [
+        {
+            "category": "Calentamiento",
+            "order": 1,
+            "exercises": [
+                "Separación de bandas",
+                "Colgarse de barra",
+                "Círculos de brazos"
+            ]
+        },
+        {
+            "category": "Calistenia",
+            "order": 2,
+            "exercises": [
+                {
+                    "name": "Dominadas supinas (agarre bíceps)",
+                    "sets": 3,
+                    "reps": "Al fallo"
+                },
+                {
+                    "name": "Dominadas negativas",
+                    "sets": 2,
+                    "reps": "5-8 seg descenso"
+                }
+            ]
+        },
+        {
+            "category": "Fuerza / Hipertrofia (Espalda)",
+            "order": 3,
+            "exercises": [
+                {
+                    "name": "Dominada asistida (Máquina/Polea)",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Jalón al pecho agarre cerrado",
+                    "sets": 3,
+                    "reps": 10
+                },
+                {
+                    "name": "Remo alto a una mano en polea",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Pulldown con brazos rectos (Complemento)",
+                    "sets": 3,
+                    "reps": 15
+                }
+            ]
+        },
+        {
+            "category": "Bíceps",
+            "order": 4,
+            "exercises": [
+                {
+                    "name": "Curl con barra EZ",
+                    "sets": 3,
+                    "reps": 10
+                },
+                {
+                    "name": "Curl predicador (Banco Scott)",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Curl en polea alta",
+                    "sets": 3,
+                    "reps": 15
+                }
+            ]
+        },
+        {
+            "category": "Abdominales",
+            "order": 5,
+            "exercises": [
+                {
+                    "name": "Elevaciones de piernas colgado",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Plancha",
+                    "sets": 3,
+                    "reps": "1 min"
+                }
+            ]
+        },
+        {
+            "category": "Enfriamiento y Estiramientos",
+            "order": 6,
+            "exercises": [
+                "Colgarse de barra",
+                "Estiramiento cobra",
+                "Estiramiento de bíceps en pared"
+            ]
+        },
+        {
+            "category": "Abdominales",
+            "order": 5,
+            "exercises": [
+                {
+                    "name": "Plancha",
+                    "sets": 3,
+                    "reps": "1 min"
+                },
+                {
+                    "name": "Rueda abdominal",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Elevaciones de piernas colgado",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Giros rusos",
+                    "sets": 3,
+                    "reps": "20 por lado"
+                }
+            ]
+        }
+    ]
+}

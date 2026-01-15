@@ -1,0 +1,156 @@
+{
+    "day": "Miércoles",
+    "focus": "Alto en Carbohidratos - Día de Piernas",
+    "total_calories": 2800,
+    "macros": {
+        "protein": "170g",
+        "carbs": "320g",
+        "fats": "85g"
+    },
+    "meals": [
+        {
+            "meal": "Desayuno",
+            "time": "7:00",
+            "foods": [
+                {
+                    "name": "Panqueques integrales",
+                    "portion": "3 medianos",
+                    "calories": 300,
+                    "protein": "9g"
+                },
+                {
+                    "name": "Jarabe de arce",
+                    "portion": "2 cdas",
+                    "calories": 100,
+                    "protein": "0g"
+                },
+                {
+                    "name": "Huevos",
+                    "portion": "2 huevos",
+                    "calories": 140,
+                    "protein": "12g"
+                },
+                {
+                    "name": "Fruta fresca",
+                    "portion": "1 taza",
+                    "calories": 80,
+                    "protein": "1g"
+                }
+            ]
+        },
+        {
+            "meal": "Colación Matutina",
+            "time": "10:00",
+            "foods": [
+                {
+                    "name": "Barra de proteína",
+                    "portion": "1 barra",
+                    "calories": 200,
+                    "protein": "20g"
+                },
+                {
+                    "name": "Banana",
+                    "portion": "1 mediana",
+                    "calories": 105,
+                    "protein": "1g"
+                }
+            ]
+        },
+        {
+            "meal": "Almuerzo",
+            "time": "13:00",
+            "foods": [
+                {
+                    "name": "Muslos de pollo",
+                    "portion": "200g",
+                    "calories": 360,
+                    "protein": "40g"
+                },
+                {
+                    "name": "Pasta",
+                    "portion": "1.5 tazas",
+                    "calories": 330,
+                    "protein": "12g"
+                },
+                {
+                    "name": "Salsa marinara",
+                    "portion": "1/2 taza",
+                    "calories": 70,
+                    "protein": "2g"
+                },
+                {
+                    "name": "Queso parmesano",
+                    "portion": "2 cdas",
+                    "calories": 45,
+                    "protein": "4g"
+                }
+            ]
+        },
+        {
+            "meal": "Pre-Entreno",
+            "time": "16:00",
+            "foods": [
+                {
+                    "name": "Arroz blanco",
+                    "portion": "1/2 taza",
+                    "calories": 100,
+                    "protein": "2g"
+                },
+                {
+                    "name": "Pechuga de pollo",
+                    "portion": "100g",
+                    "calories": 165,
+                    "protein": "31g"
+                }
+            ]
+        },
+        {
+            "meal": "Cena",
+            "time": "19:30",
+            "foods": [
+                {
+                    "name": "Filete de bacalao",
+                    "portion": "200g",
+                    "calories": 180,
+                    "protein": "40g"
+                },
+                {
+                    "name": "Puré de papas",
+                    "portion": "1 taza",
+                    "calories": 240,
+                    "protein": "4g"
+                },
+                {
+                    "name": "Judías verdes",
+                    "portion": "1 taza",
+                    "calories": 35,
+                    "protein": "2g"
+                },
+                {
+                    "name": "Mantequilla",
+                    "portion": "1 cda",
+                    "calories": 100,
+                    "protein": "0g"
+                }
+            ]
+        },
+        {
+            "meal": "Colación Nocturna",
+            "time": "21:00",
+            "foods": [
+                {
+                    "name": "Yogur griego",
+                    "portion": "200g",
+                    "calories": 130,
+                    "protein": "20g"
+                },
+                {
+                    "name": "Granola",
+                    "portion": "1/4 taza",
+                    "calories": 120,
+                    "protein": "3g"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+{
+    "day": "Lunes",
+    "focus": "Alta Proteína - Día de Espalda",
+    "total_calories": 2500,
+    "macros": {
+        "protein": "180g",
+        "carbs": "250g",
+        "fats": "80g"
+    },
+    "meals": [
+        {
+            "meal": "Desayuno",
+            "time": "7:00",
+            "foods": [
+                {
+                    "name": "Huevos revueltos",
+                    "portion": "3 huevos",
+                    "calories": 210,
+                    "protein": "18g"
+                },
+                {
+                    "name": "Tostada integral",
+                    "portion": "2 rebanadas",
+                    "calories": 160,
+                    "protein": "6g"
+                },
+                {
+                    "name": "Aguacate",
+                    "portion": "1/2",
+                    "calories": 120,
+                    "protein": "1g"
+                },
+                {
+                    "name": "Jugo de naranja",
+                    "portion": "1 vaso",
+                    "calories": 110,
+                    "protein": "2g"
+                }
+            ]
+        },
+        {
+            "meal": "Colación Matutina",
+            "time": "10:00",
+            "foods": [
+                {
+                    "name": "Yogur griego",
+                    "portion": "200g",
+                    "calories": 130,
+                    "protein": "20g"
+                },
+                {
+                    "name": "Frutos secos mixtos",
+                    "portion": "30g",
+                    "calories": 180,
+                    "protein": "5g"
+                }
+            ]
+        },
+        {
+            "meal": "Almuerzo",
+            "time": "13:00",
+            "foods": [
+                {
+                    "name": "Pechuga de pollo a la plancha",
+                    "portion": "200g",
+                    "calories": 330,
+                    "protein": "62g"
+                },
+                {
+                    "name": "Arroz integral",
+                    "portion": "1 taza",
+                    "calories": 220,
+                    "protein": "5g"
+                },
+                {
+                    "name": "Brócoli al vapor",
+                    "portion": "1 taza",
+                    "calories": 55,
+                    "protein": "4g"
+                },
+                {
+                    "name": "Aderezo de aceite de oliva",
+                    "portion": "1 cda",
+                    "calories": 120,
+                    "protein": "0g"
+                }
+            ]
+        },
+        {
+            "meal": "Pre-Entreno",
+            "time": "16:00",
+            "foods": [
+                {
+                    "name": "Banana",
+                    "portion": "1 mediana",
+                    "calories": 105,
+                    "protein": "1g"
+                },
+                {
+                    "name": "Batido de proteína",
+                    "portion": "1 scoop",
+                    "calories": 120,
+                    "protein": "25g"
+                }
+            ]
+        },
+        {
+            "meal": "Cena",
+            "time": "19:30",
+            "foods": [
+                {
+                    "name": "Filete de salmón",
+                    "portion": "200g",
+                    "calories": 400,
+                    "protein": "40g"
+                },
+                {
+                    "name": "Batata",
+                    "portion": "1 mediana",
+                    "calories": 115,
+                    "protein": "2g"
+                },
+                {
+                    "name": "Ensalada mixta",
+                    "portion": "2 tazas",
+                    "calories": 50,
+                    "protein": "2g"
+                }
+            ]
+        },
+        {
+            "meal": "Colación Nocturna",
+            "time": "21:00",
+            "foods": [
+                {
+                    "name": "Queso cottage",
+                    "portion": "150g",
+                    "calories": 120,
+                    "protein": "15g"
+                },
+                {
+                    "name": "Frutos rojos",
+                    "portion": "1/2 taza",
+                    "calories": 40,
+                    "protein": "1g"
+                }
+            ]
+        }
+    ]
+}

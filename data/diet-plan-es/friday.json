@@ -1,0 +1,120 @@
+{
+    "day": "Viernes",
+    "focus": "Moderado - Día de Empuje",
+    "total_calories": 2400,
+    "macros": {
+        "protein": "175g",
+        "carbs": "240g",
+        "fats": "75g"
+    },
+    "meals": [
+        {
+            "meal": "Desayuno",
+            "time": "7:00",
+            "foods": [
+                {
+                    "name": "Batido de proteína",
+                    "portion": "450ml",
+                    "calories": 350,
+                    "protein": "35g"
+                },
+                {
+                    "name": "Tostada con aguacate",
+                    "portion": "1 rebanada",
+                    "calories": 180,
+                    "protein": "4g"
+                }
+            ]
+        },
+        {
+            "meal": "Colación Matutina",
+            "time": "10:00",
+            "foods": [
+                {
+                    "name": "Queso en hebras",
+                    "portion": "2 unidades",
+                    "calories": 160,
+                    "protein": "14g"
+                },
+                {
+                    "name": "Uvas",
+                    "portion": "1 taza",
+                    "calories": 60,
+                    "protein": "1g"
+                }
+            ]
+        },
+        {
+            "meal": "Almuerzo",
+            "time": "13:00",
+            "foods": [
+                {
+                    "name": "Salmón",
+                    "portion": "200g",
+                    "calories": 400,
+                    "protein": "40g"
+                },
+                {
+                    "name": "Cuscús",
+                    "portion": "1 taza",
+                    "calories": 175,
+                    "protein": "6g"
+                },
+                {
+                    "name": "Ensalada mediterránea",
+                    "portion": "1.5 tazas",
+                    "calories": 100,
+                    "protein": "3g"
+                }
+            ]
+        },
+        {
+            "meal": "Pre-Entreno",
+            "time": "16:00",
+            "foods": [
+                {
+                    "name": "Bolitas energéticas",
+                    "portion": "2 unidades",
+                    "calories": 140,
+                    "protein": "6g"
+                },
+                {
+                    "name": "Té verde",
+                    "portion": "1 taza",
+                    "calories": 0,
+                    "protein": "0g"
+                }
+            ]
+        },
+        {
+            "meal": "Cena",
+            "time": "19:30",
+            "foods": [
+                {
+                    "name": "Pollo salteado con verduras",
+                    "portion": "300g",
+                    "calories": 400,
+                    "protein": "45g"
+                },
+                {
+                    "name": "Arroz integral",
+                    "portion": "1 taza",
+                    "calories": 220,
+                    "protein": "5g"
+                }
+            ]
+        },
+        {
+            "meal": "Colación Nocturna",
+            "time": "21:00",
+            "foods": [
+                {
+                    "name": "Pudín de proteína",
+                    "portion": "1 taza",
+                    "calories": 150,
+                    "protein": "20g"
+                }
+            ]
+        }
+    ]
+}

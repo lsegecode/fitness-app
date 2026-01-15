@@ -1,0 +1,87 @@
+{
+    "day": "Monday",
+    "focus": "Back + Biceps (Thickness)",
+    "blocks": [
+        {
+            "category": "Warm-up",
+            "order": 1,
+            "exercises": [
+                "Scapular Pull-ups",
+                "Cat-Cow Stretch",
+                "Shoulder rotations"
+            ]
+        },
+        {
+            "category": "Calisthenics",
+            "order": 2,
+            "exercises": [
+                {
+                    "name": "Chin-ups (Bicep grip)",
+                    "sets": 3,
+                    "reps": "Failure"
+                },
+                {
+                    "name": "Negative Pull-ups",
+                    "sets": 2,
+                    "reps": "5-8 sec descent"
+                }
+            ]
+        },
+        {
+            "category": "Strength / Hypertrophy (Back)",
+            "order": 3,
+            "exercises": [
+                {
+                    "name": "Assisted Pull-up (Machine/Pulley)",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Rack Pulls (Partial Deadlift)",
+                    "sets": 3,
+                    "reps": 8
+                },
+                {
+                    "name": "Low Pulley Row",
+                    "sets": 3,
+                    "reps": 10
+                },
+                {
+                    "name": "One-arm Dumbbell Row",
+                    "sets": 3,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "category": "Biceps",
+            "order": 4,
+            "exercises": [
+                {
+                    "name": "EZ-Bar Bicep Curl",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Hammer Curls",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Incline Dumbbell Curl",
+                    "sets": 3,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "category": "Cool down & Stretching",
+            "order": 5,
+            "exercises": [
+                "Dead hang (Relax body)",
+                "Cobra Stretch",
+                "Wall bicep stretch"
+            ]
+        }
+    ]
+}

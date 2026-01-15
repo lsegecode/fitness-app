@@ -1,0 +1,156 @@
+{
+    "day": "Wednesday",
+    "focus": "High Carb - Leg Day",
+    "total_calories": 2800,
+    "macros": {
+        "protein": "170g",
+        "carbs": "320g",
+        "fats": "85g"
+    },
+    "meals": [
+        {
+            "meal": "Breakfast",
+            "time": "7:00 AM",
+            "foods": [
+                {
+                    "name": "Pancakes (whole grain)",
+                    "portion": "3 medium",
+                    "calories": 300,
+                    "protein": "9g"
+                },
+                {
+                    "name": "Maple syrup",
+                    "portion": "2 tbsp",
+                    "calories": 100,
+                    "protein": "0g"
+                },
+                {
+                    "name": "Eggs",
+                    "portion": "2 eggs",
+                    "calories": 140,
+                    "protein": "12g"
+                },
+                {
+                    "name": "Fresh fruit",
+                    "portion": "1 cup",
+                    "calories": 80,
+                    "protein": "1g"
+                }
+            ]
+        },
+        {
+            "meal": "Mid-Morning Snack",
+            "time": "10:00 AM",
+            "foods": [
+                {
+                    "name": "Protein bar",
+                    "portion": "1 bar",
+                    "calories": 200,
+                    "protein": "20g"
+                },
+                {
+                    "name": "Banana",
+                    "portion": "1 medium",
+                    "calories": 105,
+                    "protein": "1g"
+                }
+            ]
+        },
+        {
+            "meal": "Lunch",
+            "time": "1:00 PM",
+            "foods": [
+                {
+                    "name": "Chicken thighs",
+                    "portion": "200g",
+                    "calories": 360,
+                    "protein": "40g"
+                },
+                {
+                    "name": "Pasta",
+                    "portion": "1.5 cups",
+                    "calories": 330,
+                    "protein": "12g"
+                },
+                {
+                    "name": "Marinara sauce",
+                    "portion": "1/2 cup",
+                    "calories": 70,
+                    "protein": "2g"
+                },
+                {
+                    "name": "Parmesan cheese",
+                    "portion": "2 tbsp",
+                    "calories": 45,
+                    "protein": "4g"
+                }
+            ]
+        },
+        {
+            "meal": "Pre-Workout",
+            "time": "4:00 PM",
+            "foods": [
+                {
+                    "name": "White rice",
+                    "portion": "1/2 cup",
+                    "calories": 100,
+                    "protein": "2g"
+                },
+                {
+                    "name": "Chicken breast",
+                    "portion": "100g",
+                    "calories": 165,
+                    "protein": "31g"
+                }
+            ]
+        },
+        {
+            "meal": "Dinner",
+            "time": "7:30 PM",
+            "foods": [
+                {
+                    "name": "Cod fillet",
+                    "portion": "200g",
+                    "calories": 180,
+                    "protein": "40g"
+                },
+                {
+                    "name": "Mashed potatoes",
+                    "portion": "1 cup",
+                    "calories": 240,
+                    "protein": "4g"
+                },
+                {
+                    "name": "Green beans",
+                    "portion": "1 cup",
+                    "calories": 35,
+                    "protein": "2g"
+                },
+                {
+                    "name": "Butter",
+                    "portion": "1 tbsp",
+                    "calories": 100,
+                    "protein": "0g"
+                }
+            ]
+        },
+        {
+            "meal": "Evening Snack",
+            "time": "9:00 PM",
+            "foods": [
+                {
+                    "name": "Greek yogurt",
+                    "portion": "200g",
+                    "calories": 130,
+                    "protein": "20g"
+                },
+                {
+                    "name": "Granola",
+                    "portion": "1/4 cup",
+                    "calories": 120,
+                    "protein": "3g"
+                }
+            ]
+        }
+    ]
+}

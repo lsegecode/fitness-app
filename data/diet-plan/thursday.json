@@ -1,0 +1,144 @@
+{
+    "day": "Thursday",
+    "focus": "High Protein - Back Day",
+    "total_calories": 2500,
+    "macros": {
+        "protein": "180g",
+        "carbs": "250g",
+        "fats": "80g"
+    },
+    "meals": [
+        {
+            "meal": "Breakfast",
+            "time": "7:00 AM",
+            "foods": [
+                {
+                    "name": "Egg white omelette",
+                    "portion": "6 whites",
+                    "calories": 100,
+                    "protein": "21g"
+                },
+                {
+                    "name": "Spinach & mushrooms",
+                    "portion": "1 cup",
+                    "calories": 40,
+                    "protein": "4g"
+                },
+                {
+                    "name": "Whole wheat bagel",
+                    "portion": "1 bagel",
+                    "calories": 250,
+                    "protein": "10g"
+                },
+                {
+                    "name": "Cream cheese (light)",
+                    "portion": "2 tbsp",
+                    "calories": 70,
+                    "protein": "3g"
+                }
+            ]
+        },
+        {
+            "meal": "Mid-Morning Snack",
+            "time": "10:00 AM",
+            "foods": [
+                {
+                    "name": "Tuna pouch",
+                    "portion": "1 pouch",
+                    "calories": 100,
+                    "protein": "22g"
+                },
+                {
+                    "name": "Whole grain crackers",
+                    "portion": "6 crackers",
+                    "calories": 120,
+                    "protein": "3g"
+                }
+            ]
+        },
+        {
+            "meal": "Lunch",
+            "time": "1:00 PM",
+            "foods": [
+                {
+                    "name": "Grilled chicken breast",
+                    "portion": "200g",
+                    "calories": 330,
+                    "protein": "62g"
+                },
+                {
+                    "name": "Jasmine rice",
+                    "portion": "1 cup",
+                    "calories": 200,
+                    "protein": "4g"
+                },
+                {
+                    "name": "Stir-fried vegetables",
+                    "portion": "1 cup",
+                    "calories": 80,
+                    "protein": "3g"
+                }
+            ]
+        },
+        {
+            "meal": "Pre-Workout",
+            "time": "4:00 PM",
+            "foods": [
+                {
+                    "name": "Protein shake",
+                    "portion": "1 scoop",
+                    "calories": 120,
+                    "protein": "25g"
+                },
+                {
+                    "name": "Oat bar",
+                    "portion": "1 bar",
+                    "calories": 150,
+                    "protein": "4g"
+                }
+            ]
+        },
+        {
+            "meal": "Dinner",
+            "time": "7:30 PM",
+            "foods": [
+                {
+                    "name": "Pork tenderloin",
+                    "portion": "200g",
+                    "calories": 280,
+                    "protein": "48g"
+                },
+                {
+                    "name": "Roasted sweet potato",
+                    "portion": "1 medium",
+                    "calories": 115,
+                    "protein": "2g"
+                },
+                {
+                    "name": "Brussels sprouts",
+                    "portion": "1 cup",
+                    "calories": 60,
+                    "protein": "4g"
+                }
+            ]
+        },
+        {
+            "meal": "Evening Snack",
+            "time": "9:00 PM",
+            "foods": [
+                {
+                    "name": "Cottage cheese",
+                    "portion": "150g",
+                    "calories": 120,
+                    "protein": "15g"
+                },
+                {
+                    "name": "Walnuts",
+                    "portion": "20g",
+                    "calories": 130,
+                    "protein": "3g"
+                }
+            ]
+        }
+    ]
+}

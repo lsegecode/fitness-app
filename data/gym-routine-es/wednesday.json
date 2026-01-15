@@ -1,0 +1,78 @@
+{
+    "day": "Miércoles",
+    "focus": "Piernas (Dominante de Cuádriceps) + Resistencia Aeróbica",
+    "blocks": [
+        {
+            "category": "Calentamiento",
+            "order": 1,
+            "exercises": [
+                "Balanceos de pierna (Frontal/Lateral)",
+                "Sentadillas con peso corporal",
+                "Puentes de glúteos"
+            ]
+        },
+        {
+            "category": "Compuestos Principales (Pesado)",
+            "order": 2,
+            "exercises": [
+                {
+                    "name": "Sentadilla con barra",
+                    "sets": 4,
+                    "reps": 8
+                },
+                {
+                    "name": "Peso muerto rumano (RDL)",
+                    "sets": 3,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "category": "Máquinas y Volumen",
+            "order": 3,
+            "exercises": [
+                {
+                    "name": "Prensa de piernas",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Extensiones de pierna (Camilla)",
+                    "sets": 3,
+                    "reps": 15
+                },
+                {
+                    "name": "Zancadas caminando (Estocadas)",
+                    "sets": 3,
+                    "reps": "20 pasos"
+                }
+            ]
+        },
+        {
+            "category": "Finalizador Aeróbico (Alta Intensidad)",
+            "order": 4,
+            "notes": "Realizar como circuito por 10 minutos",
+            "exercises": [
+                {
+                    "name": "Balanceos con Kettlebell o Mancuerna",
+                    "sets": 4,
+                    "reps": "45 seg"
+                },
+                {
+                    "name": "Burpees",
+                    "sets": 4,
+                    "reps": "45 seg"
+                }
+            ]
+        },
+        {
+            "category": "Estiramientos",
+            "order": 5,
+            "exercises": [
+                "Estiramiento de cuádriceps",
+                "Estiramiento de isquiotibiales",
+                "Postura de paloma (Glúteos)"
+            ]
+        }
+    ]
+}

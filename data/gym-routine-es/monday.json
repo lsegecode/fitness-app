@@ -1,0 +1,87 @@
+{
+    "day": "Lunes",
+    "focus": "Espalda + Bíceps (Grosor)",
+    "blocks": [
+        {
+            "category": "Calentamiento",
+            "order": 1,
+            "exercises": [
+                "Dominadas escapulares",
+                "Estiramiento gato-vaca",
+                "Rotaciones de hombros"
+            ]
+        },
+        {
+            "category": "Calistenia",
+            "order": 2,
+            "exercises": [
+                {
+                    "name": "Dominadas supinas (agarre bíceps)",
+                    "sets": 3,
+                    "reps": "Al fallo"
+                },
+                {
+                    "name": "Dominadas negativas",
+                    "sets": 2,
+                    "reps": "5-8 seg descenso"
+                }
+            ]
+        },
+        {
+            "category": "Fuerza / Hipertrofia (Espalda)",
+            "order": 3,
+            "exercises": [
+                {
+                    "name": "Dominada asistida (Máquina/Polea)",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Rack Pulls (Peso muerto parcial)",
+                    "sets": 3,
+                    "reps": 8
+                },
+                {
+                    "name": "Remo en polea baja",
+                    "sets": 3,
+                    "reps": 10
+                },
+                {
+                    "name": "Remo con mancuerna a una mano",
+                    "sets": 3,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "category": "Bíceps",
+            "order": 4,
+            "exercises": [
+                {
+                    "name": "Curl con barra EZ",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Curl martillo",
+                    "sets": 3,
+                    "reps": 12
+                },
+                {
+                    "name": "Curl inclinado con mancuernas",
+                    "sets": 3,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "category": "Enfriamiento y Estiramientos",
+            "order": 5,
+            "exercises": [
+                "Colgarse (Relajar el cuerpo)",
+                "Estiramiento cobra",
+                "Estiramiento de bíceps en pared"
+            ]
+        }
+    ]
+}
