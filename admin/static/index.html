@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Admin - Manage Your Routines</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-icon">💪</span>
+                    <span class="logo-text">FitAdmin</span>
+                </div>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <span class="nav-section-title">Content</span>
+                    <button class="nav-item active" data-section="gym">
+                        <span class="nav-icon">🏋️</span>
+                        <span class="nav-label">Gym Routines</span>
+                    </button>
+                    <button class="nav-item" data-section="diet">
+                        <span class="nav-icon">🥗</span>
+                        <span class="nav-label">Diet Plans</span>
+                    </button>
+                </div>
+                
+                <div class="nav-section">
+                    <span class="nav-section-title">Language</span>
+                    <div class="lang-toggle">
+                        <button class="lang-btn active" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="es">ES</button>
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Local Server</span>
+                </div>
+            </div>
+        </aside>
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="content-header">
+                <div class="header-left">
+                    <h1 class="page-title" id="pageTitle">Gym Routines</h1>
+                    <p class="page-subtitle" id="pageSubtitle">Manage your weekly workout schedule</p>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-secondary" id="refreshBtn">
+                        <span>🔄</span> Refresh
+                    </button>
+                    <button class="btn btn-primary" id="saveAllBtn">
+                        <span>💾</span> Save All
+                    </button>
+                </div>
+            </header>
+            
+            <!-- Day Selector -->
+            <div class="day-selector">
+                <button class="day-pill" data-day="monday">Mon</button>
+                <button class="day-pill" data-day="tuesday">Tue</button>
+                <button class="day-pill" data-day="wednesday">Wed</button>
+                <button class="day-pill" data-day="thursday">Thu</button>
+                <button class="day-pill" data-day="friday">Fri</button>
+                <button class="day-pill" data-day="saturday">Sat</button>
+                <button class="day-pill" data-day="sunday">Sun</button>
+            </div>
+            
+            <!-- Editor Container -->
+            <div class="editor-container">
+                <!-- Welcome State -->
+                <div class="welcome-state" id="welcomeState">
+                    <div class="welcome-icon">📅</div>
+                    <h2>Select a Day</h2>
+                    <p>Choose a day from above to start editing</p>
+                </div>
+                
+                <!-- Gym Editor -->
+                <div class="editor-panel hidden" id="gymEditor">
+                    <div class="editor-section">
+                        <div class="section-header">
+                            <h3>Day Focus</h3>
+                        </div>
+                        <input type="text" class="input-field" id="gymFocus" placeholder="e.g., Back + Biceps + Forearms">
+                    </div>
+                    
+                    <div class="editor-section">
+                        <div class="section-header">
+                            <h3>Exercise Blocks</h3>
+                            <button class="btn btn-sm btn-secondary" id="addBlockBtn">
+                                <span>➕</span> Add Block
+                            </button>
+                        </div>
+                        <div class="blocks-container" id="blocksContainer">
+                            <!-- Blocks will be rendered here -->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Diet Editor -->
+                <div class="editor-panel hidden" id="dietEditor">
+                    <div class="editor-section">
+                        <div class="section-header">
+                            <h3>Day Focus</h3>
+                        </div>
+                        <input type="text" class="input-field" id="dietFocus" placeholder="e.g., High Protein - Back Day">
+                    </div>
+                    
+                    <div class="editor-section macros-section">
+                        <div class="section-header">
+                            <h3>Macros & Calories</h3>
+                        </div>
+                        <div class="macros-grid">
+                            <div class="macro-input">
+                                <label>Calories</label>
+                                <input type="number" class="input-field" id="totalCalories" placeholder="2500">
+                            </div>
+                            <div class="macro-input">
+                                <label>Protein</label>
+                                <input type="text" class="input-field" id="macroProtein" placeholder="180g">
+                            </div>
+                            <div class="macro-input">
+                                <label>Carbs</label>
+                                <input type="text" class="input-field" id="macroCarbs" placeholder="250g">
+                            </div>
+                            <div class="macro-input">
+                                <label>Fats</label>
+                                <input type="text" class="input-field" id="macroFats" placeholder="80g">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="editor-section">
+                        <div class="section-header">
+                            <h3>Meals</h3>
+                            <button class="btn btn-sm btn-secondary" id="addMealBtn">
+                                <span>➕</span> Add Meal
+                            </button>
+                        </div>
+                        <div class="meals-container" id="mealsContainer">
+                            <!-- Meals will be rendered here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Toast Notification -->
+    <div class="toast hidden" id="toast">
+        <span class="toast-icon">✓</span>
+        <span class="toast-message">Changes saved successfully</span>
+    </div>
+    
+    <script src="/static/app.js"></script>
+</body>
+</html>

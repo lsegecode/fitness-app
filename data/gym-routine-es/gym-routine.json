@@ -1,0 +1,128 @@
+{
+    "weekly_routine": {
+        "monday": {
+            "blocks": [
+                {
+                    "category": "Calentamiento y Movilidad",
+                    "exercises": [
+                        "Shoulder circles",
+                        "Cat-Cow stretch",
+                        {
+                            "name": "Wrist rotatio Warm-up and Mobility ↑ ↓ ✕ Shoulder circles Sets Reps ✕ Cat-Cow stretchns",
+                            "sets": "",
+                            "reps": ""
+                        }
+                    ],
+                    "order": 1
+                },
+                {
+                    "category": "Fuerza",
+                    "exercises": [
+                        {
+                            "name": "Barbell Row",
+                            "reps": 12,
+                            "sets": 3
+                        },
+                        {
+                            "name": "EZ-Bar Bicep Curl",
+                            "reps": 12,
+                            "sets": 3
+                        },
+                        {
+                            "name": "Farmer's Walk",
+                            "reps": "45 sec",
+                            "sets": 3
+                        }
+                    ],
+                    "order": 3
+                },
+                {
+                    "category": "Calistenia",
+                    "exercises": [
+                        {
+                            "name": "Chin-ups (Underhand grip)",
+                            "reps": "Technical failure",
+                            "sets": 3
+                        },
+                        {
+                            "name": "Negative Pull-ups (Overhand grip)",
+                            "reps": "5-8 sec descent",
+                            "sets": 3
+                        }
+                    ],
+                    "order": 2
+                },
+                {
+                    "category": "Estiramiento",
+                    "exercises": [
+                        "Dead hang (Lat stretch)",
+                        "Wall bicep stretch"
+                    ],
+                    "order": 4
+                }
+            ],
+            "focus": "Back + Biceps + Forearms"
+        },
+        "tuesday": {
+            "blocks": [
+                {
+                    "category": "Calentamiento y Movilidad",
+                    "exercises": [
+                        "Band rotator cuff rotations",
+                        "Dynamic chest openers"
+                    ],
+                    "order": 1
+                },
+                {
+                    "category": "Fuerza",
+                    "exercises": [
+                        {
+                            "name": "Military Press (Overhead)",
+                            "reps": 10,
+                            "sets": 4
+                        },
+                        {
+                            "name": "Flat Bench Press",
+                            "reps": 10,
+                            "sets": 3
+                        }
+                    ],
+                    "order": 2
+                },
+                {
+                    "category": "Calistenia",
+                    "exercises": [
+                        {
+                            "name": "Dips (Parallel bars)",
+                            "reps": 12,
+                            "sets": 3
+                        },
+                        {
+                            "name": "Diamond Push-ups",
+                            "reps": "Failure",
+                            "sets": 3
+                        }
+                    ],
+                    "order": 3
+                },
+                {
+                    "category": "Abdominales",
+                    "exercises": [
+                        "Abdominal Crunches",
+                        "Bicycle Crunches"
+                    ],
+                    "order": 4
+                },
+                {
+                    "category": "Estiramiento",
+                    "exercises": [
+                        "Doorway chest stretch",
+                        "Overhead tricep stretch"
+                    ],
+                    "order": 5
+                }
+            ],
+            "focus": "Chest + Triceps + Shoulders (Shoulder Focus)"
+        }
+    }
+}
