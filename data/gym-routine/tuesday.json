@@ -4,47 +4,117 @@
             "category": "Warm-up and Mobility",
             "exercises": [
                 "Band rotator cuff rotations",
-                "Dynamic chest openers"
-            ],
-            "order": 1
-        },
-        {
-            "category": "Strength",
-            "exercises": [
+                "Dynamic chest openers",
                 {
-                    "name": "Military Press (Overhead)",
-                    "reps": 10,
-                    "sets": 4
+                    "name": "Arm circles",
+                    "reps": "",
+                    "sets": null,
+                    "weight": ""
                 },
                 {
-                    "name": "Flat Bench Press",
-                    "reps": 10,
-                    "sets": 3
+                    "name": "Plank to Downward Dog",
+                    "reps": "",
+                    "sets": null,
+                    "weight": ""
                 }
             ],
-            "order": 2
+            "order": 1
         },
         {
             "category": "Calisthenics",
             "exercises": [
                 {
-                    "name": "Dips (Parallel bars)",
-                    "reps": 12,
-                    "sets": 3
+                    "name": "Push-ups",
+                    "reps": "8",
+                    "sets": 3,
+                    "weight": ""
                 },
                 {
                     "name": "Diamond Push-ups",
+                    "reps": "8",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Pike Push-ups",
+                    "reps": "8",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Dips",
                     "reps": "Failure",
-                    "sets": 3
+                    "sets": 3,
+                    "weight": ""
                 }
             ],
             "order": 3
         },
         {
+            "category": "Strength",
+            "exercises": [
+                {
+                    "name": "Dumbbell Shoulder Press",
+                    "reps": 10,
+                    "sets": 4,
+                    "weight": ""
+                },
+                {
+                    "name": "Lateral Raise",
+                    "reps": 10,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Upright Row",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Overhead Triceps Extension",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Cable Triceps Pushdown",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Barbell Bench Press",
+                    "reps": "8",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Incline Dumbbell Press",
+                    "reps": "8",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Chest Fly",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
+                }
+            ],
+            "order": 2
+        },
+        {
             "category": "Abs",
             "exercises": [
                 "Abdominal Crunches",
-                "Bicycle Crunches"
+                "Bicycle Crunches",
+                {
+                    "name": "Abs Wheel",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                }
             ],
             "order": 4
         },
@@ -57,5 +127,5 @@
             "order": 5
         }
     ],
-    "focus": "Chest + Triceps + Shoulders (Shoulder Focus)"
+    "focus": "Chest + Triceps + Shoulders (Shoulder Focus) + Abs"
 }

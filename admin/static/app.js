@@ -152,23 +152,87 @@ function createBlockCard(block, blockIdx) {
 
 function createExerciseItem(exercise, blockIdx, exIdx) {
     const item = document.createElement('div');
-    item.className = 'exercise-item';
+    item.className = 'exercise-wrapper';
+    item.id = `ex-${blockIdx}-${exIdx}`;
 
     const isSimple = typeof exercise === 'string';
     const name = isSimple ? exercise : exercise.name;
     const sets = isSimple ? '' : (exercise.sets || '');
     const reps = isSimple ? '' : (exercise.reps || '');
+    const weight = isSimple ? '' : (exercise.weight || '');
+    const video = isSimple ? '' : (exercise.video || '');
+    const icon = isSimple ? '' : (exercise.icon || '');
+
+    // Icon logic
+    let iconDisplay = '<div class="exercise-icon-preview">💪</div>';
+    if (icon) {
+        iconDisplay = `<img src="${icon}" class="exercise-icon-preview" onerror="this.outerHTML='<div class=\\'exercise-icon-preview\\'>💪</div>'">`;
+    }
+
+    // Video Embed Logic
+    let videoEmbed = '';
+    if (video) {
+        // Extract ID from youtube URL if possible
+        let videoId = '';
+        if (video.includes('youtube.com/watch?v=')) {
+            videoId = video.split('v=')[1].split('&')[0];
+        } else if (video.includes('youtu.be/')) {
+            videoId = video.split('youtu.be/')[1];
+        }
+
+        if (videoId) {
+            videoEmbed = `
+                <div class="video-preview">
+                    <iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>
+                </div>
+            `;
+        }
+    }
 
     item.innerHTML = `
-        <input type="text" value="${name}" placeholder="Exercise name" 
-               onchange="updateExercise(${blockIdx}, ${exIdx}, 'name', this.value)">
-        <input type="text" value="${sets}" placeholder="Sets" 
-               onchange="updateExercise(${blockIdx}, ${exIdx}, 'sets', this.value)">
-        <input type="text" value="${reps}" placeholder="Reps" 
-               onchange="updateExercise(${blockIdx}, ${exIdx}, 'reps', this.value)">
-        <button class="icon-btn delete" onclick="deleteExercise(${blockIdx}, ${exIdx})">✕</button>
+        <div class="exercise-header" onclick="toggleExerciseDetails(${blockIdx}, ${exIdx})">
+            ${iconDisplay}
+            <input type="text" value="${name}" placeholder="Exercise name" onclick="event.stopPropagation()"
+                   onchange="updateExercise(${blockIdx}, ${exIdx}, 'name', this.value)">
+            <input type="text" value="${sets}" placeholder="Sets" onclick="event.stopPropagation()"
+                   onchange="updateExercise(${blockIdx}, ${exIdx}, 'sets', this.value)">
+            <input type="text" value="${reps}" placeholder="Reps" onclick="event.stopPropagation()"
+                   onchange="updateExercise(${blockIdx}, ${exIdx}, 'reps', this.value)">
+            <input type="text" value="${weight}" placeholder="Weight" onclick="event.stopPropagation()"
+                   onchange="updateExercise(${blockIdx}, ${exIdx}, 'weight', this.value)">
+            <button class="icon-btn delete" onclick="event.stopPropagation(); deleteExercise(${blockIdx}, ${exIdx})">✕</button>
+        </div>
+        <div class="exercise-details">
+            <div class="details-row">
+                <div class="input-field-group" style="flex:1">
+                    <label style="font-size:11px;color:var(--text-muted);margin-bottom:4px;display:block">VIDEO URL</label>
+                    <input type="text" class="input-field" value="${video}" placeholder="Paste YouTube link here..." 
+                           onchange="updateExercise(${blockIdx}, ${exIdx}, 'video', this.value); renderGymEditor()">
+                </div>
+                <div class="input-field-group" style="flex:1">
+                    <label style="font-size:11px;color:var(--text-muted);margin-bottom:4px;display:block">ICON URL</label>
+                    <input type="text" class="input-field" value="${icon}" placeholder="Image URL..." 
+                           onchange="updateExercise(${blockIdx}, ${exIdx}, 'icon', this.value); renderGymEditor()">
+                </div>
+            </div>
+            ${videoEmbed}
+        </div>
     `;
     return item;
+}
+
+function toggleExerciseDetails(blockIdx, exIdx) {
+    const id = `ex-${blockIdx}-${exIdx}`;
+    const el = document.getElementById(id);
+    const isActive = el.classList.contains('active');
+
+    // Close all others
+    document.querySelectorAll('.exercise-wrapper.active').forEach(w => w.classList.remove('active'));
+
+    // Toggle current
+    if (!isActive) {
+        el.classList.add('active');
+    }
 }
 
 // ===== Diet Editor =====
@@ -267,7 +331,7 @@ function updateBlockCategory(blockIdx, value) {
 
 // ===== Exercise Operations =====
 function addExercise(blockIdx) {
-    gymData.weekly_routine[currentDay].blocks[blockIdx].exercises.push({ name: '', sets: 3, reps: 12 });
+    gymData.weekly_routine[currentDay].blocks[blockIdx].exercises.push({ name: '', sets: 3, reps: 12, weight: '' });
     renderGymEditor();
 }
 
@@ -279,7 +343,7 @@ function deleteExercise(blockIdx, exIdx) {
 function updateExercise(blockIdx, exIdx, field, value) {
     const exercises = gymData.weekly_routine[currentDay].blocks[blockIdx].exercises;
     if (typeof exercises[exIdx] === 'string') {
-        exercises[exIdx] = { name: exercises[exIdx], sets: '', reps: '' };
+        exercises[exIdx] = { name: exercises[exIdx], sets: '', reps: '', weight: '', video: '', icon: '' };
     }
     if (field === 'sets' && !isNaN(value)) value = parseInt(value);
     exercises[exIdx][field] = value;

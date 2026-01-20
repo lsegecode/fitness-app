@@ -5,102 +5,398 @@
                 {
                     "category": "Calentamiento y Movilidad",
                     "exercises": [
-                        "Shoulder circles",
-                        "Cat-Cow stretch",
+                        "Círculos de hombros",
+                        "Estiramiento gato-vaca",
                         {
-                            "name": "Wrist rotatio Warm-up and Mobility ↑ ↓ ✕ Shoulder circles Sets Reps ✕ Cat-Cow stretchns",
+                            "name": "Rotación de muñecas",
+                            "reps": "",
                             "sets": "",
-                            "reps": ""
+                            "weight": ""
                         }
                     ],
                     "order": 1
                 },
                 {
-                    "category": "Fuerza",
-                    "exercises": [
-                        {
-                            "name": "Barbell Row",
-                            "reps": 12,
-                            "sets": 3
-                        },
-                        {
-                            "name": "EZ-Bar Bicep Curl",
-                            "reps": 12,
-                            "sets": 3
-                        },
-                        {
-                            "name": "Farmer's Walk",
-                            "reps": "45 sec",
-                            "sets": 3
-                        }
-                    ],
-                    "order": 3
-                },
-                {
                     "category": "Calistenia",
                     "exercises": [
                         {
-                            "name": "Chin-ups (Underhand grip)",
-                            "reps": "Technical failure",
-                            "sets": 3
+                            "name": "Dominadas supinas (agarre supino)",
+                            "reps": "Fallo técnico",
+                            "sets": 3,
+                            "weight": ""
                         },
                         {
-                            "name": "Negative Pull-ups (Overhand grip)",
-                            "reps": "5-8 sec descent",
-                            "sets": 3
+                            "name": "Dominadas negativas (agarre prono)",
+                            "reps": "5-8 seg descenso",
+                            "sets": 3,
+                            "weight": ""
                         }
                     ],
                     "order": 2
                 },
                 {
+                    "category": "Fuerza",
+                    "exercises": [
+                        {
+                            "name": "Peso Muerto Rumano (RDL)",
+                            "reps": 12,
+                            "sets": 4,
+                            "weight": "10"
+                        },
+                        {
+                            "name": "Dominada",
+                            "reps": "8",
+                            "sets": 4,
+                            "weight": "55"
+                        },
+                        {
+                            "name": "Remo sentado",
+                            "reps": "8",
+                            "sets": 4,
+                            "weight": "55"
+                        },
+                        {
+                            "name": "Remo en máquina sentado",
+                            "reps": "10",
+                            "sets": 4,
+                            "weight": "30"
+                        },
+                        {
+                            "name": "Jalones a la cara",
+                            "reps": 12,
+                            "sets": 4,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Curl en Z",
+                            "reps": "10",
+                            "sets": 4,
+                            "weight": "7.5"
+                        },
+                        {
+                            "name": "Curl martillo",
+                            "reps": 12,
+                            "sets": 4,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Curl inclinado con mancuernas sentado",
+                            "reps": 12,
+                            "sets": 4,
+                            "weight": "5"
+                        }
+                    ],
+                    "order": 3
+                },
+                {
                     "category": "Estiramiento",
                     "exercises": [
-                        "Dead hang (Lat stretch)",
-                        "Wall bicep stretch"
+                        "Colgado pasivo (estiramiento de dorsales)",
+                        "Estiramiento de bíceps en pared"
                     ],
                     "order": 4
                 }
             ],
-            "focus": "Back + Biceps + Forearms"
+            "focus": "Espalda + Bíceps (Grosor)"
         },
         "tuesday": {
             "blocks": [
                 {
                     "category": "Calentamiento y Movilidad",
                     "exercises": [
-                        "Band rotator cuff rotations",
-                        "Dynamic chest openers"
-                    ],
-                    "order": 1
-                },
-                {
-                    "category": "Fuerza",
-                    "exercises": [
+                        "Rotaciones de manguito rotador con banda",
+                        "Aperturas de pecho dinámicas",
                         {
-                            "name": "Military Press (Overhead)",
-                            "reps": 10,
-                            "sets": 4
+                            "name": "Círculos de brazos",
+                            "reps": "",
+                            "sets": null,
+                            "weight": ""
                         },
                         {
-                            "name": "Flat Bench Press",
-                            "reps": 10,
-                            "sets": 3
+                            "name": "Plancha a Perro boca abajo",
+                            "reps": "",
+                            "sets": null,
+                            "weight": ""
                         }
                     ],
-                    "order": 2
+                    "order": 1
                 },
                 {
                     "category": "Calistenia",
                     "exercises": [
                         {
-                            "name": "Dips (Parallel bars)",
-                            "reps": 12,
-                            "sets": 3
+                            "name": "Flexiones",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
                         },
                         {
-                            "name": "Diamond Push-ups",
-                            "reps": "Failure",
-                            "sets": 3
+                            "name": "Flexiones diamante",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Flexiones pike",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Fondos",
+                            "reps": "Fallo",
+                            "sets": 3,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 3
+                },
+                {
+                    "category": "Fuerza",
+                    "exercises": [
+                        {
+                            "name": "Press de hombros con mancuernas",
+                            "reps": 10,
+                            "sets": 4,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Elevación lateral",
+                            "reps": 10,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Remo al mentón",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Extensión de tríceps tras nuca",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Extensión de tríceps en polea alta",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Press de banca con barra",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Press inclinado con mancuernas",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Aperturas de pecho",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 2
+                },
+                {
+                    "category": "Abdominales",
+                    "exercises": [
+                        "Crunches abdominales",
+                        "Crunches bicicleta",
+                        {
+                            "name": "Rueda abdominal",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 4
+                },
+                {
+                    "category": "Estiramiento",
+                    "exercises": [
+                        "Estiramiento de pecho en puerta",
+                        "Estiramiento de tríceps sobre cabeza"
+                    ],
+                    "order": 5
+                }
+            ],
+            "focus": "Pecho + Tríceps + Hombros (Énfasis en Hombros) + Abdominales"
+        },
+        "wednesday": {
+            "focus": "Piernas (Movimientos Compuestos)",
+            "blocks": [
+                {
+                    "category": "Calentamiento y Movilidad",
+                    "order": 1,
+                    "exercises": [
+                        "Balanceo de piernas",
+                        "El Mayor Estiramiento del Mundo"
+                    ]
+                },
+                {
+                    "category": "Fuerza",
+                    "order": 2,
+                    "exercises": [
+                        {
+                            "name": "Sentadilla trasera con barra",
+                            "sets": 4,
+                            "reps": 10,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Peso Muerto Rumano (RDL)",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        }
+                    ]
+                },
+                {
+                    "category": "Funcional / Calistenia",
+                    "order": 3,
+                    "exercises": [
+                        {
+                            "name": "Sentadilla búlgara",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Saltos al cajón",
+                            "sets": 3,
+                            "reps": 10,
+                            "weight": ""
+                        }
+                    ]
+                },
+                {
+                    "category": "Estiramiento",
+                    "order": 4,
+                    "exercises": [
+                        "Estiramiento de isquiotibiales",
+                        "Postura de paloma (Glúteos)"
+                    ]
+                }
+            ]
+        },
+        "thursday": {
+            "blocks": [
+                {
+                    "category": "Calentamiento",
+                    "exercises": [
+                        {
+                            "icon": "",
+                            "name": "Gato-Vaca",
+                            "reps": "",
+                            "sets": "",
+                            "video": "",
+                            "weight": ""
+                        },
+                        {
+                            "icon": "",
+                            "name": "Superman",
+                            "reps": "",
+                            "sets": "",
+                            "video": "",
+                            "weight": ""
+                        },
+                        {
+                            "name": "Puente de glúteos",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Rotación de tren inferior acostado",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Perro-pájaro",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 1
+                },
+                {
+                    "category": "Calistenia",
+                    "exercises": [
+                        {
+                            "name": "Dominadas supinas",
+                            "reps": "Fallo",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Remo australiano",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 2
+                },
+                {
+                    "category": "Fuerza",
+                    "exercises": [
+                        {
+                            "name": "Swing con pesa rusa",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Jalón al pecho",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Remo sentado",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Pullover",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Hiperextensiones",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Curl en Z",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Curl martillo",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Curl inclinado con mancuernas sentado",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
                         }
                     ],
                     "order": 3
@@ -108,21 +404,251 @@
                 {
                     "category": "Abdominales",
                     "exercises": [
-                        "Abdominal Crunches",
-                        "Bicycle Crunches"
+                        "Plancha",
+                        "Elevaciones de piernas",
+                        {
+                            "name": "Rueda abdominal",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        }
                     ],
                     "order": 4
                 },
                 {
                     "category": "Estiramiento",
                     "exercises": [
-                        "Doorway chest stretch",
-                        "Overhead tricep stretch"
+                        "Postura del niño",
+                        "Estiramiento de antebrazos"
                     ],
                     "order": 5
                 }
             ],
-            "focus": "Chest + Triceps + Shoulders (Shoulder Focus)"
+            "focus": "Espalda + Bíceps (Amplitud y Estabilidad)"
+        },
+        "friday": {
+            "blocks": [
+                {
+                    "category": "Calentamiento y Movilidad",
+                    "exercises": [
+                        "Rotaciones de manguito rotador con banda",
+                        "Aperturas de pecho dinámicas",
+                        {
+                            "name": "Círculos de brazos",
+                            "reps": "",
+                            "sets": null,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Plancha a Perro boca abajo",
+                            "reps": "",
+                            "sets": null,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 1
+                },
+                {
+                    "category": "Calistenia",
+                    "exercises": [
+                        {
+                            "name": "Flexiones",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Flexiones diamante",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Flexiones pike",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Fondos",
+                            "reps": "Fallo",
+                            "sets": 3,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 3
+                },
+                {
+                    "category": "Fuerza",
+                    "exercises": [
+                        {
+                            "name": "Press de hombros con mancuernas",
+                            "reps": 10,
+                            "sets": 4,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Elevación lateral",
+                            "reps": 10,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Remo al mentón",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Rompecráneos",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Extensión de tríceps en polea alta",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Extensión de tríceps agarre supino",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Press de banca con barra",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Press inclinado con mancuernas",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Aperturas de pecho",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 2
+                },
+                {
+                    "category": "Estiramiento",
+                    "exercises": [
+                        "Estiramiento de pecho en puerta",
+                        "Estiramiento de tríceps sobre cabeza"
+                    ],
+                    "order": 5
+                }
+            ],
+            "focus": "Pecho + Tríceps + Hombros (Énfasis en Hombros)"
+        },
+        "saturday": {
+            "blocks": [
+                {
+                    "category": "Calentamiento",
+                    "exercises": [
+                        "Sentadillas con peso corporal",
+                        "Círculos de cadera",
+                        {
+                            "name": "5 minutos de bicicleta",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Rodilla al talón",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Dorsiflexión",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Puente de glúteos",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 1
+                },
+                {
+                    "category": "Fuerza",
+                    "exercises": [
+                        {
+                            "name": "Peso Muerto",
+                            "reps": 12,
+                            "sets": 4,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Zancadas",
+                            "reps": "20 pasos",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Hip Thrust (Rango alto)",
+                            "sets": 3,
+                            "reps": "12-15",
+                            "weight": ""
+                        },
+                        {
+                            "name": "Curl de isquiotibiales",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Prensa de piernas",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Máquina de abductores",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Elevación de pantorrillas",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 2
+                },
+                {
+                    "category": "Abdominales",
+                    "exercises": [
+                        "Giros rusos",
+                        "Rueda abdominal"
+                    ],
+                    "order": 3
+                },
+                {
+                    "category": "Estiramiento",
+                    "exercises": [
+                        "Estiramiento de cuádriceps",
+                        "Estiramiento de cobra (Abdominales)"
+                    ],
+                    "order": 4
+                }
+            ],
+            "focus": "Piernas (Compuestos) + Abdominales"
         }
     }
 }

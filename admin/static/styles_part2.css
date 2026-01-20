@@ -1,0 +1,76 @@
+/* Exercise Item & Details */
+.exercise-wrapper {
+    background: var(--bg-card);
+    border-radius: var(--radius-sm);
+    border: 1px solid transparent;
+    transition: all var(--transition-fast);
+}
+
+.exercise-wrapper.active {
+    border-color: var(--accent-primary);
+    box-shadow: var(--shadow-md);
+}
+
+.exercise-header {
+    display: grid;
+    grid-template-columns: 40px 1fr 60px 60px 60px 40px;
+    gap: 12px;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.exercise-header:hover {
+    background: var(--bg-hover);
+}
+
+.exercise-icon-preview {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    background: var(--bg-tertiary);
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.exercise-details {
+    padding: 16px;
+    background: var(--bg-tertiary);
+    border-top: 1px solid var(--border-color);
+    display: none;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.exercise-wrapper.active .exercise-details {
+    display: flex;
+}
+
+.details-row {
+    display: flex;
+    gap: 12px;
+}
+
+.video-preview {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: black;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.video-preview iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Remove old exercise-item grid since we use wrapper now */
+.exercise-item {
+    display: contents;
+    /* Keep inputs working if they relied on this class, but header handles layout now */
+}

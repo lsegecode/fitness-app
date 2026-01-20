@@ -1,75 +1,54 @@
 {
-    "day": "Wednesday",
-    "focus": "Legs (Quad Dominant) + Aerobic Resistance",
+    "focus": "Legs (Compound Movements)",
     "blocks": [
         {
-            "category": "Warm-up",
+            "category": "Warm-up and Mobility",
             "order": 1,
             "exercises": [
-                "Leg Swings (Front/Side)",
-                "Bodyweight Squats",
-                "Glute Bridges"
+                "Leg swings",
+                "World's Greatest Stretch"
             ]
         },
         {
-            "category": "Main Compounds (Heavy)",
+            "category": "Strength",
             "order": 2,
             "exercises": [
                 {
                     "name": "Barbell Back Squat",
                     "sets": 4,
-                    "reps": 8
+                    "reps": 10,
+                    "weight": ""
                 },
                 {
                     "name": "Romanian Deadlift (RDL)",
                     "sets": 3,
-                    "reps": 12
+                    "reps": 12,
+                    "weight": ""
                 }
             ]
         },
         {
-            "category": "Machines & Volume",
+            "category": "Functional / Calisthenics",
             "order": 3,
             "exercises": [
                 {
-                    "name": "Leg Press (Prensa)",
+                    "name": "Bulgarian Split Squat",
                     "sets": 3,
-                    "reps": 12
+                    "reps": 12,
+                    "weight": ""
                 },
                 {
-                    "name": "Leg Extensions (Camilla)",
+                    "name": "Box Jumps",
                     "sets": 3,
-                    "reps": 15
-                },
-                {
-                    "name": "Walking Lunges (Estocadas)",
-                    "sets": 3,
-                    "reps": "20 steps"
-                }
-            ]
-        },
-        {
-            "category": "Aerobic Finisher (High Intensity)",
-            "order": 4,
-            "notes": "Perform as a circuit for 10 minutes",
-            "exercises": [
-                {
-                    "name": "Kettlebell Swings or Dumbbell Swings",
-                    "sets": 4,
-                    "reps": "45 sec"
-                },
-                {
-                    "name": "Burpees",
-                    "sets": 4,
-                    "reps": "45 sec"
+                    "reps": 10,
+                    "weight": ""
                 }
             ]
         },
         {
             "category": "Stretching",
-            "order": 5,
+            "order": 4,
             "exercises": [
-                "Quad stretch",
                 "Hamstring stretch",
                 "Pigeon pose (Glutes)"
             ]

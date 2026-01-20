@@ -1,75 +1,54 @@
 {
-    "day": "Miércoles",
-    "focus": "Piernas (Dominante de Cuádriceps) + Resistencia Aeróbica",
+    "focus": "Piernas (Movimientos Compuestos)",
     "blocks": [
         {
-            "category": "Calentamiento",
+            "category": "Calentamiento y Movilidad",
             "order": 1,
             "exercises": [
-                "Balanceos de pierna (Frontal/Lateral)",
-                "Sentadillas con peso corporal",
-                "Puentes de glúteos"
+                "Balanceo de piernas",
+                "El Mayor Estiramiento del Mundo"
             ]
         },
         {
-            "category": "Compuestos Principales (Pesado)",
+            "category": "Fuerza",
             "order": 2,
             "exercises": [
                 {
-                    "name": "Sentadilla con barra",
+                    "name": "Sentadilla trasera con barra",
                     "sets": 4,
-                    "reps": 8
+                    "reps": 10,
+                    "weight": ""
                 },
                 {
-                    "name": "Peso muerto rumano (RDL)",
+                    "name": "Peso Muerto Rumano (RDL)",
                     "sets": 3,
-                    "reps": 12
+                    "reps": 12,
+                    "weight": ""
                 }
             ]
         },
         {
-            "category": "Máquinas y Volumen",
+            "category": "Funcional / Calistenia",
             "order": 3,
             "exercises": [
                 {
-                    "name": "Prensa de piernas",
+                    "name": "Sentadilla búlgara",
                     "sets": 3,
-                    "reps": 12
+                    "reps": 12,
+                    "weight": ""
                 },
                 {
-                    "name": "Extensiones de pierna (Camilla)",
+                    "name": "Saltos al cajón",
                     "sets": 3,
-                    "reps": 15
-                },
-                {
-                    "name": "Zancadas caminando (Estocadas)",
-                    "sets": 3,
-                    "reps": "20 pasos"
+                    "reps": 10,
+                    "weight": ""
                 }
             ]
         },
         {
-            "category": "Finalizador Aeróbico (Alta Intensidad)",
+            "category": "Estiramiento",
             "order": 4,
-            "notes": "Realizar como circuito por 10 minutos",
             "exercises": [
-                {
-                    "name": "Balanceos con Kettlebell o Mancuerna",
-                    "sets": 4,
-                    "reps": "45 seg"
-                },
-                {
-                    "name": "Burpees",
-                    "sets": 4,
-                    "reps": "45 seg"
-                }
-            ]
-        },
-        {
-            "category": "Estiramientos",
-            "order": 5,
-            "exercises": [
-                "Estiramiento de cuádriceps",
                 "Estiramiento de isquiotibiales",
                 "Postura de paloma (Glúteos)"
             ]

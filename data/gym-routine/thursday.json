@@ -1,129 +1,139 @@
 {
-    "day": "Thursday",
-    "focus": "Back + Biceps + Abs (Width)",
     "blocks": [
         {
             "category": "Warm-up",
-            "order": 1,
             "exercises": [
-                "Band Pull-aparts",
-                "Dead hang",
-                "Arm circles"
-            ]
+                {
+                    "icon": "",
+                    "name": "Cat cow",
+                    "reps": "",
+                    "sets": "",
+                    "video": "",
+                    "weight": ""
+                },
+                {
+                    "icon": "",
+                    "name": "Superman",
+                    "reps": "",
+                    "sets": "",
+                    "video": "",
+                    "weight": ""
+                },
+                {
+                    "name": "Glute Bridge",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Laying lower body rotation",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Bird dog",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                }
+            ],
+            "order": 1
         },
         {
             "category": "Calisthenics",
-            "order": 2,
             "exercises": [
                 {
-                    "name": "Chin-ups (Bicep grip)",
+                    "name": "Chin-ups",
+                    "reps": "Failure",
                     "sets": 3,
-                    "reps": "Failure"
+                    "weight": ""
                 },
                 {
-                    "name": "Negative Pull-ups",
-                    "sets": 2,
-                    "reps": "5-8 sec descent"
+                    "name": "Australian Rows",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
                 }
-            ]
+            ],
+            "order": 2
         },
         {
-            "category": "Strength / Hypertrophy (Back)",
-            "order": 3,
+            "category": "Strength",
             "exercises": [
                 {
-                    "name": "Assisted Pull-up (Machine/Pulley)",
+                    "name": "Kettlebell Swing",
+                    "reps": 12,
                     "sets": 3,
-                    "reps": 12
+                    "weight": ""
                 },
                 {
-                    "name": "Close Grip Lat Pulldown",
+                    "name": "Chest pull",
+                    "reps": 12,
                     "sets": 3,
-                    "reps": 10
+                    "weight": ""
                 },
                 {
-                    "name": "Single Arm High Pulley Row",
+                    "name": "Seated Row",
+                    "reps": 12,
                     "sets": 3,
-                    "reps": 12
+                    "weight": ""
                 },
                 {
-                    "name": "Straight Arm Pulldown (Complement)",
+                    "name": "Pullover",
+                    "reps": 12,
                     "sets": 3,
-                    "reps": 15
+                    "weight": ""
+                },
+                {
+                    "name": "Hyperextensions",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Z-Curl",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Hammer Curl",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Seated Incline DB Curl",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
                 }
-            ]
-        },
-        {
-            "category": "Biceps",
-            "order": 4,
-            "exercises": [
-                {
-                    "name": "EZ-Bar Bicep Curl",
-                    "sets": 3,
-                    "reps": 10
-                },
-                {
-                    "name": "Preacher Curls (Scott Bench)",
-                    "sets": 3,
-                    "reps": 12
-                },
-                {
-                    "name": "High Cable Curls",
-                    "sets": 3,
-                    "reps": 15
-                }
-            ]
-        },
-        {
-            "category": "Abs",
-            "order": 5,
-            "exercises": [
-                {
-                    "name": "Hanging Leg Raises",
-                    "sets": 3,
-                    "reps": 12
-                },
-                {
-                    "name": "Plank",
-                    "sets": 3,
-                    "reps": "1 min"
-                }
-            ]
-        },
-        {
-            "category": "Cool down & Stretching",
-            "order": 6,
-            "exercises": [
-                "Dead hang",
-                "Cobra Stretch",
-                "Wall bicep stretch"
-            ]
+            ],
+            "order": 3
         },
         {
             "category": "Abs",
-            "order": 5,
             "exercises": [
+                "Plank",
+                "Leg Raises",
                 {
-                    "name": "Plank",
+                    "name": "Wheel abs",
+                    "reps": 12,
                     "sets": 3,
-                    "reps": "1 min"
-                },
-                {
-                    "name": "Ab Wheel Rollout",
-                    "sets": 3,
-                    "reps": 12
-                },
-                {
-                    "name": "Hanging Leg Raises",
-                    "sets": 3,
-                    "reps": 12
-                },
-                {
-                    "name": "Russian Twists",
-                    "sets": 3,
-                    "reps": "20 per side"
+                    "weight": ""
                 }
-            ]
+            ],
+            "order": 4
+        },
+        {
+            "category": "Stretching",
+            "exercises": [
+                "Child's Pose",
+                "Forearm stretch"
+            ],
+            "order": 5
         }
-    ]
+    ],
+    "focus": "Back + Biceps (Width and Stability)"
 }

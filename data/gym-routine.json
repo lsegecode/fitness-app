@@ -8,33 +8,13 @@
                         "Shoulder circles",
                         "Cat-Cow stretch",
                         {
-                            "name": "Wrist rotatio Warm-up and Mobility ↑ ↓ ✕ Shoulder circles Sets Reps ✕ Cat-Cow stretchns",
+                            "name": "Wrist rotation",
+                            "reps": "",
                             "sets": "",
-                            "reps": ""
+                            "weight": ""
                         }
                     ],
                     "order": 1
-                },
-                {
-                    "category": "Strength",
-                    "exercises": [
-                        {
-                            "name": "Barbell Row",
-                            "reps": 12,
-                            "sets": 3
-                        },
-                        {
-                            "name": "EZ-Bar Bicep Curl",
-                            "reps": 12,
-                            "sets": 3
-                        },
-                        {
-                            "name": "Farmer's Walk",
-                            "reps": "45 sec",
-                            "sets": 3
-                        }
-                    ],
-                    "order": 3
                 },
                 {
                     "category": "Calisthenics",
@@ -42,15 +22,71 @@
                         {
                             "name": "Chin-ups (Underhand grip)",
                             "reps": "Technical failure",
-                            "sets": 3
+                            "sets": 3,
+                            "weight": ""
                         },
                         {
                             "name": "Negative Pull-ups (Overhand grip)",
                             "reps": "5-8 sec descent",
-                            "sets": 3
+                            "sets": 3,
+                            "weight": ""
                         }
                     ],
                     "order": 2
+                },
+                {
+                    "category": "Strength",
+                    "exercises": [
+                        {
+                            "name": "Romanian Deadlift (RDL)",
+                            "reps": 12,
+                            "sets": 4,
+                            "weight": "10"
+                        },
+                        {
+                            "name": "Pull up",
+                            "reps": "8",
+                            "sets": 4,
+                            "weight": "55"
+                        },
+                        {
+                            "name": "Seated Row",
+                            "reps": "8",
+                            "sets": 4,
+                            "weight": "55"
+                        },
+                        {
+                            "name": "Seated machine row",
+                            "reps": "10",
+                            "sets": 4,
+                            "weight": "30"
+                        },
+                        {
+                            "name": "Face Pulls",
+                            "reps": 12,
+                            "sets": 4,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Z-Curl",
+                            "reps": "10",
+                            "sets": 4,
+                            "weight": "7.5"
+                        },
+                        {
+                            "name": "Hammer Curl",
+                            "reps": 12,
+                            "sets": 4,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Seated Incline DB Curl",
+                            "reps": 12,
+                            "sets": 4,
+                            "weight": "5"
+                        }
+                    ],
+                    "order": 3
                 },
                 {
                     "category": "Stretching",
@@ -61,7 +97,7 @@
                     "order": 4
                 }
             ],
-            "focus": "Back + Biceps + Forearms"
+            "focus": "Back + Biceps (Thickness)"
         },
         "tuesday": {
             "blocks": [
@@ -69,47 +105,117 @@
                     "category": "Warm-up and Mobility",
                     "exercises": [
                         "Band rotator cuff rotations",
-                        "Dynamic chest openers"
-                    ],
-                    "order": 1
-                },
-                {
-                    "category": "Strength",
-                    "exercises": [
+                        "Dynamic chest openers",
                         {
-                            "name": "Military Press (Overhead)",
-                            "reps": 10,
-                            "sets": 4
+                            "name": "Arm circles",
+                            "reps": "",
+                            "sets": null,
+                            "weight": ""
                         },
                         {
-                            "name": "Flat Bench Press",
-                            "reps": 10,
-                            "sets": 3
+                            "name": "Plank to Downward Dog",
+                            "reps": "",
+                            "sets": null,
+                            "weight": ""
                         }
                     ],
-                    "order": 2
+                    "order": 1
                 },
                 {
                     "category": "Calisthenics",
                     "exercises": [
                         {
-                            "name": "Dips (Parallel bars)",
-                            "reps": 12,
-                            "sets": 3
+                            "name": "Push-ups",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
                         },
                         {
                             "name": "Diamond Push-ups",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Pike Push-ups",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Dips",
                             "reps": "Failure",
-                            "sets": 3
+                            "sets": 3,
+                            "weight": ""
                         }
                     ],
                     "order": 3
                 },
                 {
+                    "category": "Strength",
+                    "exercises": [
+                        {
+                            "name": "Dumbbell Shoulder Press",
+                            "reps": 10,
+                            "sets": 4,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Lateral Raise",
+                            "reps": 10,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Upright Row",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Overhead Triceps Extension",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Cable Triceps Pushdown",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Barbell Bench Press",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Incline Dumbbell Press",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Chest Fly",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 2
+                },
+                {
                     "category": "Abs",
                     "exercises": [
                         "Abdominal Crunches",
-                        "Bicycle Crunches"
+                        "Bicycle Crunches",
+                        {
+                            "name": "Abs Wheel",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        }
                     ],
                     "order": 4
                 },
@@ -122,7 +228,7 @@
                     "order": 5
                 }
             ],
-            "focus": "Chest + Triceps + Shoulders (Shoulder Focus)"
+            "focus": "Chest + Triceps + Shoulders (Shoulder Focus) + Abs"
         },
         "wednesday": {
             "focus": "Legs (Compound Movements)",
@@ -142,12 +248,14 @@
                         {
                             "name": "Barbell Back Squat",
                             "sets": 4,
-                            "reps": 10
+                            "reps": 10,
+                            "weight": ""
                         },
                         {
                             "name": "Romanian Deadlift (RDL)",
                             "sets": 3,
-                            "reps": 12
+                            "reps": 12,
+                            "weight": ""
                         }
                     ]
                 },
@@ -158,12 +266,14 @@
                         {
                             "name": "Bulgarian Split Squat",
                             "sets": 3,
-                            "reps": 12
+                            "reps": 12,
+                            "weight": ""
                         },
                         {
                             "name": "Box Jumps",
                             "sets": 3,
-                            "reps": 10
+                            "reps": 10,
+                            "weight": ""
                         }
                     ]
                 },
@@ -178,163 +288,367 @@
             ]
         },
         "thursday": {
-            "focus": "Back + Biceps + Forearms (Repeat)",
             "blocks": [
                 {
                     "category": "Warm-up",
-                    "order": 1,
                     "exercises": [
-                        "Scapular pull-ups",
-                        "Y-T-W mobility"
-                    ]
+                        {
+                            "icon": "",
+                            "name": "Cat cow",
+                            "reps": "",
+                            "sets": "",
+                            "video": "",
+                            "weight": ""
+                        },
+                        {
+                            "icon": "",
+                            "name": "Superman",
+                            "reps": "",
+                            "sets": "",
+                            "video": "",
+                            "weight": ""
+                        },
+                        {
+                            "name": "Glute Bridge",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Laying lower body rotation",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Bird dog",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 1
                 },
                 {
                     "category": "Calisthenics",
-                    "order": 2,
                     "exercises": [
                         {
                             "name": "Chin-ups",
+                            "reps": "Failure",
                             "sets": 3,
-                            "reps": "Failure"
+                            "weight": ""
                         },
                         {
                             "name": "Australian Rows",
+                            "reps": 12,
                             "sets": 3,
-                            "reps": 12
+                            "weight": ""
                         }
-                    ]
+                    ],
+                    "order": 2
                 },
                 {
                     "category": "Strength",
-                    "order": 3,
                     "exercises": [
                         {
-                            "name": "Lat Pulldown",
+                            "name": "Kettlebell Swing",
+                            "reps": 12,
                             "sets": 3,
-                            "reps": 12
+                            "weight": ""
                         },
                         {
-                            "name": "Hammer Curls",
+                            "name": "Chest pull",
+                            "reps": 12,
                             "sets": 3,
-                            "reps": 12
+                            "weight": ""
+                        },
+                        {
+                            "name": "Seated Row",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Pullover",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Hyperextensions",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Z-Curl",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Hammer Curl",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Seated Incline DB Curl",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
                         }
-                    ]
+                    ],
+                    "order": 3
                 },
                 {
                     "category": "Abs",
-                    "order": 4,
                     "exercises": [
                         "Plank",
-                        "Leg Raises"
-                    ]
+                        "Leg Raises",
+                        {
+                            "name": "Wheel abs",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 4
                 },
                 {
                     "category": "Stretching",
-                    "order": 5,
                     "exercises": [
                         "Child's Pose",
                         "Forearm stretch"
-                    ]
+                    ],
+                    "order": 5
                 }
-            ]
+            ],
+            "focus": "Back + Biceps (Width and Stability)"
         },
         "friday": {
-            "focus": "Chest + Triceps + Shoulders (Repeat)",
             "blocks": [
                 {
-                    "category": "Warm-up",
-                    "order": 1,
+                    "category": "Warm-up and Mobility",
                     "exercises": [
-                        "Arm circles",
-                        "Plank to Downward Dog"
-                    ]
+                        "Band rotator cuff rotations",
+                        "Dynamic chest openers",
+                        {
+                            "name": "Arm circles",
+                            "reps": "",
+                            "sets": null,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Plank to Downward Dog",
+                            "reps": "",
+                            "sets": null,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 1
+                },
+                {
+                    "category": "Calisthenics",
+                    "exercises": [
+                        {
+                            "name": "Push-ups",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Diamond Push-ups",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Pike Push-ups",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Dips",
+                            "reps": "Failure",
+                            "sets": 3,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 3
                 },
                 {
                     "category": "Strength",
-                    "order": 2,
                     "exercises": [
                         {
-                            "name": "Arnold Press (Shoulders)",
+                            "name": "Dumbbell Shoulder Press",
+                            "reps": 10,
                             "sets": 4,
-                            "reps": 10
+                            "weight": ""
+                        },
+                        {
+                            "name": "Lateral Raise",
+                            "reps": 10,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Upright Row",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Skullcrushers",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Cable Triceps Pushdown",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Reverse Grip Triceps Pushdown",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Barbell Bench Press",
+                            "reps": "8",
+                            "sets": 3,
+                            "weight": ""
                         },
                         {
                             "name": "Incline Dumbbell Press",
                             "sets": 3,
-                            "reps": 10
-                        }
-                    ]
-                },
-                {
-                    "category": "Calisthenics",
-                    "order": 3,
-                    "exercises": [
-                        {
-                            "name": "Decline Push-ups",
-                            "sets": 3,
-                            "reps": "Failure"
+                            "reps": 12,
+                            "weight": ""
                         },
                         {
-                            "name": "Tricep Dips on bench",
+                            "name": "Chest Fly",
                             "sets": 3,
-                            "reps": 15
+                            "reps": 12,
+                            "weight": ""
                         }
-                    ]
+                    ],
+                    "order": 2
                 },
                 {
                     "category": "Stretching",
-                    "order": 4,
                     "exercises": [
-                        "Cross-body shoulder stretch",
-                        "Wall pec stretch"
-                    ]
+                        "Doorway chest stretch",
+                        "Overhead tricep stretch"
+                    ],
+                    "order": 5
                 }
-            ]
+            ],
+            "focus": "Chest + Triceps + Shoulders (Shoulder Focus)"
         },
         "saturday": {
-            "focus": "Legs (Compound) + Abs",
             "blocks": [
                 {
                     "category": "Warm-up",
-                    "order": 1,
                     "exercises": [
                         "Bodyweight squats",
-                        "Hip circles"
-                    ]
+                        "Hip circles",
+                        {
+                            "name": "5 minutes bike",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Knee to Heel",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Dorsiflexion",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Glute Bridge",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 1
                 },
                 {
                     "category": "Strength",
-                    "order": 2,
                     "exercises": [
                         {
-                            "name": "Goblet Squats",
+                            "name": "Deadlift",
+                            "reps": 12,
                             "sets": 4,
-                            "reps": 12
+                            "weight": ""
                         },
                         {
-                            "name": "Walking Lunges",
+                            "name": "Lunges",
+                            "reps": "20 steps",
                             "sets": 3,
-                            "reps": "20 steps"
+                            "weight": ""
+                        },
+                        {
+                            "name": "Hip Thrust (High Range)",
+                            "sets": 3,
+                            "reps": "12-15",
+                            "weight": ""
+                        },
+                        {
+                            "name": "Hamstring Curl",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Leg Press",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Abductor Machine",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Calf Raises",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
                         }
-                    ]
+                    ],
+                    "order": 2
                 },
                 {
                     "category": "Abs",
-                    "order": 3,
                     "exercises": [
                         "Russian Twists",
                         "Ab Wheel Rollouts"
-                    ]
+                    ],
+                    "order": 3
                 },
                 {
                     "category": "Stretching",
-                    "order": 4,
                     "exercises": [
                         "Quad stretch",
                         "Cobra stretch (Abs)"
-                    ]
+                    ],
+                    "order": 4
                 }
-            ]
+            ],
+            "focus": "Legs (Compound) + Abs"
         }
     }
 }

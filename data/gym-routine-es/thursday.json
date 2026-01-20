@@ -1,129 +1,139 @@
 {
-    "day": "Jueves",
-    "focus": "Espalda + Bíceps + Abdominales (Anchura)",
     "blocks": [
         {
             "category": "Calentamiento",
-            "order": 1,
             "exercises": [
-                "Separación de bandas",
-                "Colgarse de barra",
-                "Círculos de brazos"
-            ]
+                {
+                    "icon": "",
+                    "name": "Gato-Vaca",
+                    "reps": "",
+                    "sets": "",
+                    "video": "",
+                    "weight": ""
+                },
+                {
+                    "icon": "",
+                    "name": "Superman",
+                    "reps": "",
+                    "sets": "",
+                    "video": "",
+                    "weight": ""
+                },
+                {
+                    "name": "Puente de glúteos",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Rotación de tren inferior acostado",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Perro-pájaro",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                }
+            ],
+            "order": 1
         },
         {
             "category": "Calistenia",
-            "order": 2,
             "exercises": [
                 {
-                    "name": "Dominadas supinas (agarre bíceps)",
+                    "name": "Dominadas supinas",
+                    "reps": "Fallo",
                     "sets": 3,
-                    "reps": "Al fallo"
+                    "weight": ""
                 },
                 {
-                    "name": "Dominadas negativas",
-                    "sets": 2,
-                    "reps": "5-8 seg descenso"
+                    "name": "Remo australiano",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
                 }
-            ]
+            ],
+            "order": 2
         },
         {
-            "category": "Fuerza / Hipertrofia (Espalda)",
-            "order": 3,
+            "category": "Fuerza",
             "exercises": [
                 {
-                    "name": "Dominada asistida (Máquina/Polea)",
+                    "name": "Swing con pesa rusa",
+                    "reps": 12,
                     "sets": 3,
-                    "reps": 12
+                    "weight": ""
                 },
                 {
-                    "name": "Jalón al pecho agarre cerrado",
+                    "name": "Jalón al pecho",
+                    "reps": 12,
                     "sets": 3,
-                    "reps": 10
+                    "weight": ""
                 },
                 {
-                    "name": "Remo alto a una mano en polea",
+                    "name": "Remo sentado",
+                    "reps": 12,
                     "sets": 3,
-                    "reps": 12
+                    "weight": ""
                 },
                 {
-                    "name": "Pulldown con brazos rectos (Complemento)",
+                    "name": "Pullover",
+                    "reps": 12,
                     "sets": 3,
-                    "reps": 15
+                    "weight": ""
+                },
+                {
+                    "name": "Hiperextensiones",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Curl en Z",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Curl martillo",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Curl inclinado con mancuernas sentado",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
                 }
-            ]
-        },
-        {
-            "category": "Bíceps",
-            "order": 4,
-            "exercises": [
-                {
-                    "name": "Curl con barra EZ",
-                    "sets": 3,
-                    "reps": 10
-                },
-                {
-                    "name": "Curl predicador (Banco Scott)",
-                    "sets": 3,
-                    "reps": 12
-                },
-                {
-                    "name": "Curl en polea alta",
-                    "sets": 3,
-                    "reps": 15
-                }
-            ]
+            ],
+            "order": 3
         },
         {
             "category": "Abdominales",
-            "order": 5,
             "exercises": [
-                {
-                    "name": "Elevaciones de piernas colgado",
-                    "sets": 3,
-                    "reps": 12
-                },
-                {
-                    "name": "Plancha",
-                    "sets": 3,
-                    "reps": "1 min"
-                }
-            ]
-        },
-        {
-            "category": "Enfriamiento y Estiramientos",
-            "order": 6,
-            "exercises": [
-                "Colgarse de barra",
-                "Estiramiento cobra",
-                "Estiramiento de bíceps en pared"
-            ]
-        },
-        {
-            "category": "Abdominales",
-            "order": 5,
-            "exercises": [
-                {
-                    "name": "Plancha",
-                    "sets": 3,
-                    "reps": "1 min"
-                },
+                "Plancha",
+                "Elevaciones de piernas",
                 {
                     "name": "Rueda abdominal",
+                    "reps": 12,
                     "sets": 3,
-                    "reps": 12
-                },
-                {
-                    "name": "Elevaciones de piernas colgado",
-                    "sets": 3,
-                    "reps": 12
-                },
-                {
-                    "name": "Giros rusos",
-                    "sets": 3,
-                    "reps": "20 por lado"
+                    "weight": ""
                 }
-            ]
+            ],
+            "order": 4
+        },
+        {
+            "category": "Estiramiento",
+            "exercises": [
+                "Postura del niño",
+                "Estiramiento de antebrazos"
+            ],
+            "order": 5
         }
-    ]
+    ],
+    "focus": "Espalda + Bíceps (Amplitud y Estabilidad)"
 }

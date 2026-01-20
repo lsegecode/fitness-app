@@ -1,87 +1,101 @@
 {
-    "day": "Sábado",
-    "focus": "Piernas (Cadena Posterior) + Calistenia + Abdominales",
     "blocks": [
         {
             "category": "Calentamiento",
-            "order": 1,
             "exercises": [
+                "Sentadillas con peso corporal",
                 "Círculos de cadera",
-                "Step-ups (altura baja)",
-                "Activación escapular"
-            ]
-        },
-        {
-            "category": "Compuestos Principales (Pesado)",
-            "order": 2,
-            "exercises": [
                 {
-                    "name": "Peso muerto convencional",
+                    "name": "5 minutos de bicicleta",
                     "sets": 3,
-                    "reps": 6
+                    "reps": 12,
+                    "weight": ""
                 },
                 {
-                    "name": "Sentadilla Goblet (Mancuerna)",
+                    "name": "Rodilla al talón",
                     "sets": 3,
-                    "reps": 12
+                    "reps": 12,
+                    "weight": ""
+                },
+                {
+                    "name": "Dorsiflexión",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
+                },
+                {
+                    "name": "Puente de glúteos",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
                 }
-            ]
+            ],
+            "order": 1
         },
         {
-            "category": "Calistenia y Unilateral",
-            "order": 3,
+            "category": "Fuerza",
             "exercises": [
                 {
-                    "name": "Sentadilla búlgara",
-                    "sets": 3,
-                    "reps": 10
+                    "name": "Peso Muerto",
+                    "reps": 12,
+                    "sets": 4,
+                    "weight": ""
                 },
                 {
-                    "name": "Saltos al cajón o Step-ups",
+                    "name": "Zancadas",
+                    "reps": "20 pasos",
                     "sets": 3,
-                    "reps": 12
+                    "weight": ""
                 },
                 {
-                    "name": "Curl de isquiotibiales acostado (Camilla)",
+                    "name": "Hip Thrust (Rango alto)",
                     "sets": 3,
-                    "reps": 12
+                    "reps": "12-15",
+                    "weight": ""
+                },
+                {
+                    "name": "Curl de isquiotibiales",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
+                },
+                {
+                    "name": "Prensa de piernas",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
+                },
+                {
+                    "name": "Máquina de abductores",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
+                },
+                {
+                    "name": "Elevación de pantorrillas",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
                 }
-            ]
+            ],
+            "order": 2
         },
         {
-            "category": "Abdominales (Fuerza de Core)",
-            "order": 4,
+            "category": "Abdominales",
             "exercises": [
-                {
-                    "name": "Rueda abdominal",
-                    "sets": 3,
-                    "reps": 12
-                },
-                {
-                    "name": "Plancha",
-                    "sets": 3,
-                    "reps": "1 min"
-                },
-                {
-                    "name": "Elevaciones de piernas colgado",
-                    "sets": 3,
-                    "reps": 12
-                },
-                {
-                    "name": "Giros rusos",
-                    "sets": 3,
-                    "reps": 20
-                }
-            ]
+                "Giros rusos",
+                "Rueda abdominal"
+            ],
+            "order": 3
         },
         {
-            "category": "Estiramientos",
-            "order": 5,
+            "category": "Estiramiento",
             "exercises": [
-                "Estiramiento cobra (Abdominales)",
-                "Estiramiento de isquiotibiales",
-                "Estiramiento profundo de glúteos"
-            ]
+                "Estiramiento de cuádriceps",
+                "Estiramiento de cobra (Abdominales)"
+            ],
+            "order": 4
         }
-    ]
+    ],
+    "focus": "Piernas (Compuestos) + Abdominales"
 }

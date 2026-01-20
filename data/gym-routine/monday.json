@@ -6,33 +6,13 @@
                 "Shoulder circles",
                 "Cat-Cow stretch",
                 {
-                    "name": "Wrist rotatio Warm-up and Mobility ↑ ↓ ✕ Shoulder circles Sets Reps ✕ Cat-Cow stretchns",
+                    "name": "Wrist rotation",
+                    "reps": "",
                     "sets": "",
-                    "reps": ""
+                    "weight": ""
                 }
             ],
             "order": 1
-        },
-        {
-            "category": "Strength",
-            "exercises": [
-                {
-                    "name": "Barbell Row",
-                    "reps": 12,
-                    "sets": 3
-                },
-                {
-                    "name": "EZ-Bar Bicep Curl",
-                    "reps": 12,
-                    "sets": 3
-                },
-                {
-                    "name": "Farmer's Walk",
-                    "reps": "45 sec",
-                    "sets": 3
-                }
-            ],
-            "order": 3
         },
         {
             "category": "Calisthenics",
@@ -40,15 +20,71 @@
                 {
                     "name": "Chin-ups (Underhand grip)",
                     "reps": "Technical failure",
-                    "sets": 3
+                    "sets": 3,
+                    "weight": ""
                 },
                 {
                     "name": "Negative Pull-ups (Overhand grip)",
                     "reps": "5-8 sec descent",
-                    "sets": 3
+                    "sets": 3,
+                    "weight": ""
                 }
             ],
             "order": 2
+        },
+        {
+            "category": "Strength",
+            "exercises": [
+                {
+                    "name": "Romanian Deadlift (RDL)",
+                    "reps": 12,
+                    "sets": 4,
+                    "weight": "10"
+                },
+                {
+                    "name": "Pull up",
+                    "reps": "8",
+                    "sets": 4,
+                    "weight": "55"
+                },
+                {
+                    "name": "Seated Row",
+                    "reps": "8",
+                    "sets": 4,
+                    "weight": "55"
+                },
+                {
+                    "name": "Seated machine row",
+                    "reps": "10",
+                    "sets": 4,
+                    "weight": "30"
+                },
+                {
+                    "name": "Face Pulls",
+                    "reps": 12,
+                    "sets": 4,
+                    "weight": ""
+                },
+                {
+                    "name": "Z-Curl",
+                    "reps": "10",
+                    "sets": 4,
+                    "weight": "7.5"
+                },
+                {
+                    "name": "Hammer Curl",
+                    "reps": 12,
+                    "sets": 4,
+                    "weight": ""
+                },
+                {
+                    "name": "Seated Incline DB Curl",
+                    "reps": 12,
+                    "sets": 4,
+                    "weight": "5"
+                }
+            ],
+            "order": 3
         },
         {
             "category": "Stretching",
@@ -59,5 +95,5 @@
             "order": 4
         }
     ],
-    "focus": "Back + Biceps + Forearms"
+    "focus": "Back + Biceps (Thickness)"
 }

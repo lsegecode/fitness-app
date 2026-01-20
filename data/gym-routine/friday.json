@@ -1,102 +1,123 @@
 {
-    "day": "Friday",
-    "focus": "Shoulders (3D Shape) + Triceps + Chest",
     "blocks": [
         {
-            "category": "Warm-up",
-            "order": 1,
+            "category": "Warm-up and Mobility",
             "exercises": [
-                "Rotator Cuff external rotations",
-                "Dynamic Chest Openers"
-            ]
+                "Band rotator cuff rotations",
+                "Dynamic chest openers",
+                {
+                    "name": "Arm circles",
+                    "reps": "",
+                    "sets": null,
+                    "weight": ""
+                },
+                {
+                    "name": "Plank to Downward Dog",
+                    "reps": "",
+                    "sets": null,
+                    "weight": ""
+                }
+            ],
+            "order": 1
         },
         {
             "category": "Calisthenics",
-            "order": 2,
             "exercises": [
                 {
-                    "name": "Normal Push-ups",
-                    "sets": 1,
-                    "reps": 12
+                    "name": "Push-ups",
+                    "reps": "8",
+                    "sets": 3,
+                    "weight": ""
                 },
                 {
                     "name": "Diamond Push-ups",
-                    "sets": 1,
-                    "reps": 12
+                    "reps": "8",
+                    "sets": 3,
+                    "weight": ""
                 },
                 {
                     "name": "Pike Push-ups",
-                    "sets": 1,
-                    "reps": 12
+                    "reps": "8",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Dips",
+                    "reps": "Failure",
+                    "sets": 3,
+                    "weight": ""
                 }
-            ]
+            ],
+            "order": 3
         },
         {
-            "category": "Shoulders",
-            "order": 3,
+            "category": "Strength",
             "exercises": [
                 {
-                    "name": "Arnold Press",
+                    "name": "Dumbbell Shoulder Press",
+                    "reps": 10,
                     "sets": 4,
-                    "reps": 10
+                    "weight": ""
                 },
                 {
-                    "name": "Leaning Lateral Raises (Cable or DB)",
-                    "sets": 4,
-                    "reps": 15
-                },
-                {
-                    "name": "Face Pulls (Rear Delts focus)",
+                    "name": "Lateral Raise",
+                    "reps": 10,
                     "sets": 3,
-                    "reps": 15
+                    "weight": ""
+                },
+                {
+                    "name": "Upright Row",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Skullcrushers",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Cable Triceps Pushdown",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Reverse Grip Triceps Pushdown",
+                    "reps": "8",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Barbell Bench Press",
+                    "reps": "8",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Incline Dumbbell Press",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
+                },
+                {
+                    "name": "Chest Fly",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
                 }
-            ]
+            ],
+            "order": 2
         },
         {
-            "category": "Triceps",
-            "order": 4,
+            "category": "Stretching",
             "exercises": [
-                {
-                    "name": "Dips (Bench or Parallel bars)",
-                    "sets": 3,
-                    "reps": 12
-                },
-                {
-                    "name": "Rope Pushdowns",
-                    "sets": 3,
-                    "reps": 15
-                },
-                {
-                    "name": "Close Grip Bench Press",
-                    "sets": 3,
-                    "reps": 10
-                }
-            ]
-        },
-        {
-            "category": "Chest",
-            "order": 5,
-            "exercises": [
-                {
-                    "name": "Incline Dumbbell Flys",
-                    "sets": 3,
-                    "reps": 15
-                },
-                {
-                    "name": "Machine Chest Press",
-                    "sets": 3,
-                    "reps": 12
-                }
-            ]
-        },
-        {
-            "category": "Cool down & Stretching",
-            "order": 6,
-            "exercises": [
-                "Child's Pose",
-                "Shoulder stretch",
-                "Cobra Stretch"
-            ]
+                "Doorway chest stretch",
+                "Overhead tricep stretch"
+            ],
+            "order": 5
         }
-    ]
+    ],
+    "focus": "Chest + Triceps + Shoulders (Shoulder Focus)"
 }
