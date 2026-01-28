@@ -1,57 +1,132 @@
 {
-    "focus": "Piernas (Movimientos Compuestos)",
     "blocks": [
         {
             "category": "Calentamiento y Movilidad",
-            "order": 1,
-            "exercises": [
-                "Balanceo de piernas",
-                "El Mayor Estiramiento del Mundo"
-            ]
-        },
-        {
-            "category": "Fuerza",
-            "order": 2,
             "exercises": [
                 {
-                    "name": "Sentadilla trasera con barra",
-                    "sets": 4,
-                    "reps": 10,
+                    "name": "Balanceo de piernas",
+                    "sets": "",
+                    "reps": "",
+                    "weight": "",
+                    "video": "",
+                    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFMSekqgTFSYsxrMr5s1FnRFeQ6a7oE5t43A&s"
+                },
+                {
+                    "name": "El Mayor Estiramiento del Mundo",
+                    "sets": "",
+                    "reps": "",
+                    "weight": "",
+                    "video": "",
+                    "icon": "https://s3.amazonaws.com/prod.skimble/assets/2268523/image_iphone.jpg"
+                },
+                {
+                    "name": "side lunge",
+                    "sets": null,
+                    "reps": "",
+                    "weight": "",
+                    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2oTreU-nu3SnCT7H8kxpbGftlO9buXircvxcS2zuSv1J1VJAa"
+                },
+                {
+                    "name": "Hip Mobility",
+                    "sets": null,
+                    "reps": "",
                     "weight": ""
                 },
                 {
-                    "name": "Peso Muerto Rumano (RDL)",
+                    "name": "PSOAS - ISQUIOS",
+                    "sets": null,
+                    "reps": "",
+                    "weight": ""
+                },
+                {
+                    "name": "Sissy Squat",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
+                },
+                {
+                    "name": "Jump",
                     "sets": 3,
                     "reps": 12,
                     "weight": ""
                 }
-            ]
+            ],
+            "order": 1
+        },
+        {
+            "category": "Fuerza",
+            "exercises": [
+                {
+                    "name": "Sentadilla trasera con barra",
+                    "reps": 10,
+                    "sets": 4,
+                    "weight": ""
+                },
+                {
+                    "name": "Peso Muerto",
+                    "reps": 12,
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Prensa de piernas",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
+                },
+                {
+                    "name": "Hip Thrust",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
+                },
+                {
+                    "name": "Cuadriceps extension",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
+                },
+                {
+                    "name": "Seated Hamstring Curl",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
+                },
+                {
+                    "name": "",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": ""
+                }
+            ],
+            "order": 2
         },
         {
             "category": "Funcional / Calistenia",
-            "order": 3,
             "exercises": [
                 {
                     "name": "Sentadilla búlgara",
-                    "sets": 3,
                     "reps": 12,
+                    "sets": 3,
                     "weight": ""
                 },
                 {
                     "name": "Saltos al cajón",
-                    "sets": 3,
                     "reps": 10,
+                    "sets": 3,
                     "weight": ""
                 }
-            ]
+            ],
+            "order": 3
         },
         {
             "category": "Estiramiento",
-            "order": 4,
             "exercises": [
-                "Estiramiento de isquiotibiales",
-                "Postura de paloma (Glúteos)"
-            ]
+                "Hamstring stretch",
+                "Pigeon pose (Glutes)"
+            ],
+            "order": 4
         }
-    ]
+    ],
+    "focus": "Piernas (Movimientos Compuestos)"
 }

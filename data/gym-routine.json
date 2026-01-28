@@ -231,61 +231,136 @@
             "focus": "Chest + Triceps + Shoulders (Shoulder Focus) + Abs"
         },
         "wednesday": {
-            "focus": "Legs (Compound Movements)",
             "blocks": [
                 {
                     "category": "Warm-up and Mobility",
-                    "order": 1,
-                    "exercises": [
-                        "Leg swings",
-                        "World's Greatest Stretch"
-                    ]
-                },
-                {
-                    "category": "Strength",
-                    "order": 2,
                     "exercises": [
                         {
-                            "name": "Barbell Back Squat",
-                            "sets": 4,
-                            "reps": 10,
+                            "name": "Leg swings",
+                            "sets": "",
+                            "reps": "",
+                            "weight": "",
+                            "video": "",
+                            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFMSekqgTFSYsxrMr5s1FnRFeQ6a7oE5t43A&s"
+                        },
+                        {
+                            "name": "World's Greatest Stretch",
+                            "sets": "",
+                            "reps": "",
+                            "weight": "",
+                            "video": "",
+                            "icon": "https://s3.amazonaws.com/prod.skimble/assets/2268523/image_iphone.jpg"
+                        },
+                        {
+                            "name": "side lunge",
+                            "sets": null,
+                            "reps": "",
+                            "weight": "",
+                            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2oTreU-nu3SnCT7H8kxpbGftlO9buXircvxcS2zuSv1J1VJAa"
+                        },
+                        {
+                            "name": "Hip Mobility",
+                            "sets": null,
+                            "reps": "",
                             "weight": ""
                         },
                         {
-                            "name": "Romanian Deadlift (RDL)",
+                            "name": "PSOAS - ISQUIOS",
+                            "sets": null,
+                            "reps": "",
+                            "weight": ""
+                        },
+                        {
+                            "name": "Sissy Squat",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Jump ",
                             "sets": 3,
                             "reps": 12,
                             "weight": ""
                         }
-                    ]
+                    ],
+                    "order": 1
+                },
+                {
+                    "category": "Strength",
+                    "exercises": [
+                        {
+                            "name": "Barbell Back Squat",
+                            "reps": 10,
+                            "sets": 4,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Deadlift ",
+                            "reps": 12,
+                            "sets": 3,
+                            "weight": ""
+                        },
+                        {
+                            "name": "leg press",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Hip Thrust",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Cuadriceps extension",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "Seated Hamstring Curl",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        },
+                        {
+                            "name": "",
+                            "sets": 3,
+                            "reps": 12,
+                            "weight": ""
+                        }
+                    ],
+                    "order": 2
                 },
                 {
                     "category": "Functional / Calisthenics",
-                    "order": 3,
                     "exercises": [
                         {
                             "name": "Bulgarian Split Squat",
-                            "sets": 3,
                             "reps": 12,
+                            "sets": 3,
                             "weight": ""
                         },
                         {
                             "name": "Box Jumps",
-                            "sets": 3,
                             "reps": 10,
+                            "sets": 3,
                             "weight": ""
                         }
-                    ]
+                    ],
+                    "order": 3
                 },
                 {
                     "category": "Stretching",
-                    "order": 4,
                     "exercises": [
                         "Hamstring stretch",
                         "Pigeon pose (Glutes)"
-                    ]
+                    ],
+                    "order": 4
                 }
-            ]
+            ],
+            "focus": "Legs (Compound Movements)"
         },
         "thursday": {
             "blocks": [
