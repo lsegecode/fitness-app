@@ -1,49 +1,65 @@
 {
     "blocks": [
         {
-            "category": "Warm-up and Mobility",
+            "category": "WARM-UP (10 min)",
             "exercises": [
-                "Band rotator cuff rotations",
-                "Dynamic chest openers",
                 {
-                    "name": "Arm circles",
-                    "reps": "",
-                    "sets": null,
-                    "weight": ""
+                    "name": "Mobility: Focus on rotator cuff (Face Pulls very light or elastic bands)",
+                    "reps": "3 min",
+                    "sets": "",
+                    "weight": "Very light"
                 },
                 {
-                    "name": "Plank to Downward Dog",
-                    "reps": "",
-                    "sets": null,
-                    "weight": ""
+                    "name": "Treadmill",
+                    "reps": "5 min",
+                    "sets": "",
+                    "weight": "Moderate pace"
                 }
             ],
             "order": 1
         },
         {
-            "category": "Calisthenics",
+            "category": "STRENGTH (THE \"BIG ONES\")",
             "exercises": [
                 {
-                    "name": "Push-ups",
+                    "name": "Military Press (Dumbbells)",
                     "reps": "8",
+                    "sets": 4,
+                    "weight": ""
+                },
+                {
+                    "name": "Flat Bench Press (Barbell)",
+                    "reps": "10",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Diamond Push-ups",
-                    "reps": "8",
+                    "name": "Incline Press (Dumbbells)",
+                    "reps": "12",
                     "sets": 3,
                     "weight": ""
-                },
+                }
+            ],
+            "order": 2
+        },
+        {
+            "category": "AESTHETIC SHOULDERS & POSTURE",
+            "exercises": [
                 {
-                    "name": "Pike Push-ups",
-                    "reps": "8",
+                    "name": "Incline Bench Lateral Raise",
+                    "reps": "12-15",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Isolate deltoids"
                 },
                 {
-                    "name": "Dips",
-                    "reps": "Failure",
+                    "name": "Upright Row",
+                    "reps": "12",
+                    "sets": 3,
+                    "weight": "Wide grip"
+                },
+                {
+                    "name": "Reverse Peck Deck (Rear Delt Fly)",
+                    "reps": "15",
                     "sets": 3,
                     "weight": ""
                 }
@@ -51,73 +67,53 @@
             "order": 3
         },
         {
-            "category": "Strength",
+            "category": "CALISTHENICS & TRICEPS",
             "exercises": [
                 {
-                    "name": "Dumbbell Shoulder Press",
-                    "reps": 10,
-                    "sets": 4,
+                    "name": "Pike Push-ups",
+                    "reps": "8-10",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Lateral Raise",
-                    "reps": 10,
-                    "sets": 3,
+                    "name": "Bench Dips",
+                    "reps": "Failure",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Upright Row",
-                    "reps": 12,
+                    "name": "Cable Tricep Pushdown + Overhead Extension (Superset)",
+                    "reps": "12 (each)",
                     "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Skullcrushers",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Cable Triceps Pushdown",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Reverse Grip Triceps Pushdown",
-                    "reps": "8",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Barbell Bench Press",
-                    "reps": "8",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Incline Dumbbell Press",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Chest Fly",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
+                    "weight": "No rest"
                 }
             ],
-            "order": 2
+            "order": 4
         },
         {
-            "category": "Stretching",
+            "category": "ABS (CHALLENGING - ATHLETIC CORE)",
             "exercises": [
-                "Doorway chest stretch",
-                "Overhead tricep stretch"
+                {
+                    "name": "Hanging Leg Raises",
+                    "reps": "12",
+                    "sets": 3,
+                    "weight": "Knees to chest if hard"
+                },
+                {
+                    "name": "Cable Woodchoppers",
+                    "reps": "12 (per side)",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Hollow Body Hold",
+                    "reps": "45s",
+                    "sets": 3,
+                    "weight": ""
+                }
             ],
             "order": 5
         }
     ],
-    "focus": "Chest + Triceps + Shoulders (Shoulder Focus)"
+    "focus": "FRIDAY: PUSH B (FOCUS SHOULDERS + CHEST + ARMS)"
 }

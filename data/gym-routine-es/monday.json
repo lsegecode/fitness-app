@@ -1,99 +1,137 @@
 {
     "blocks": [
         {
-            "category": "Calentamiento y Movilidad",
+            "category": "CALENTAMIENTO (10-12 min)",
             "exercises": [
-                "Círculos de hombros",
-                "Estiramiento gato-vaca",
                 {
-                    "name": "Rotación de muñecas",
-                    "reps": "",
+                    "name": "Rotación de hombros, muñecas y cuello",
+                    "reps": "2 min",
                     "sets": "",
                     "weight": ""
+                },
+                {
+                    "name": "Cinta o Elíptica (Ritmo moderado)",
+                    "reps": "5 min",
+                    "sets": "",
+                    "weight": ""
+                },
+                {
+                    "name": "Face Pulls (Activación)",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Muy poco peso"
                 }
             ],
             "order": 1
         },
         {
-            "category": "Calistenia",
+            "category": "CALISTENIA (PREPARACIÓN DOMINADA)",
             "exercises": [
                 {
-                    "name": "Dominadas supinas (agarre supino)",
-                    "reps": "Fallo técnico",
+                    "name": "Dominadas Australianas",
+                    "reps": "10-12",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Cuerpo horizontal"
                 },
                 {
-                    "name": "Dominadas negativas (agarre prono)",
-                    "reps": "5-8 seg descenso",
-                    "sets": 3,
+                    "name": "Retracciones Escapulares (Colgado)",
+                    "reps": "12",
+                    "sets": 2,
                     "weight": ""
                 }
             ],
             "order": 2
         },
         {
-            "category": "Fuerza",
+            "category": "FUERZA E HIPERTROFIA",
             "exercises": [
                 {
-                    "name": "Peso Muerto Rumano (RDL)",
-                    "reps": 12,
-                    "sets": 4,
-                    "weight": "10"
-                },
-                {
-                    "name": "Dominada",
-                    "reps": "8",
-                    "sets": 4,
-                    "weight": "55"
-                },
-                {
-                    "name": "Remo sentado",
-                    "reps": "8",
-                    "sets": 4,
-                    "weight": "55"
-                },
-                {
-                    "name": "Remo en máquina sentado",
-                    "reps": "10",
-                    "sets": 4,
-                    "weight": "30"
-                },
-                {
-                    "name": "Jalones a la cara",
-                    "reps": 12,
+                    "name": "Jalones al Pecho (Agarre ancho)",
+                    "reps": "10-12",
                     "sets": 4,
                     "weight": ""
                 },
                 {
-                    "name": "Curl en Z",
-                    "reps": "10",
-                    "sets": 4,
-                    "weight": "7.5"
-                },
-                {
-                    "name": "Curl martillo",
-                    "reps": 12,
+                    "name": "Remo Recostado (Pecho apoyado)",
+                    "reps": "8-10",
                     "sets": 4,
                     "weight": ""
                 },
                 {
-                    "name": "Curl inclinado con mancuernas sentado",
-                    "reps": 12,
-                    "sets": 4,
-                    "weight": "5"
+                    "name": "Remo en Polea Baja (Agarre abierto)",
+                    "reps": "12",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Preacher Curl (Banco Scott)",
+                    "reps": "10",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Curl de Bíceps con Barra Z (De pie)",
+                    "reps": "12",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Curl Martillo (Mancuernas)",
+                    "reps": "12",
+                    "sets": 3,
+                    "weight": ""
                 }
             ],
             "order": 3
         },
         {
-            "category": "Estiramiento",
+            "category": "ABS",
             "exercises": [
-                "Colgado pasivo (estiramiento de dorsales)",
-                "Estiramiento de bíceps en pared"
+                {
+                    "name": "Rueda Abdominal (Ab Roller)",
+                    "reps": "8-10",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Elevación de Piernas (Colgado o banco)",
+                    "reps": "15",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Russian Twist (Giros rusos)",
+                    "reps": "20 (totales)",
+                    "sets": 3,
+                    "weight": ""
+                }
             ],
             "order": 4
+        },
+        {
+            "category": "ESTIRAMIENTO Y RECUPERACIÓN",
+            "exercises": [
+                {
+                    "name": "Colgado pasivo (Dead Hang)",
+                    "reps": "30s",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Estiramiento de bíceps en pared",
+                    "reps": "30s",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Postura del niño (Child's Pose)",
+                    "reps": "1 min",
+                    "sets": 1,
+                    "weight": ""
+                }
+            ],
+            "order": 5
         }
     ],
-    "focus": "Espalda + Bíceps (Grosor)"
+    "focus": "LUNES: TIRÓN (FOCO ESPALDA Y BÍCEPS)"
 }

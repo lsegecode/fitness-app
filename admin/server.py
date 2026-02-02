@@ -60,66 +60,45 @@ def serve_static(filename):
 
 @app.route('/api/gym', methods=['GET'])
 def get_gym_routine():
-    """Get the complete gym routine."""
+    """Get the complete gym routine by aggregating individual days."""
     lang = request.args.get('lang', 'en')
-    if lang == 'es':
-        data = load_json(DATA_DIR / 'gym-routine-es' / 'gym-routine.json')
-        if not data:
-            # Fallback: try loading individual day files
-            data = {"weekly_routine": {}}
-            for day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']:
-                day_data = load_json(DATA_DIR / 'gym-routine-es' / f'{day}.json')
-                if day_data:
-                    data["weekly_routine"][day] = day_data
-    else:
-        data = load_json(DATA_DIR / 'gym-routine.json')
+    folder = 'gym-routine-es' if lang == 'es' else 'gym-routine'
+    
+    data = {"weekly_routine": {}}
+    for day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']:
+        day_data = load_json(DATA_DIR / folder / f'{day}.json')
+        if day_data:
+            data["weekly_routine"][day] = day_data
+            
     return jsonify(data)
 
 
 @app.route('/api/gym', methods=['POST'])
 def save_gym_routine():
-    """Save the complete gym routine."""
+    """Save the gym routine to individual day files."""
     lang = request.args.get('lang', 'en')
     data = request.json
+    folder = 'gym-routine-es' if lang == 'es' else 'gym-routine'
     
-    if lang == 'es':
-        filepath = DATA_DIR / 'gym-routine-es' / 'gym-routine.json'
-    else:
-        filepath = DATA_DIR / 'gym-routine.json'
+    success = True
+    if 'weekly_routine' in data:
+        for day, day_data in data['weekly_routine'].items():
+            day_filepath = DATA_DIR / folder / f'{day}.json'
+            if not save_json(day_filepath, day_data):
+                success = False
     
-    if save_json(filepath, data):
-        # Also save individual day files for compatibility
-        if 'weekly_routine' in data:
-            for day, day_data in data['weekly_routine'].items():
-                if lang == 'es':
-                    day_filepath = DATA_DIR / 'gym-routine-es' / f'{day}.json'
-                else:
-                    day_filepath = DATA_DIR / 'gym-routine' / f'{day}.json'
-                save_json(day_filepath, day_data)
+    if success:
         return jsonify({"success": True, "message": "Gym routine saved successfully"})
-    return jsonify({"success": False, "message": "Error saving gym routine"}), 500
+    return jsonify({"success": False, "message": "Error saving some gym routine files"}), 500
 
 
 @app.route('/api/gym/<day>', methods=['GET'])
 def get_gym_day(day):
     """Get a specific day's gym routine."""
     lang = request.args.get('lang', 'en')
+    folder = 'gym-routine-es' if lang == 'es' else 'gym-routine'
     
-    # Try loading from main file first
-    if lang == 'es':
-        main_data = load_json(DATA_DIR / 'gym-routine-es' / 'gym-routine.json')
-    else:
-        main_data = load_json(DATA_DIR / 'gym-routine.json')
-    
-    if main_data and 'weekly_routine' in main_data and day in main_data['weekly_routine']:
-        return jsonify(main_data['weekly_routine'][day])
-    
-    # Fallback to individual day file
-    if lang == 'es':
-        data = load_json(DATA_DIR / 'gym-routine-es' / f'{day}.json')
-    else:
-        data = load_json(DATA_DIR / 'gym-routine' / f'{day}.json')
-    
+    data = load_json(DATA_DIR / folder / f'{day}.json')
     return jsonify(data)
 
 
@@ -128,36 +107,17 @@ def save_gym_day(day):
     """Save a specific day's gym routine."""
     lang = request.args.get('lang', 'en')
     data = request.json
+    folder = 'gym-routine-es' if lang == 'es' else 'gym-routine'
     
-    # Update main file
-    if lang == 'es':
-        main_filepath = DATA_DIR / 'gym-routine-es' / 'gym-routine.json'
-        day_filepath = DATA_DIR / 'gym-routine-es' / f'{day}.json'
-    else:
-        main_filepath = DATA_DIR / 'gym-routine.json'
-        day_filepath = DATA_DIR / 'gym-routine' / f'{day}.json'
-    
-    # Update main routine file (current lang)
-    main_data = load_json(main_filepath)
-    if 'weekly_routine' not in main_data:
-        main_data['weekly_routine'] = {}
-    main_data['weekly_routine'][day] = data
-    save_json(main_filepath, main_data)
-    
-    # Also save individual day file (current lang)
+    day_filepath = DATA_DIR / folder / f'{day}.json'
     save_json(day_filepath, data)
     
     # ===== AUTO-TRANSLATION SYNC =====
     try:
         # Determine target language and paths
         target_lang = 'en' if lang == 'es' else 'es'
-        
-        if target_lang == 'es':
-            target_main_filepath = DATA_DIR / 'gym-routine-es' / 'gym-routine.json'
-            target_day_filepath = DATA_DIR / 'gym-routine-es' / f'{day}.json'
-        else:
-            target_main_filepath = DATA_DIR / 'gym-routine.json'
-            target_day_filepath = DATA_DIR / 'gym-routine' / f'{day}.json'
+        target_folder = 'gym-routine-es' if target_lang == 'es' else 'gym-routine'
+        target_day_filepath = DATA_DIR / target_folder / f'{day}.json'
             
         # Translate Data
         print(f"Syncing translation to {target_lang}...")
@@ -165,13 +125,6 @@ def save_gym_day(day):
         
         # Save Translated Individual File
         save_json(target_day_filepath, translated_data)
-        
-        # Save Translated Main File
-        target_main_data = load_json(target_main_filepath)
-        if 'weekly_routine' not in target_main_data:
-            target_main_data['weekly_routine'] = {}
-        target_main_data['weekly_routine'][day] = translated_data
-        save_json(target_main_filepath, target_main_data)
         
         print(f"Successfully synced translation for {day} ({target_lang})")
         

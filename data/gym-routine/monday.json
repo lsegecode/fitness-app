@@ -1,99 +1,137 @@
 {
     "blocks": [
         {
-            "category": "Warm-up and Mobility",
+            "category": "WARM-UP (10-12 min)",
             "exercises": [
-                "Shoulder circles",
-                "Cat-Cow stretch",
                 {
-                    "name": "Wrist rotation",
-                    "reps": "",
+                    "name": "Joint Mobility: Shoulders, wrists, neck",
+                    "reps": "2 min",
                     "sets": "",
                     "weight": ""
+                },
+                {
+                    "name": "Treadmill or Elliptical (Moderate pace)",
+                    "reps": "5 min",
+                    "sets": "",
+                    "weight": ""
+                },
+                {
+                    "name": "Activation: Face Pulls",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Very light"
                 }
             ],
             "order": 1
         },
         {
-            "category": "Calisthenics",
+            "category": "CALISTHENICS (PULL-UP PREP)",
             "exercises": [
                 {
-                    "name": "Chin-ups (Underhand grip)",
-                    "reps": "Technical failure",
+                    "name": "Australian Pull-ups",
+                    "reps": "10-12",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Horizontal body"
                 },
                 {
-                    "name": "Negative Pull-ups (Overhand grip)",
-                    "reps": "5-8 sec descent",
-                    "sets": 3,
+                    "name": "Scapular Retractions (Hanging)",
+                    "reps": "12",
+                    "sets": 2,
                     "weight": ""
                 }
             ],
             "order": 2
         },
         {
-            "category": "Strength",
+            "category": "STRENGTH & HYPERTROPHY",
             "exercises": [
                 {
-                    "name": "Romanian Deadlift (RDL)",
-                    "reps": 12,
-                    "sets": 4,
-                    "weight": "10"
-                },
-                {
-                    "name": "Pull up",
-                    "reps": "8",
-                    "sets": 4,
-                    "weight": "55"
-                },
-                {
-                    "name": "Seated Row",
-                    "reps": "8",
-                    "sets": 4,
-                    "weight": "55"
-                },
-                {
-                    "name": "Seated machine row",
-                    "reps": "10",
-                    "sets": 4,
-                    "weight": "30"
-                },
-                {
-                    "name": "Face Pulls",
-                    "reps": 12,
+                    "name": "Lat Pulldowns (Wide Grip)",
+                    "reps": "10-12",
                     "sets": 4,
                     "weight": ""
                 },
                 {
-                    "name": "Z-Curl",
-                    "reps": "10",
-                    "sets": 4,
-                    "weight": "7.5"
-                },
-                {
-                    "name": "Hammer Curl",
-                    "reps": 12,
+                    "name": "Chest-Supported Row",
+                    "reps": "8-10",
                     "sets": 4,
                     "weight": ""
                 },
                 {
-                    "name": "Seated Incline DB Curl",
-                    "reps": 12,
-                    "sets": 4,
-                    "weight": "5"
+                    "name": "Cable Row (Wide Grip)",
+                    "reps": "12",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Preacher Curl",
+                    "reps": "10",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "EZ-Bar Bicep Curl (Standing)",
+                    "reps": "12",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Hammer Curl (Dumbbells)",
+                    "reps": "12",
+                    "sets": 3,
+                    "weight": ""
                 }
             ],
             "order": 3
         },
         {
-            "category": "Stretching",
+            "category": "ABS",
             "exercises": [
-                "Dead hang (Lat stretch)",
-                "Wall bicep stretch"
+                {
+                    "name": "Ab Roller",
+                    "reps": "8-10",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Hanging Leg Raises",
+                    "reps": "15",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Russian Twist",
+                    "reps": "20 (total)",
+                    "sets": 3,
+                    "weight": ""
+                }
             ],
             "order": 4
+        },
+        {
+            "category": "STRETCHING & RECOVERY",
+            "exercises": [
+                {
+                    "name": "Dead Hang",
+                    "reps": "30s",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Wall Bicep Stretch",
+                    "reps": "30s",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Child's Pose",
+                    "reps": "1 min",
+                    "sets": 1,
+                    "weight": ""
+                }
+            ],
+            "order": 5
         }
     ],
-    "focus": "Back + Biceps (Thickness)"
+    "focus": "MONDAY: PULL (FOCUS BACK & BICEPS)"
 }

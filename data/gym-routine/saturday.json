@@ -1,101 +1,65 @@
 {
     "blocks": [
         {
-            "category": "Warm-up",
+            "category": "WARM-UP (10 min)",
             "exercises": [
-                "Bodyweight squats",
-                "Hip circles",
                 {
-                    "name": "5 minutes bike",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Knee to Heel",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Dorsiflexion",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Glute Bridge",
-                    "sets": 3,
-                    "reps": 12,
+                    "name": "Dynamic Mobility: Leg swings, \"World's Greatest Stretch\" and Glute bridges (bodyweight)",
+                    "reps": "15 (bridges)",
+                    "sets": 2,
                     "weight": ""
                 }
             ],
             "order": 1
         },
         {
-            "category": "Strength",
+            "category": "STRENGTH & POWER (COMPOUND)",
             "exercises": [
                 {
-                    "name": "Deadlift",
-                    "reps": 12,
+                    "name": "Conventional Deadlift",
+                    "reps": "5",
+                    "sets": 3,
+                    "weight": "Base strength"
+                },
+                {
+                    "name": "Hip Thrust",
+                    "reps": "8-10",
                     "sets": 4,
-                    "weight": ""
+                    "weight": "1s pause at top"
                 },
                 {
-                    "name": "Lunges",
-                    "reps": "20 steps",
+                    "name": "Romanian Deadlift",
+                    "reps": "10-12",
                     "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Hip Thrust (High Range)",
-                    "sets": 3,
-                    "reps": "12-15",
-                    "weight": ""
-                },
-                {
-                    "name": "Hamstring Curl",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Leg Press",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Abductor Machine",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Calf Raises",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
+                    "weight": "Focus on hamstrings"
                 }
             ],
             "order": 2
         },
         {
-            "category": "Abs",
+            "category": "FUNCTIONAL FOCUS",
             "exercises": [
-                "Russian Twists",
-                "Ab Wheel Rollouts"
+                {
+                    "name": "Walking Lunges",
+                    "reps": "20 (total steps)",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Box Step-ups",
+                    "reps": "10 (per leg)",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Standing Calf Raises",
+                    "reps": "15",
+                    "sets": 3,
+                    "weight": ""
+                }
             ],
             "order": 3
-        },
-        {
-            "category": "Stretching",
-            "exercises": [
-                "Quad stretch",
-                "Cobra stretch (Abs)"
-            ],
-            "order": 4
         }
     ],
-    "focus": "Legs (Compound) + Abs"
+    "focus": "SATURDAY: LEGS B (FOCUS POSTERIOR CHAIN & POWER)"
 }

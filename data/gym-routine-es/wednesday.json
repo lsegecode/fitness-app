@@ -1,132 +1,65 @@
 {
     "blocks": [
         {
-            "category": "Calentamiento y Movilidad",
+            "category": "CALENTAMIENTO (10 min)",
             "exercises": [
                 {
-                    "name": "Balanceo de piernas",
-                    "sets": "",
-                    "reps": "",
-                    "weight": "",
-                    "video": "",
-                    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFMSekqgTFSYsxrMr5s1FnRFeQ6a7oE5t43A&s"
-                },
-                {
-                    "name": "El Mayor Estiramiento del Mundo",
-                    "sets": "",
-                    "reps": "",
-                    "weight": "",
-                    "video": "",
-                    "icon": "https://s3.amazonaws.com/prod.skimble/assets/2268523/image_iphone.jpg"
-                },
-                {
-                    "name": "side lunge",
-                    "sets": null,
-                    "reps": "",
-                    "weight": "",
-                    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2oTreU-nu3SnCT7H8kxpbGftlO9buXircvxcS2zuSv1J1VJAa"
-                },
-                {
-                    "name": "Hip Mobility",
-                    "sets": null,
-                    "reps": "",
+                    "name": "Movilidad Dinámica: Movilidad de tobillo, círculos de cadera y \"World's Greatest Stretch\"",
+                    "reps": "10",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "PSOAS - ISQUIOS",
-                    "sets": null,
-                    "reps": "",
-                    "weight": ""
-                },
-                {
-                    "name": "Sissy Squat",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Jump",
-                    "sets": 3,
-                    "reps": 12,
+                    "name": "Activación: Sentadillas con peso corporal",
+                    "reps": "15",
+                    "sets": 2,
                     "weight": ""
                 }
             ],
             "order": 1
         },
         {
-            "category": "Fuerza",
+            "category": "FUERZA E HIPERTROFIA (COMPUESTOS)",
             "exercises": [
                 {
-                    "name": "Sentadilla trasera con barra",
-                    "reps": 10,
+                    "name": "Sentadilla Hack",
+                    "reps": "8-10",
                     "sets": 4,
-                    "weight": ""
+                    "weight": "Baja profundo y controlado"
                 },
                 {
-                    "name": "Peso Muerto",
-                    "reps": 12,
+                    "name": "Prensa de Piernas",
+                    "reps": "12",
                     "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Prensa de piernas",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Hip Thrust",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Cuadriceps extension",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Seated Hamstring Curl",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
+                    "weight": "Pies en parte baja"
                 }
             ],
             "order": 2
         },
         {
-            "category": "Funcional / Calistenia",
+            "category": "ENFOQUE (AISLAMIENTO)",
             "exercises": [
                 {
-                    "name": "Sentadilla búlgara",
-                    "reps": 12,
+                    "name": "Extensiones de Cuádriceps",
+                    "reps": "15",
                     "sets": 3,
+                    "weight": "Sostén 1s arriba"
+                },
+                {
+                    "name": "Curl Femoral (Sentado o Tumbado)",
+                    "reps": "12",
+                    "sets": 4,
                     "weight": ""
                 },
                 {
-                    "name": "Saltos al cajón",
-                    "reps": 10,
-                    "sets": 3,
+                    "name": "Gemelos en Prensa",
+                    "reps": "15-20",
+                    "sets": 4,
                     "weight": ""
                 }
             ],
             "order": 3
-        },
-        {
-            "category": "Estiramiento",
-            "exercises": [
-                "Hamstring stretch",
-                "Pigeon pose (Glutes)"
-            ],
-            "order": 4
         }
     ],
-    "focus": "Piernas (Movimientos Compuestos)"
+    "focus": "MIÉRCOLES: PIERNAS A (FOCO CUÁDRICEPS Y FUERZA)"
 }

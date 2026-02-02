@@ -1,111 +1,83 @@
 {
     "blocks": [
         {
-            "category": "Calentamiento",
+            "category": "CALENTAMIENTO (10 min)",
             "exercises": [
                 {
-                    "icon": "",
-                    "name": "Gato-Vaca",
-                    "reps": "",
+                    "name": "Movilidad Articular: Hombros, codos y muñecas",
+                    "reps": "3 min",
                     "sets": "",
-                    "video": "",
                     "weight": ""
                 },
                 {
-                    "icon": "",
-                    "name": "Superman",
-                    "reps": "",
+                    "name": "Cinta o Elíptica (Ritmo moderado)",
+                    "reps": "5 min",
                     "sets": "",
-                    "video": "",
                     "weight": ""
                 },
                 {
-                    "name": "Puente de glúteos",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Rotación de tren inferior acostado",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Perro-pájaro",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
+                    "name": "Activación de Bíceps (Mancuernas livianas)",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Muy liviano"
                 }
             ],
             "order": 1
         },
         {
-            "category": "Calistenia",
+            "category": "CALISTENIA / ACTIVACIÓN",
             "exercises": [
                 {
-                    "name": "Dominadas supinas",
-                    "reps": "Fallo",
+                    "name": "Face Pulls (En polea)",
+                    "reps": "15-20",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Foco posterior hombro"
                 },
                 {
-                    "name": "Remo australiano",
-                    "reps": 12,
+                    "name": "Hiperextensiones (Banco a 45°)",
+                    "reps": "12-15",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Controlado"
                 }
             ],
             "order": 2
         },
         {
-            "category": "Fuerza",
+            "category": "FUERZA E HIPERTROFIA",
             "exercises": [
                 {
-                    "name": "Swing con pesa rusa",
-                    "reps": 12,
+                    "name": "Jalones al Pecho (Agarre supino/estrecho)",
+                    "reps": "10-12",
+                    "sets": 4,
+                    "weight": ""
+                },
+                {
+                    "name": "Pullover en Polea Alta (Brazos extendidos)",
+                    "reps": "12-15",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Jalón al pecho",
-                    "reps": 12,
+                    "name": "Preacher Curl (Banco Scott)",
+                    "reps": "10",
+                    "sets": 4,
+                    "weight": ""
+                },
+                {
+                    "name": "Curl Martillo (Mancuernas)",
+                    "reps": "12",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Remo sentado",
-                    "reps": 12,
+                    "name": "Reverse Grip Curl (Barra Z agarre invertido)",
+                    "reps": "12",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Pullover",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Hiperextensiones",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Curl en Z",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Curl martillo",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Curl inclinado con mancuernas sentado",
-                    "reps": 12,
+                    "name": "Wrist Curl (Flexión de muñeca)",
+                    "reps": "15",
                     "sets": 3,
                     "weight": ""
                 }
@@ -113,27 +85,23 @@
             "order": 3
         },
         {
-            "category": "Abdominales",
+            "category": "ESTIRAMIENTO (5-7 min)",
             "exercises": [
-                "Plancha",
-                "Elevaciones de piernas",
                 {
-                    "name": "Rueda abdominal",
-                    "reps": 12,
-                    "sets": 3,
+                    "name": "Estiramiento de Bíceps y Antebrazos",
+                    "reps": "",
+                    "sets": 1,
+                    "weight": ""
+                },
+                {
+                    "name": "Estiramiento de Dorsales",
+                    "reps": "30s",
+                    "sets": 2,
                     "weight": ""
                 }
             ],
             "order": 4
-        },
-        {
-            "category": "Estiramiento",
-            "exercises": [
-                "Postura del niño",
-                "Estiramiento de antebrazos"
-            ],
-            "order": 5
         }
     ],
-    "focus": "Espalda + Bíceps (Amplitud y Estabilidad)"
+    "focus": "JUEVES: TIRÓN (FOCO BRAZOS Y ANTEBRAZOS)"
 }

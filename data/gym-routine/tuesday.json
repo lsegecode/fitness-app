@@ -1,117 +1,77 @@
 {
     "blocks": [
         {
-            "category": "Warm-up and Mobility",
+            "category": "WARM-UP (10 min)",
             "exercises": [
-                "Band rotator cuff rotations",
-                "Dynamic chest openers",
                 {
-                    "name": "Arm circles",
-                    "reps": "",
-                    "sets": null,
+                    "name": "Joint Mobility: Arm circles, wrist rotation and Scapular push-ups",
+                    "reps": "12",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Plank to Downward Dog",
-                    "reps": "",
-                    "sets": null,
-                    "weight": ""
+                    "name": "Dynamic Activation: Normal Push-ups",
+                    "reps": "10",
+                    "sets": 2,
+                    "weight": "Fast pace"
                 }
             ],
             "order": 1
         },
         {
-            "category": "Calisthenics",
+            "category": "STRENGTH (HEAVY)",
             "exercises": [
                 {
-                    "name": "Push-ups",
-                    "reps": "8",
+                    "name": "Flat Bench Press (Barbell)",
+                    "reps": "6-8",
+                    "sets": 4,
+                    "weight": ""
+                },
+                {
+                    "name": "Incline Bench Press (Dumbbells)",
+                    "reps": "10",
                     "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Peck Deck (Butterfly)",
+                    "reps": "12-15",
+                    "sets": 3,
+                    "weight": "Focus on squeezing"
+                }
+            ],
+            "order": 2
+        },
+        {
+            "category": "CALISTHENICS (THE FINISHER)",
+            "exercises": [
+                {
+                    "name": "Dips (Parallel bars)",
+                    "reps": "Technical Failure",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
                     "name": "Diamond Push-ups",
-                    "reps": "8",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Pike Push-ups",
-                    "reps": "8",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Dips",
-                    "reps": "Failure",
-                    "sets": 3,
+                    "reps": "10-12",
+                    "sets": 2,
                     "weight": ""
                 }
             ],
             "order": 3
         },
         {
-            "category": "Strength",
+            "category": "TRICEPS AND DETAILS",
             "exercises": [
                 {
-                    "name": "Dumbbell Shoulder Press",
-                    "reps": 10,
-                    "sets": 4,
-                    "weight": ""
-                },
-                {
-                    "name": "Lateral Raise",
-                    "reps": 10,
+                    "name": "Triceps Pushdown (Rope)",
+                    "reps": "12",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Upright Row",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Overhead Triceps Extension",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Cable Triceps Pushdown",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Barbell Bench Press",
-                    "reps": "8",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Incline Dumbbell Press",
-                    "reps": "8",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Chest Fly",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                }
-            ],
-            "order": 2
-        },
-        {
-            "category": "Abs",
-            "exercises": [
-                "Abdominal Crunches",
-                "Bicycle Crunches",
-                {
-                    "name": "Abs Wheel",
-                    "reps": 12,
+                    "name": "Overhead Extensions (Cable or Dumbbell)",
+                    "reps": "12",
                     "sets": 3,
                     "weight": ""
                 }
@@ -119,13 +79,29 @@
             "order": 4
         },
         {
-            "category": "Stretching",
+            "category": "STRETCHING & RECOVERY (For MMA)",
             "exercises": [
-                "Doorway chest stretch",
-                "Overhead tricep stretch"
+                {
+                    "name": "Doorway Pectoral Stretch",
+                    "reps": "30s",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Overhead Triceps Stretch",
+                    "reps": "30s",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Shoulder Release: Arm cross",
+                    "reps": "",
+                    "sets": 1,
+                    "weight": "Release tension"
+                }
             ],
             "order": 5
         }
     ],
-    "focus": "Chest + Triceps + Shoulders (Shoulder Focus) + Abs"
+    "focus": "TUESDAY: PUSH A (FOCUS CHEST + TRICEPS + MMA)"
 }

@@ -1,132 +1,65 @@
 {
     "blocks": [
         {
-            "category": "Warm-up and Mobility",
+            "category": "WARM-UP (10 min)",
             "exercises": [
                 {
-                    "name": "Leg swings",
-                    "sets": "",
-                    "reps": "",
-                    "weight": "",
-                    "video": "",
-                    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFMSekqgTFSYsxrMr5s1FnRFeQ6a7oE5t43A&s"
-                },
-                {
-                    "name": "World's Greatest Stretch",
-                    "sets": "",
-                    "reps": "",
-                    "weight": "",
-                    "video": "",
-                    "icon": "https://s3.amazonaws.com/prod.skimble/assets/2268523/image_iphone.jpg"
-                },
-                {
-                    "name": "side lunge",
-                    "sets": null,
-                    "reps": "",
-                    "weight": "",
-                    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2oTreU-nu3SnCT7H8kxpbGftlO9buXircvxcS2zuSv1J1VJAa"
-                },
-                {
-                    "name": "Hip Mobility",
-                    "sets": null,
-                    "reps": "",
+                    "name": "Dynamic Mobility: Ankle mobility, hip circles and \"World's Greatest Stretch\"",
+                    "reps": "10",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "PSOAS - ISQUIOS",
-                    "sets": null,
-                    "reps": "",
-                    "weight": ""
-                },
-                {
-                    "name": "Sissy Squat",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Jump ",
-                    "sets": 3,
-                    "reps": 12,
+                    "name": "Activation: Bodyweight Squats",
+                    "reps": "15",
+                    "sets": 2,
                     "weight": ""
                 }
             ],
             "order": 1
         },
         {
-            "category": "Strength",
+            "category": "STRENGTH & HYPERTROPHY (COMPOUND)",
             "exercises": [
                 {
-                    "name": "Barbell Back Squat",
-                    "reps": 10,
+                    "name": "Hack Squat",
+                    "reps": "8-10",
                     "sets": 4,
-                    "weight": ""
+                    "weight": "Deep and controlled"
                 },
                 {
-                    "name": "Deadlift ",
-                    "reps": 12,
+                    "name": "Leg Press",
+                    "reps": "12",
                     "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "leg press",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Hip Thrust",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Cuadriceps extension",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Seated Hamstring Curl",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
+                    "weight": "Feet low on platform"
                 }
             ],
             "order": 2
         },
         {
-            "category": "Functional / Calisthenics",
+            "category": "FOCUS (ISOLATION)",
             "exercises": [
                 {
-                    "name": "Bulgarian Split Squat",
-                    "reps": 12,
+                    "name": "Leg Extensions",
+                    "reps": "15",
                     "sets": 3,
+                    "weight": "Hold 1s at top"
+                },
+                {
+                    "name": "Hamstring Curl (Seated or Lying)",
+                    "reps": "12",
+                    "sets": 4,
                     "weight": ""
                 },
                 {
-                    "name": "Box Jumps",
-                    "reps": 10,
-                    "sets": 3,
+                    "name": "Calf Raises on Leg Press",
+                    "reps": "15-20",
+                    "sets": 4,
                     "weight": ""
                 }
             ],
             "order": 3
-        },
-        {
-            "category": "Stretching",
-            "exercises": [
-                "Hamstring stretch",
-                "Pigeon pose (Glutes)"
-            ],
-            "order": 4
         }
     ],
-    "focus": "Legs (Compound Movements)"
+    "focus": "WEDNESDAY: LEGS A (FOCUS QUADRICEPS & STRENGTH)"
 }

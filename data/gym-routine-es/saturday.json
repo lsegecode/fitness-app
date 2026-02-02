@@ -1,101 +1,65 @@
 {
     "blocks": [
         {
-            "category": "Calentamiento",
+            "category": "CALENTAMIENTO (10 min)",
             "exercises": [
-                "Sentadillas con peso corporal",
-                "Círculos de cadera",
                 {
-                    "name": "5 minutos de bicicleta",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Rodilla al talón",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Dorsiflexión",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Puente de glúteos",
-                    "sets": 3,
-                    "reps": 12,
+                    "name": "Movilidad Dinámica: Balanceo de piernas, \"World's Greatest Stretch\" y puentes de glúteo sin peso",
+                    "reps": "15 (puentes)",
+                    "sets": 2,
                     "weight": ""
                 }
             ],
             "order": 1
         },
         {
-            "category": "Fuerza",
+            "category": "FUERZA Y POTENCIA (COMPUESTOS)",
             "exercises": [
                 {
-                    "name": "Peso Muerto",
-                    "reps": 12,
+                    "name": "Peso Muerto Convencional",
+                    "reps": "5",
+                    "sets": 3,
+                    "weight": "Fuerza base"
+                },
+                {
+                    "name": "Hip Thrust (Empuje de Cadera)",
+                    "reps": "8-10",
                     "sets": 4,
-                    "weight": ""
+                    "weight": "Pausa de 1s arriba"
                 },
                 {
-                    "name": "Zancadas",
-                    "reps": "20 pasos",
+                    "name": "Peso Muerto Rumano",
+                    "reps": "10-12",
                     "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Hip Thrust (Rango alto)",
-                    "sets": 3,
-                    "reps": "12-15",
-                    "weight": ""
-                },
-                {
-                    "name": "Curl de isquiotibiales",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Prensa de piernas",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Máquina de abductores",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
-                },
-                {
-                    "name": "Elevación de pantorrillas",
-                    "sets": 3,
-                    "reps": 12,
-                    "weight": ""
+                    "weight": "Foco en isquios"
                 }
             ],
             "order": 2
         },
         {
-            "category": "Abdominales",
+            "category": "ENFOQUE FUNCIONAL",
             "exercises": [
-                "Giros rusos",
-                "Rueda abdominal"
+                {
+                    "name": "Zancadas (Lunges) Caminando",
+                    "reps": "20 (pasos totales)",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Subidas al Cajón (Step-ups)",
+                    "reps": "10 (por pierna)",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Gemelos de pie",
+                    "reps": "15",
+                    "sets": 3,
+                    "weight": ""
+                }
             ],
             "order": 3
-        },
-        {
-            "category": "Estiramiento",
-            "exercises": [
-                "Estiramiento de cuádriceps",
-                "Estiramiento de cobra (Abdominales)"
-            ],
-            "order": 4
         }
     ],
-    "focus": "Piernas (Compuestos) + Abdominales"
+    "focus": "SÁBADO: PIERNAS B (FOCO CADENA POSTERIOR Y POTENCIA)"
 }

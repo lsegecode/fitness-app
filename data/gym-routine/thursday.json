@@ -1,111 +1,83 @@
 {
     "blocks": [
         {
-            "category": "Warm-up",
+            "category": "WARM-UP (10 min)",
             "exercises": [
                 {
-                    "icon": "",
-                    "name": "Cat cow",
-                    "reps": "",
+                    "name": "Joint Mobility: Shoulders, elbows and wrists",
+                    "reps": "3 min",
                     "sets": "",
-                    "video": "",
                     "weight": ""
                 },
                 {
-                    "icon": "",
-                    "name": "Superman",
-                    "reps": "",
+                    "name": "Treadmill or Elliptical (Moderate pace)",
+                    "reps": "5 min",
                     "sets": "",
-                    "video": "",
                     "weight": ""
                 },
                 {
-                    "name": "Glute Bridge",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Laying lower body rotation",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Bird dog",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
+                    "name": "Bicep Activation (Light dumbbells)",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Very light"
                 }
             ],
             "order": 1
         },
         {
-            "category": "Calisthenics",
+            "category": "CALISTHENICS / ACTIVATION",
             "exercises": [
                 {
-                    "name": "Chin-ups",
-                    "reps": "Failure",
+                    "name": "Face Pulls (Cable)",
+                    "reps": "15-20",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Focus rear delts"
                 },
                 {
-                    "name": "Australian Rows",
-                    "reps": 12,
+                    "name": "Hyperextensions (45° Bench)",
+                    "reps": "12-15",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Controlled"
                 }
             ],
             "order": 2
         },
         {
-            "category": "Strength",
+            "category": "STRENGTH & HYPERTROPHY",
             "exercises": [
                 {
-                    "name": "Kettlebell Swing",
-                    "reps": 12,
+                    "name": "Lat Pulldowns (Supinated/Close Grip)",
+                    "reps": "10-12",
+                    "sets": 4,
+                    "weight": ""
+                },
+                {
+                    "name": "Straight-Arm Lat Pulldown",
+                    "reps": "12-15",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Chest pull",
-                    "reps": 12,
+                    "name": "Preacher Curl (Scott Bench)",
+                    "reps": "10",
+                    "sets": 4,
+                    "weight": ""
+                },
+                {
+                    "name": "Hammer Curl (Dumbbells)",
+                    "reps": "12",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Seated Row",
-                    "reps": 12,
+                    "name": "Reverse Grip Curl (EZ Bar)",
+                    "reps": "12",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Pullover",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Hyperextensions",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Z-Curl",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Hammer Curl",
-                    "reps": 12,
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Seated Incline DB Curl",
-                    "reps": 12,
+                    "name": "Wrist Curl (Barbell/Dumbbell)",
+                    "reps": "15",
                     "sets": 3,
                     "weight": ""
                 }
@@ -113,27 +85,23 @@
             "order": 3
         },
         {
-            "category": "Abs",
+            "category": "STRETCHING (5-7 min)",
             "exercises": [
-                "Plank",
-                "Leg Raises",
                 {
-                    "name": "Wheel abs",
-                    "reps": 12,
-                    "sets": 3,
+                    "name": "Biceps and Forearm Stretch",
+                    "reps": "",
+                    "sets": 1,
+                    "weight": ""
+                },
+                {
+                    "name": "Lat Stretch",
+                    "reps": "30s",
+                    "sets": 2,
                     "weight": ""
                 }
             ],
             "order": 4
-        },
-        {
-            "category": "Stretching",
-            "exercises": [
-                "Child's Pose",
-                "Forearm stretch"
-            ],
-            "order": 5
         }
     ],
-    "focus": "Back + Biceps (Width and Stability)"
+    "focus": "THURSDAY: PULL (FOCUS ARMS & FOREARMS)"
 }
