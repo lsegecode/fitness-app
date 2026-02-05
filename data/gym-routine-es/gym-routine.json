@@ -409,7 +409,7 @@
                     "exercises": [
                         {
                             "name": "Dominadas supinas",
-                            "reps": "Fallo",
+                            "reps": "Failure",
                             "sets": 3,
                             "weight": ""
                         },
@@ -465,7 +465,7 @@
                             "name": "Curl martillo",
                             "reps": 12,
                             "sets": 3,
-                            "weight": ""
+                            "weight": "10"
                         },
                         {
                             "name": "Curl inclinado con mancuernas sentado",
@@ -479,8 +479,8 @@
                 {
                     "category": "Abdominales",
                     "exercises": [
-                        "Plancha",
-                        "Elevaciones de piernas",
+                        "Plank",
+                        "Leg Raises",
                         {
                             "name": "Rueda abdominal",
                             "reps": 12,
@@ -493,8 +493,8 @@
                 {
                     "category": "Estiramiento",
                     "exercises": [
-                        "Postura del niño",
-                        "Estiramiento de antebrazos"
+                        "Child's Pose",
+                        "Forearm stretch"
                     ],
                     "order": 5
                 }
