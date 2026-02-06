@@ -46,10 +46,16 @@
             "category": "STRENGTH & HYPERTROPHY",
             "exercises": [
                 {
-                    "name": "Lat Pulldowns (Supinated/Close Grip)",
+                    "name": "Lat Pulldowns (Neutral Grip)",
                     "reps": "10-12",
                     "sets": 4,
-                    "weight": ""
+                    "weight": "Less bicep tension"
+                },
+                {
+                    "name": "Meadows Row (Single-arm barbell)",
+                    "reps": "10-12",
+                    "sets": 3,
+                    "weight": "Per side"
                 },
                 {
                     "name": "Straight-Arm Lat Pulldown",
@@ -58,22 +64,10 @@
                     "weight": ""
                 },
                 {
-                    "name": "Preacher Curl (Scott Bench)",
-                    "reps": "10",
-                    "sets": 4,
-                    "weight": ""
-                },
-                {
-                    "name": "Hammer Curl (Dumbbells)",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
                     "name": "Reverse Grip Curl (EZ Bar)",
                     "reps": "12",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Focus forearms"
                 },
                 {
                     "name": "Wrist Curl (Barbell/Dumbbell)",
@@ -85,12 +79,12 @@
             "order": 3
         },
         {
-            "category": "STRETCHING (5-7 min)",
+            "category": "STRETCHING (For MMA)",
             "exercises": [
                 {
                     "name": "Biceps and Forearm Stretch",
-                    "reps": "",
-                    "sets": 1,
+                    "reps": "30s",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
@@ -98,10 +92,16 @@
                     "reps": "30s",
                     "sets": 2,
                     "weight": ""
+                },
+                {
+                    "name": "Shoulder Release: Arm cross",
+                    "reps": "",
+                    "sets": 1,
+                    "weight": "Release tension"
                 }
             ],
             "order": 4
         }
     ],
-    "focus": "THURSDAY: PULL (FOCUS ARMS & FOREARMS)"
+    "focus": "THURSDAY: LIGHT PULL (BACK FOCUS) + 🥊 MMA"
 }

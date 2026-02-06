@@ -19,13 +19,13 @@
             "order": 1
         },
         {
-            "category": "STRENGTH (HEAVY)",
+            "category": "STRENGTH (CHEST FOCUS)",
             "exercises": [
                 {
                     "name": "Flat Bench Press (Barbell)",
                     "reps": "6-8",
                     "sets": 4,
-                    "weight": ""
+                    "weight": "Heavy"
                 },
                 {
                     "name": "Incline Bench Press (Dumbbells)",
@@ -79,6 +79,24 @@
             "order": 4
         },
         {
+            "category": "SHOULDERS (LIGHT ACTIVATION)",
+            "exercises": [
+                {
+                    "name": "Lateral Raise",
+                    "reps": "15-20",
+                    "sets": 2,
+                    "weight": "Light weight, controlled"
+                },
+                {
+                    "name": "Face Pulls (Cable)",
+                    "reps": "15-20",
+                    "sets": 2,
+                    "weight": "Rear delts"
+                }
+            ],
+            "order": 5
+        },
+        {
             "category": "STRETCHING & RECOVERY (For MMA)",
             "exercises": [
                 {
@@ -100,8 +118,8 @@
                     "weight": "Release tension"
                 }
             ],
-            "order": 5
+            "order": 6
         }
     ],
-    "focus": "TUESDAY: PUSH A (FOCUS CHEST + TRICEPS + MMA)"
+    "focus": "TUESDAY: PUSH (CHEST FOCUS + TRICEPS) + 🥊 MMA"
 }

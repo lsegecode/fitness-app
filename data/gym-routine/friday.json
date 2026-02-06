@@ -1,28 +1,22 @@
 {
     "blocks": [
         {
-            "category": "WARM-UP (10 min)",
+            "category": "WARM-UP (5 min - Post Swimming)",
             "exercises": [
                 {
-                    "name": "Mobility: Focus on rotator cuff (Face Pulls very light or elastic bands)",
-                    "reps": "3 min",
+                    "name": "Mobility: Focus on rotator cuff (Light Face Pulls)",
+                    "reps": "2 min",
                     "sets": "",
-                    "weight": "Very light"
-                },
-                {
-                    "name": "Treadmill",
-                    "reps": "5 min",
-                    "sets": "",
-                    "weight": "Moderate pace"
+                    "weight": "Already warmed up in pool"
                 }
             ],
             "order": 1
         },
         {
-            "category": "STRENGTH (THE \"BIG ONES\")",
+            "category": "STRENGTH (THE \"BIG\" LIFTS)",
             "exercises": [
                 {
-                    "name": "Military Press (Dumbbells)",
+                    "name": "Overhead Press (Dumbbells)",
                     "reps": "8",
                     "sets": 4,
                     "weight": ""
@@ -46,10 +40,10 @@
             "category": "AESTHETIC SHOULDERS & POSTURE",
             "exercises": [
                 {
-                    "name": "Incline Bench Lateral Raise",
+                    "name": "Incline Supported Lateral Raise",
                     "reps": "12-15",
                     "sets": 3,
-                    "weight": "Isolate deltoids"
+                    "weight": "Isolates deltoid"
                 },
                 {
                     "name": "Upright Row",
@@ -58,7 +52,7 @@
                     "weight": "Wide grip"
                 },
                 {
-                    "name": "Reverse Peck Deck (Rear Delt Fly)",
+                    "name": "Reverse Peck Deck",
                     "reps": "15",
                     "sets": 3,
                     "weight": ""
@@ -82,38 +76,14 @@
                     "weight": ""
                 },
                 {
-                    "name": "Cable Tricep Pushdown + Overhead Extension (Superset)",
+                    "name": "Triceps Pushdown + Overhead Extension (Superset)",
                     "reps": "12 (each)",
                     "sets": 3,
                     "weight": "No rest"
                 }
             ],
             "order": 4
-        },
-        {
-            "category": "ABS (CHALLENGING - ATHLETIC CORE)",
-            "exercises": [
-                {
-                    "name": "Hanging Leg Raises",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": "Knees to chest if hard"
-                },
-                {
-                    "name": "Cable Woodchoppers",
-                    "reps": "12 (per side)",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Hollow Body Hold",
-                    "reps": "45s",
-                    "sets": 3,
-                    "weight": ""
-                }
-            ],
-            "order": 5
         }
     ],
-    "focus": "FRIDAY: PUSH B (FOCUS SHOULDERS + CHEST + ARMS)"
+    "focus": "FRIDAY: 🏊 SWIMMING + PUSH (SHOULDER FOCUS)"
 }

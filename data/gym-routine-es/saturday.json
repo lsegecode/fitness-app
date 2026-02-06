@@ -16,22 +16,16 @@
             "category": "FUERZA Y POTENCIA (COMPUESTOS)",
             "exercises": [
                 {
-                    "name": "Peso Muerto Convencional",
-                    "reps": "5",
-                    "sets": 3,
-                    "weight": "Fuerza base"
+                    "name": "Peso Muerto Rumano (Pesado)",
+                    "reps": "8-10",
+                    "sets": 4,
+                    "weight": "Foco isquios y glúteos"
                 },
                 {
                     "name": "Hip Thrust (Empuje de Cadera)",
                     "reps": "8-10",
                     "sets": 4,
                     "weight": "Pausa de 1s arriba"
-                },
-                {
-                    "name": "Peso Muerto Rumano",
-                    "reps": "10-12",
-                    "sets": 3,
-                    "weight": "Foco en isquios"
                 }
             ],
             "order": 2
@@ -59,7 +53,31 @@
                 }
             ],
             "order": 3
+        },
+        {
+            "category": "ABS",
+            "exercises": [
+                {
+                    "name": "Plancha (Plank)",
+                    "reps": "45s",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Crunch en Máquina o con Peso",
+                    "reps": "15",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Plancha Lateral (Side Plank)",
+                    "reps": "30s (por lado)",
+                    "sets": 2,
+                    "weight": ""
+                }
+            ],
+            "order": 4
         }
     ],
-    "focus": "SÁBADO: PIERNAS B (FOCO CADENA POSTERIOR Y POTENCIA)"
+    "focus": "SÁBADO: PIERNAS (FOCO ISQUIOS, GLÚTEOS Y POSTERIOR) + ABS"
 }

@@ -4,7 +4,7 @@
             "category": "WARM-UP (10 min)",
             "exercises": [
                 {
-                    "name": "Dynamic Mobility: Leg swings, \"World's Greatest Stretch\" and Glute bridges (bodyweight)",
+                    "name": "Dynamic Mobility: Leg swings, \"World's Greatest Stretch\" and unweighted glute bridges",
                     "reps": "15 (bridges)",
                     "sets": 2,
                     "weight": ""
@@ -13,25 +13,19 @@
             "order": 1
         },
         {
-            "category": "STRENGTH & POWER (COMPOUND)",
+            "category": "STRENGTH & POWER (COMPOUNDS)",
             "exercises": [
                 {
-                    "name": "Conventional Deadlift",
-                    "reps": "5",
-                    "sets": 3,
-                    "weight": "Base strength"
+                    "name": "Romanian Deadlift (Heavy)",
+                    "reps": "8-10",
+                    "sets": 4,
+                    "weight": "Hamstring & glute focus"
                 },
                 {
                     "name": "Hip Thrust",
                     "reps": "8-10",
                     "sets": 4,
                     "weight": "1s pause at top"
-                },
-                {
-                    "name": "Romanian Deadlift",
-                    "reps": "10-12",
-                    "sets": 3,
-                    "weight": "Focus on hamstrings"
                 }
             ],
             "order": 2
@@ -46,7 +40,7 @@
                     "weight": ""
                 },
                 {
-                    "name": "Box Step-ups",
+                    "name": "Step-ups",
                     "reps": "10 (per leg)",
                     "sets": 3,
                     "weight": ""
@@ -59,7 +53,31 @@
                 }
             ],
             "order": 3
+        },
+        {
+            "category": "ABS",
+            "exercises": [
+                {
+                    "name": "Plank",
+                    "reps": "45s",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Machine or Weighted Crunch",
+                    "reps": "15",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Side Plank",
+                    "reps": "30s (per side)",
+                    "sets": 2,
+                    "weight": ""
+                }
+            ],
+            "order": 4
         }
     ],
-    "focus": "SATURDAY: LEGS B (FOCUS POSTERIOR CHAIN & POWER)"
+    "focus": "SATURDAY: LEGS (HAMSTRINGS, GLUTES & POSTERIOR) + ABS"
 }

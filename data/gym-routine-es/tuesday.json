@@ -19,13 +19,13 @@
             "order": 1
         },
         {
-            "category": "FUERZA (PESADO)",
+            "category": "FUERZA (FOCO PECHO)",
             "exercises": [
                 {
                     "name": "Press de Banca Plano (Barra)",
                     "reps": "6-8",
                     "sets": 4,
-                    "weight": ""
+                    "weight": "Peso pesado"
                 },
                 {
                     "name": "Press de Banca Inclinado (Mancuernas)",
@@ -79,6 +79,24 @@
             "order": 4
         },
         {
+            "category": "HOMBROS (ACTIVACIÓN LIVIANA)",
+            "exercises": [
+                {
+                    "name": "Lateral Raise (Elevaciones laterales)",
+                    "reps": "15-20",
+                    "sets": 2,
+                    "weight": "Peso bajo, control"
+                },
+                {
+                    "name": "Face Pulls (En polea)",
+                    "reps": "15-20",
+                    "sets": 2,
+                    "weight": "Deltoides posterior"
+                }
+            ],
+            "order": 5
+        },
+        {
             "category": "ESTIRAMIENTO Y RECUPERACIÓN (Para MMA)",
             "exercises": [
                 {
@@ -100,8 +118,8 @@
                     "weight": "Soltar tensión"
                 }
             ],
-            "order": 5
+            "order": 6
         }
     ],
-    "focus": "MARTES: EMPUJE A (FOCO PECHO + TRÍCEPS + MMA)"
+    "focus": "MARTES: EMPUJE (FOCO PECHO + TRÍCEPS) + 🥊 MMA"
 }

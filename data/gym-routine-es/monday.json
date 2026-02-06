@@ -1,19 +1,13 @@
 {
     "blocks": [
         {
-            "category": "CALENTAMIENTO (10-12 min)",
+            "category": "CALENTAMIENTO (5 min - Post Natación)",
             "exercises": [
                 {
-                    "name": "Rotación de hombros, muñecas y cuello",
+                    "name": "Movilidad Articular: Hombros, muñecas y cuello",
                     "reps": "2 min",
                     "sets": "",
-                    "weight": ""
-                },
-                {
-                    "name": "Cinta o Elíptica (Ritmo moderado)",
-                    "reps": "5 min",
-                    "sets": "",
-                    "weight": ""
+                    "weight": "Ya calentaste en pileta"
                 },
                 {
                     "name": "Face Pulls (Activación)",
@@ -43,7 +37,7 @@
             "order": 2
         },
         {
-            "category": "FUERZA E HIPERTROFIA",
+            "category": "FUERZA E HIPERTROFIA (FOCO BÍCEPS)",
             "exercises": [
                 {
                     "name": "Jalones al Pecho (Agarre ancho)",
@@ -54,32 +48,20 @@
                 {
                     "name": "Remo Recostado (Pecho apoyado)",
                     "reps": "8-10",
-                    "sets": 4,
-                    "weight": ""
-                },
-                {
-                    "name": "Remo en Polea Baja (Agarre abierto)",
-                    "reps": "12",
                     "sets": 3,
                     "weight": ""
                 },
                 {
                     "name": "Preacher Curl (Banco Scott)",
                     "reps": "10",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Curl de Bíceps con Barra Z (De pie)",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": ""
+                    "sets": 4,
+                    "weight": "Peso pesado"
                 },
                 {
                     "name": "Curl Martillo (Mancuernas)",
                     "reps": "12",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Braquial + antebrazos"
                 }
             ],
             "order": 3
@@ -122,16 +104,10 @@
                     "reps": "30s",
                     "sets": 2,
                     "weight": ""
-                },
-                {
-                    "name": "Postura del niño (Child's Pose)",
-                    "reps": "1 min",
-                    "sets": 1,
-                    "weight": ""
                 }
             ],
             "order": 5
         }
     ],
-    "focus": "LUNES: TIRÓN (FOCO ESPALDA Y BÍCEPS)"
+    "focus": "LUNES: 🏊 NATACIÓN + TIRÓN (FOCO BÍCEPS) + ABS"
 }

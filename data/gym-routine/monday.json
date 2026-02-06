@@ -1,19 +1,13 @@
 {
     "blocks": [
         {
-            "category": "WARM-UP (10-12 min)",
+            "category": "WARM-UP (5 min - Post Swimming)",
             "exercises": [
                 {
                     "name": "Joint Mobility: Shoulders, wrists, neck",
                     "reps": "2 min",
                     "sets": "",
-                    "weight": ""
-                },
-                {
-                    "name": "Treadmill or Elliptical (Moderate pace)",
-                    "reps": "5 min",
-                    "sets": "",
-                    "weight": ""
+                    "weight": "Already warmed up in pool"
                 },
                 {
                     "name": "Activation: Face Pulls",
@@ -43,7 +37,7 @@
             "order": 2
         },
         {
-            "category": "STRENGTH & HYPERTROPHY",
+            "category": "STRENGTH & HYPERTROPHY (BICEP FOCUS)",
             "exercises": [
                 {
                     "name": "Lat Pulldowns (Wide Grip)",
@@ -54,32 +48,20 @@
                 {
                     "name": "Chest-Supported Row",
                     "reps": "8-10",
-                    "sets": 4,
-                    "weight": ""
-                },
-                {
-                    "name": "Cable Row (Wide Grip)",
-                    "reps": "12",
                     "sets": 3,
                     "weight": ""
                 },
                 {
                     "name": "Preacher Curl",
                     "reps": "10",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "EZ-Bar Bicep Curl (Standing)",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": ""
+                    "sets": 4,
+                    "weight": "Heavy"
                 },
                 {
                     "name": "Hammer Curl (Dumbbells)",
                     "reps": "12",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Brachialis + forearms"
                 }
             ],
             "order": 3
@@ -122,16 +104,10 @@
                     "reps": "30s",
                     "sets": 2,
                     "weight": ""
-                },
-                {
-                    "name": "Child's Pose",
-                    "reps": "1 min",
-                    "sets": 1,
-                    "weight": ""
                 }
             ],
             "order": 5
         }
     ],
-    "focus": "MONDAY: PULL (FOCUS BACK & BICEPS)"
+    "focus": "MONDAY: 🏊 SWIMMING + PULL (BICEP FOCUS) + ABS"
 }

@@ -1,25 +1,19 @@
 {
     "blocks": [
         {
-            "category": "WARM-UP (10 min)",
+            "category": "WARM-UP (5 min - Post Swimming)",
             "exercises": [
                 {
-                    "name": "Dynamic Mobility: Ankle mobility, hip circles and \"World's Greatest Stretch\"",
+                    "name": "Dynamic Mobility: Hip circles and \"World's Greatest Stretch\"",
                     "reps": "10",
-                    "sets": 2,
-                    "weight": ""
-                },
-                {
-                    "name": "Activation: Bodyweight Squats",
-                    "reps": "15",
-                    "sets": 2,
-                    "weight": ""
+                    "sets": 1,
+                    "weight": "Already warmed up in pool"
                 }
             ],
             "order": 1
         },
         {
-            "category": "STRENGTH & HYPERTROPHY (COMPOUND)",
+            "category": "STRENGTH & HYPERTROPHY (COMPOUNDS)",
             "exercises": [
                 {
                     "name": "Hack Squat",
@@ -37,7 +31,7 @@
             "order": 2
         },
         {
-            "category": "FOCUS (ISOLATION)",
+            "category": "ISOLATION FOCUS",
             "exercises": [
                 {
                     "name": "Leg Extensions",
@@ -46,7 +40,7 @@
                     "weight": "Hold 1s at top"
                 },
                 {
-                    "name": "Hamstring Curl (Seated or Lying)",
+                    "name": "Leg Curl (Seated or Lying)",
                     "reps": "12",
                     "sets": 4,
                     "weight": ""
@@ -61,5 +55,5 @@
             "order": 3
         }
     ],
-    "focus": "WEDNESDAY: LEGS A (FOCUS QUADRICEPS & STRENGTH)"
+    "focus": "WEDNESDAY: 🏊 SWIMMING + LEGS (QUAD FOCUS)"
 }

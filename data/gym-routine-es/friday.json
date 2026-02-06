@@ -1,19 +1,13 @@
 {
     "blocks": [
         {
-            "category": "CALENTAMIENTO (10 min)",
+            "category": "CALENTAMIENTO (5 min - Post Natación)",
             "exercises": [
                 {
-                    "name": "Movilidad: Foco en manguito rotador (Face Pulls muy livianos o bandas elásticas)",
-                    "reps": "3 min",
+                    "name": "Movilidad: Foco en manguito rotador (Face Pulls livianos)",
+                    "reps": "2 min",
                     "sets": "",
-                    "weight": "Muy liviano"
-                },
-                {
-                    "name": "Cinta",
-                    "reps": "5 min",
-                    "sets": "",
-                    "weight": "Ritmo moderado"
+                    "weight": "Ya calentaste en pileta"
                 }
             ],
             "order": 1
@@ -89,31 +83,7 @@
                 }
             ],
             "order": 4
-        },
-        {
-            "category": "ABS (CHALLENGING - CORE ATLÉTICO)",
-            "exercises": [
-                {
-                    "name": "Hanging Leg Raises (Elevación de piernas colgado)",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": "Rodillas al pecho si es difícil"
-                },
-                {
-                    "name": "Woodchoppers en polea (Leñadores)",
-                    "reps": "12 (por lado)",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Hollow Body Hold",
-                    "reps": "45s",
-                    "sets": 3,
-                    "weight": ""
-                }
-            ],
-            "order": 5
         }
     ],
-    "focus": "VIERNES: EMPUJE B (FOCO HOMBROS + PECHO + BRAZOS)"
+    "focus": "VIERNES: 🏊 NATACIÓN + EMPUJE (FOCO HOMBROS)"
 }

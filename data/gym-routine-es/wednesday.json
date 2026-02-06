@@ -1,19 +1,13 @@
 {
     "blocks": [
         {
-            "category": "CALENTAMIENTO (10 min)",
+            "category": "CALENTAMIENTO (5 min - Post Natación)",
             "exercises": [
                 {
-                    "name": "Movilidad Dinámica: Movilidad de tobillo, círculos de cadera y \"World's Greatest Stretch\"",
+                    "name": "Movilidad Dinámica: Círculos de cadera y \"World's Greatest Stretch\"",
                     "reps": "10",
-                    "sets": 2,
-                    "weight": ""
-                },
-                {
-                    "name": "Activación: Sentadillas con peso corporal",
-                    "reps": "15",
-                    "sets": 2,
-                    "weight": ""
+                    "sets": 1,
+                    "weight": "Ya calentaste en pileta"
                 }
             ],
             "order": 1
@@ -61,5 +55,5 @@
             "order": 3
         }
     ],
-    "focus": "MIÉRCOLES: PIERNAS A (FOCO CUÁDRICEPS Y FUERZA)"
+    "focus": "MIÉRCOLES: 🏊 NATACIÓN + PIERNAS (FOCO CUÁDRICEPS)"
 }

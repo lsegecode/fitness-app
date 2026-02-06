@@ -46,10 +46,16 @@
             "category": "FUERZA E HIPERTROFIA",
             "exercises": [
                 {
-                    "name": "Jalones al Pecho (Agarre supino/estrecho)",
+                    "name": "Jalones al Pecho (Agarre neutro)",
                     "reps": "10-12",
                     "sets": 4,
-                    "weight": ""
+                    "weight": "Menos tensión en bíceps"
+                },
+                {
+                    "name": "Remo Meadows (Unilateral con barra)",
+                    "reps": "10-12",
+                    "sets": 3,
+                    "weight": "Por lado"
                 },
                 {
                     "name": "Pullover en Polea Alta (Brazos extendidos)",
@@ -58,22 +64,10 @@
                     "weight": ""
                 },
                 {
-                    "name": "Preacher Curl (Banco Scott)",
-                    "reps": "10",
-                    "sets": 4,
-                    "weight": ""
-                },
-                {
-                    "name": "Curl Martillo (Mancuernas)",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
                     "name": "Reverse Grip Curl (Barra Z agarre invertido)",
                     "reps": "12",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Foco antebrazos"
                 },
                 {
                     "name": "Wrist Curl (Flexión de muñeca)",
@@ -85,12 +79,12 @@
             "order": 3
         },
         {
-            "category": "ESTIRAMIENTO (5-7 min)",
+            "category": "ESTIRAMIENTO (Para MMA)",
             "exercises": [
                 {
                     "name": "Estiramiento de Bíceps y Antebrazos",
-                    "reps": "",
-                    "sets": 1,
+                    "reps": "30s",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
@@ -98,10 +92,16 @@
                     "reps": "30s",
                     "sets": 2,
                     "weight": ""
+                },
+                {
+                    "name": "Liberación de hombros: Cruce de brazo",
+                    "reps": "",
+                    "sets": 1,
+                    "weight": "Soltar tensión"
                 }
             ],
             "order": 4
         }
     ],
-    "focus": "JUEVES: TIRÓN (FOCO BRAZOS Y ANTEBRAZOS)"
+    "focus": "JUEVES: TIRÓN LIVIANO (FOCO ESPALDA) + 🥊 MMA"
 }
