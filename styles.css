@@ -648,6 +648,131 @@ body {
     border-top: 1px solid var(--border-color);
 }
 
+/* ===== Weight Tracker Styles ===== */
+.exercise-weight-tracker {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0 0.5rem;
+}
+
+.weight-inputs-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.weight-input {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 0.65rem 1rem;
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    font-family: inherit;
+    transition: var(--transition);
+}
+
+.weight-input:focus {
+    outline: none;
+    border-color: var(--primary);
+    background: rgba(99, 102, 241, 0.05);
+}
+
+.weight-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 0.65rem 1rem;
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weight-btn.save-btn {
+    background: var(--primary-dark);
+    border-color: var(--primary);
+}
+
+.weight-btn.save-btn:hover {
+    background: var(--primary);
+}
+
+.weight-btn.history-btn {
+    padding: 0.65rem 0.8rem;
+}
+
+.weight-btn.history-btn:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--primary-light);
+}
+
+.weight-history-dropdown {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out, margin-top 0.3s ease-out;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: var(--radius-md);
+    border: 1px solid transparent;
+}
+
+.weight-history-dropdown.show {
+    max-height: 300px;
+    opacity: 1;
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    border-color: var(--border-color);
+}
+
+.history-header {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.weight-history-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0.5rem;
+    background: rgba(255,255,255,0.02);
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+}
+
+.history-date {
+    color: var(--text-secondary);
+}
+
+.history-weight {
+    font-weight: 600;
+    color: var(--primary-light);
+}
+
+.no-history {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-style: italic;
+    padding: 0.5rem;
+}
+
 /* ===== Responsive Design ===== */
 @media (max-width: 640px) {
     .app-header { padding: 1rem; }

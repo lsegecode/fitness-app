@@ -34,7 +34,12 @@ const translations = {
             friday: { short: 'FRI', full: 'Friday' },
             saturday: { short: 'SAT', full: 'Saturday' },
             sunday: { short: 'SUN', full: 'Sunday' }
-        }
+        },
+        weight: 'Weight',
+        save: 'Save',
+        history: 'History',
+        noHistory: 'No history yet',
+        currentPlaceholder: 'e.g. 50kg'
     },
     es: {
         gym: 'GIMNASIO',
@@ -63,7 +68,12 @@ const translations = {
             friday: { short: 'VIE', full: 'Viernes' },
             saturday: { short: 'SÁB', full: 'Sábado' },
             sunday: { short: 'DOM', full: 'Domingo' }
-        }
+        },
+        weight: 'Peso',
+        save: 'Guardar',
+        history: 'Historial',
+        noHistory: 'Sin historial',
+        currentPlaceholder: 'ej. 50kg'
     }
 };
 
@@ -145,6 +155,7 @@ function initLangSwitcher() {
                     b.classList.toggle('active', b.dataset.lang === currentLang);
                 });
 
+                // Set HTML Document Title based on new translation logic is possible, skipping for now
                 // Reload data for new language
                 await loadData();
                 updateUILanguage();
@@ -368,18 +379,131 @@ function renderGymContent(day) {
     });
 }
 
+// ===== Weight Tracking Logic =====
+function getWeightData(exerciseName) {
+    const data = localStorage.getItem('fittrack-weights');
+    if (!data) return { current: '', history: [] };
+    const parsed = JSON.parse(data);
+    return parsed[exerciseName] || { current: '', history: [] };
+}
+
+function saveWeightData(exerciseName, weightStr) {
+    if (!weightStr.trim()) return;
+
+    const allData = JSON.parse(localStorage.getItem('fittrack-weights') || '{}');
+    const exData = allData[exerciseName] || { current: '', history: [] };
+
+    const now = new Date();
+    // Format: DD/MM (e.g., 23/02)
+    const dateStr = `${now.getDate().toString().padStart(2, '0')}/${(now.getMonth() + 1).toString().padStart(2, '0')}`;
+
+    // Only update if the weight actually changed
+    // OR if we want to save every entry regardless, we just push.
+    // The requirement says: "If I change the weight, keep the history of the last 3"
+    
+    // If it's the exact same weight as current, don't create a new history record
+    if (exData.current !== weightStr) {
+        if (exData.current) {
+            // Push current to history before updating (with today's date)
+            // Note: In real life, the date of the previous weight is lost if we don't save it.
+            // Better to store { weight, date } as current.
+        }
+    }
+}
+
+// Rewriting weight save logic properly:
+function updateWeight(btnElement, exerciseName) {
+    const container = btnElement.closest('.exercise-weight-tracker');
+    const input = container.querySelector('.weight-input');
+    const newWeight = input.value.trim();
+    
+    if (!newWeight) return;
+
+    const allData = JSON.parse(localStorage.getItem('fittrack-weights') || '{}');
+    const exData = allData[exerciseName] || { current: null, history: [] };
+    
+    const now = new Date();
+    const dateStr = `${now.getDate().toString().padStart(2, '0')}/${(now.getMonth() + 1).toString().padStart(2, '0')}`;
+
+    // If there is an existing current weight and it's different from the new one, move it to history
+    if (exData.current && exData.current.weight !== newWeight) {
+        exData.history.unshift(exData.current); // Add to beginning (newest first)
+        
+        // Keep only last 3 history records
+        if (exData.history.length > 3) {
+            exData.history.pop(); // Remove oldest
+        }
+    }
+
+    // Always update current date even if weight is the same (acts as a "logged today" feature)
+    // Actually, user said: "if I change the weight, keep history". Let's update current anyway.
+    exData.current = { weight: newWeight, date: dateStr };
+    
+    allData[exerciseName] = exData;
+    localStorage.setItem('fittrack-weights', JSON.stringify(allData));
+    
+    // Re-render the exercise lists in this block visually
+    // The easiest way is to re-render the whole day, but that collapses blocks.
+    // Let's just update the DOM directly for optimal UX.
+    renderWeightTrackerDOM(container, exerciseName, exData);
+}
+
+function toggleWeightHistory(btnElement) {
+    const container = btnElement.closest('.exercise-weight-tracker');
+    const historyDiv = container.querySelector('.weight-history-dropdown');
+    historyDiv.classList.toggle('show');
+}
+
+function renderWeightTrackerDOM(container, exerciseName, data) {
+    const curWeight = data.current ? data.current.weight : '';
+    
+    let historyHtml = '<div class="weight-history-items">';
+    if (data.history.length === 0) {
+        historyHtml += `<span class="no-history">${t('noHistory')}</span>`;
+    } else {
+        data.history.forEach(h => {
+            historyHtml += `
+                <div class="history-item">
+                    <span class="history-date">${h.date}</span>
+                    <span class="history-weight">${h.weight}</span>
+                </div>
+            `;
+        });
+    }
+    historyHtml += '</div>';
+
+    container.innerHTML = `
+        <div class="weight-inputs-row">
+            <input type="text" class="weight-input" placeholder="${t('currentPlaceholder')}" value="${curWeight}">
+            <button class="weight-btn save-btn" onclick="updateWeight(this, '${exerciseName.replace(/'/g, "\\'")}')">${t('save')}</button>
+            <button class="weight-btn history-btn" onclick="toggleWeightHistory(this)">
+                🕒
+            </button>
+        </div>
+        <div class="weight-history-dropdown">
+            <div class="history-header">${t('history')}</div>
+            ${historyHtml}
+        </div>
+    `;
+}
+
 // ===== Render Exercises =====
 function renderExercises(exercises) {
     return exercises.map(ex => {
         if (typeof ex === 'string') {
+            const data = getWeightData(ex);
             return `
                 <div class="exercise-item simple">
                     <span class="exercise-name">${ex}</span>
+                </div>
+                <div class="exercise-weight-tracker" id="tracker-${ex.replace(/[^a-zA-Z0-9]/g, '')}">
+                    ${renderWeightTrackerHTML(ex, data)}
                 </div>
             `;
         }
 
         const reps = typeof ex.reps === 'number' ? `${ex.reps} ${t('reps')}` : ex.reps;
+        const data = getWeightData(ex.name);
 
         return `
             <div class="exercise-item">
@@ -389,8 +513,44 @@ function renderExercises(exercises) {
                     <span class="meta-badge">${reps}</span>
                 </div>
             </div>
+            <div class="exercise-weight-tracker" id="tracker-${ex.name.replace(/[^a-zA-Z0-9]/g, '')}">
+                ${renderWeightTrackerHTML(ex.name, data)}
+            </div>
         `;
     }).join('');
+}
+
+function renderWeightTrackerHTML(exerciseName, data) {
+    const curWeight = data.current ? data.current.weight : '';
+    
+    let historyHtml = '<div class="weight-history-items">';
+    if (data.history.length === 0) {
+        historyHtml += `<span class="no-history">${t('noHistory')}</span>`;
+    } else {
+        data.history.forEach(h => {
+            historyHtml += `
+                <div class="history-item">
+                    <span class="history-date">${h.date}</span>
+                    <span class="history-weight">${h.weight}</span>
+                </div>
+            `;
+        });
+    }
+    historyHtml += '</div>';
+
+    return `
+        <div class="weight-inputs-row">
+            <input type="text" class="weight-input" placeholder="${t('currentPlaceholder')}" value="${curWeight}">
+            <button class="weight-btn save-btn" onclick="updateWeight(this, '${exerciseName.replace(/'/g, "\\'")}')">${t('save')}</button>
+            <button class="weight-btn history-btn" onclick="toggleWeightHistory(this)">
+                🕒
+            </button>
+        </div>
+        <div class="weight-history-dropdown">
+            <div class="history-header">${t('history')}</div>
+            ${historyHtml}
+        </div>
+    `;
 }
 
 // ===== Render Diet Content =====
