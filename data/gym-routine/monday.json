@@ -1,113 +1,125 @@
 {
     "blocks": [
         {
-            "category": "WARM-UP (5 min - Post Swimming)",
+            "category": "WARM-UP (10 min)",
             "exercises": [
                 {
-                    "name": "Joint Mobility: Shoulders, wrists, neck",
+                    "name": "Joint Mobility: Shoulders, neck and wrists circles",
                     "reps": "2 min",
                     "sets": "",
-                    "weight": "Already warmed up in pool"
+                    "weight": ""
                 },
                 {
-                    "name": "Activation: Face Pulls",
+                    "name": "Treadmill or Elliptical (Moderate pace)",
+                    "reps": "5 min",
+                    "sets": "",
+                    "weight": ""
+                },
+                {
+                    "name": "Activation: Face Pulls (Rear delt warm-up)",
                     "reps": "15",
                     "sets": 2,
                     "weight": "Very light"
+                },
+                {
+                    "name": "Band Pull-Aparts",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Elastic band"
                 }
             ],
             "order": 1
         },
         {
-            "category": "CALISTHENICS (PULL-UP PREP)",
+            "category": "STRENGTH & HYPERTROPHY (3 sets · 8-12 reps)",
             "exercises": [
                 {
-                    "name": "Australian Pull-ups",
-                    "reps": "10-12",
+                    "name": "Wide Grip Lat Pulldown",
+                    "reps": "8-12",
                     "sets": 3,
-                    "weight": "Horizontal body"
+                    "weight": "Controlled eccentric (slow way up)"
                 },
                 {
-                    "name": "Scapular Retractions (Hanging)",
-                    "reps": "12",
-                    "sets": 2,
+                    "name": "Neutral Grip Cable Row",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Squeeze shoulder blades together"
+                },
+                {
+                    "name": "Unilateral Seated Machine Row",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Medium grip, one arm at a time"
+                },
+                {
+                    "name": "Z-Bar Preacher Curl",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Isolate biceps on the bench"
+                },
+                {
+                    "name": "Dumbbell Hammer Curl",
+                    "reps": "8-12",
+                    "sets": 3,
                     "weight": ""
+                },
+                {
+                    "name": "Wrist Curls (Forearms)",
+                    "reps": "15",
+                    "sets": 3,
+                    "weight": "End of session only"
                 }
             ],
             "order": 2
         },
         {
-            "category": "STRENGTH & HYPERTROPHY (BICEP FOCUS)",
+            "category": "STRETCHING & RECOVERY (7-10 min)",
             "exercises": [
                 {
-                    "name": "Lat Pulldowns (Wide Grip)",
-                    "reps": "10-12",
-                    "sets": 4,
+                    "name": "Dead Hang (Passive)",
+                    "reps": "30-45s",
+                    "sets": 2,
+                    "weight": "Decompress spine"
+                },
+                {
+                    "name": "Wall Bicep & Forearm Stretch",
+                    "reps": "30s each side",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Chest-Supported Row",
-                    "reps": "8-10",
-                    "sets": 3,
+                    "name": "Cross-Body Shoulder Stretch",
+                    "reps": "30s each side",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Preacher Curl",
-                    "reps": "10",
-                    "sets": 4,
-                    "weight": "Heavy"
+                    "name": "Child's Pose (Lat stretch)",
+                    "reps": "1 min",
+                    "sets": 1,
+                    "weight": ""
                 },
                 {
-                    "name": "Hammer Curl (Dumbbells)",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": "Brachialis + forearms"
+                    "name": "Cat-Cow Spine Mobilization",
+                    "reps": "10 reps",
+                    "sets": 1,
+                    "weight": ""
                 }
             ],
             "order": 3
         },
         {
-            "category": "ABS",
+            "category": "CARDIO",
             "exercises": [
                 {
-                    "name": "Ab Roller",
-                    "reps": "8-10",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Hanging Leg Raises",
-                    "reps": "15",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Russian Twist",
-                    "reps": "20 (total)",
-                    "sets": 3,
-                    "weight": ""
+                    "name": "Swimming Lessons",
+                    "reps": "~1 km",
+                    "sets": "",
+                    "weight": "1 hour session"
                 }
             ],
             "order": 4
-        },
-        {
-            "category": "STRETCHING & RECOVERY",
-            "exercises": [
-                {
-                    "name": "Dead Hang",
-                    "reps": "30s",
-                    "sets": 2,
-                    "weight": ""
-                },
-                {
-                    "name": "Wall Bicep Stretch",
-                    "reps": "30s",
-                    "sets": 2,
-                    "weight": ""
-                }
-            ],
-            "order": 5
         }
     ],
-    "focus": "MONDAY: 🏊 SWIMMING + PULL (BICEP FOCUS) + ABS"
+    "focus": "MONDAY: PULL DAY (BACK & BICEPS)"
 }

@@ -4,8 +4,8 @@
             "category": "CALENTAMIENTO (10 min)",
             "exercises": [
                 {
-                    "name": "Movilidad Articular: Hombros, codos y muñecas",
-                    "reps": "3 min",
+                    "name": "Movilidad articular: Hombros, codos y muñecas",
+                    "reps": "2 min",
                     "sets": "",
                     "weight": ""
                 },
@@ -16,92 +16,122 @@
                     "weight": ""
                 },
                 {
-                    "name": "Activación de Bíceps (Mancuernas livianas)",
+                    "name": "Activación: Curl de Bíceps (mancuernas ligeras)",
                     "reps": "15",
                     "sets": 2,
-                    "weight": "Muy liviano"
+                    "weight": "Muy poco peso"
+                },
+                {
+                    "name": "Band Pull-Aparts (Activación de deltoides posterior)",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Banda elástica"
                 }
             ],
             "order": 1
         },
         {
-            "category": "CALISTENIA / ACTIVACIÓN",
+            "category": "FUERZA E HIPERTROFIA (3 series · 8-12 reps)",
             "exercises": [
                 {
-                    "name": "Face Pulls (En polea)",
-                    "reps": "15-20",
+                    "name": "Jalón al Pecho (Agarre Ancho)",
+                    "reps": "8-12",
                     "sets": 3,
-                    "weight": "Foco posterior hombro"
+                    "weight": "Excéntrico controlado (lento al subir)"
                 },
                 {
-                    "name": "Hiperextensiones (Banco a 45°)",
-                    "reps": "12-15",
+                    "name": "Remo en Polea Baja (Agarre Neutro)",
+                    "reps": "8-12",
                     "sets": 3,
-                    "weight": "Controlado"
+                    "weight": "Juntar escápulas al finalizar"
+                },
+                {
+                    "name": "Remo Unilateral en Máquina (Sentado)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Agarre medio, un brazo a la vez"
+                },
+                {
+                    "name": "Curl en Banco Scott (Barra Z)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Aislar bíceps sobre el banco"
+                },
+                {
+                    "name": "Curl Martillo (Mancuernas)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Curl de Muñeca (Antebrazos)",
+                    "reps": "15",
+                    "sets": 3,
+                    "weight": "Solo al final de la sesión"
                 }
             ],
             "order": 2
         },
         {
-            "category": "FUERZA E HIPERTROFIA",
+            "category": "ABDOMINALES",
             "exercises": [
                 {
-                    "name": "Jalones al Pecho (Agarre neutro)",
+                    "name": "Rueda Abdominal (Ab Wheel)",
                     "reps": "10-12",
-                    "sets": 4,
-                    "weight": "Menos tensión en bíceps"
-                },
-                {
-                    "name": "Remo Meadows (Unilateral con barra)",
-                    "reps": "10-12",
-                    "sets": 3,
-                    "weight": "Por lado"
-                },
-                {
-                    "name": "Pullover en Polea Alta (Brazos extendidos)",
-                    "reps": "12-15",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Reverse Grip Curl (Barra Z agarre invertido)",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": "Foco antebrazos"
-                },
-                {
-                    "name": "Wrist Curl (Flexión de muñeca)",
-                    "reps": "15",
+                    "name": "Elevación de Rodillas/Piernas (Colgado)",
+                    "reps": "Hasta el fallo",
                     "sets": 3,
                     "weight": ""
+                },
+                {
+                    "name": "Giros Rusos (Russian Twists)",
+                    "reps": "20 (totales)",
+                    "sets": 3,
+                    "weight": "Con peso si es posible"
                 }
             ],
             "order": 3
         },
         {
-            "category": "ESTIRAMIENTO (Para MMA)",
+            "category": "ESTIRAMIENTO Y RECUPERACIÓN (7-10 min)",
             "exercises": [
                 {
-                    "name": "Estiramiento de Bíceps y Antebrazos",
-                    "reps": "30s",
+                    "name": "Colgado pasivo (Dead Hang)",
+                    "reps": "30-45s",
+                    "sets": 2,
+                    "weight": "Descompresión de columna"
+                },
+                {
+                    "name": "Estiramiento de bíceps y antebrazo en pared",
+                    "reps": "30s cada lado",
                     "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Estiramiento de Dorsales",
-                    "reps": "30s",
+                    "name": "Estiramiento cruzado de hombro",
+                    "reps": "30s cada lado",
                     "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Liberación de hombros: Cruce de brazo",
-                    "reps": "",
+                    "name": "Postura del niño (Estiramiento de dorsal)",
+                    "reps": "1 min",
                     "sets": 1,
-                    "weight": "Soltar tensión"
+                    "weight": ""
+                },
+                {
+                    "name": "Movilización gateo (Gato-Vaca)",
+                    "reps": "10 repeticiones",
+                    "sets": 1,
+                    "weight": ""
                 }
             ],
             "order": 4
         }
     ],
-    "focus": "JUEVES: TIRÓN LIVIANO (FOCO ESPALDA) + 🥊 MMA"
+    "focus": "JUEVES: DÍA DE TIRÓN (ESPALDA Y BÍCEPS) + ABDOMINALES"
 }

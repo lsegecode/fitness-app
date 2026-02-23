@@ -1,89 +1,137 @@
 {
     "blocks": [
         {
-            "category": "CALENTAMIENTO (5 min - Post Natación)",
+            "category": "CALENTAMIENTO (10 min)",
             "exercises": [
                 {
-                    "name": "Movilidad: Foco en manguito rotador (Face Pulls livianos)",
-                    "reps": "2 min",
+                    "name": "Movilidad articular: Círculos de brazos, muñecas y flexiones escapulares",
+                    "reps": "12",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Cinta (Ritmo moderado)",
+                    "reps": "5 min",
                     "sets": "",
-                    "weight": "Ya calentaste en pileta"
+                    "weight": ""
+                },
+                {
+                    "name": "Activación del manguito rotador: Rotaciones externas con banda",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Banda elástica - muy ligero"
+                },
+                {
+                    "name": "Flexiones dinámicas (Normal)",
+                    "reps": "10",
+                    "sets": 2,
+                    "weight": ""
                 }
             ],
             "order": 1
         },
         {
-            "category": "FUERZA (LOS \"GRANDES\")",
+            "category": "FUERZA E HIPERTROFIA (3 series · 8-12 reps)",
             "exercises": [
                 {
-                    "name": "Press Militar (Mancuernas)",
-                    "reps": "8",
-                    "sets": 4,
-                    "weight": ""
+                    "name": "Press Militar Sentado (Barra o Polea)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "PRIORIDAD #1 - Sobrecarga progresiva"
                 },
                 {
-                    "name": "Press de Banca Plano (Barra)",
-                    "reps": "10",
+                    "name": "Elevación Lateral en Polea",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Enfocarse en el deltoides lateral para amplitud"
+                },
+                {
+                    "name": "Fondos en Paralelas (Dips)",
+                    "reps": "Hasta el fallo",
+                    "sets": 3,
+                    "weight": "Foco en tríceps y pecho"
+                },
+                {
+                    "name": "Press de Banca con Barra (Plano)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Foco en sobrecarga progresiva"
+                },
+                {
+                    "name": "Press Inclinado con Mancuernas",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Foco en pecho superior (estética)"
+                },
+                {
+                    "name": "Pec Deck (Aperturas en máquina)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Aislamiento de pecho"
+                },
+                {
+                    "name": "Extensión de Tríceps en Polea (Barra recta)",
+                    "reps": "8-12",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Press Inclinado (Mancuernas)",
-                    "reps": "12",
+                    "name": "Extensión de Tríceps sobre la Cabeza en Polea",
+                    "reps": "8-12",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Foco en cabeza larga del tríceps"
                 }
             ],
             "order": 2
         },
         {
-            "category": "HOMBRO ESTÉTICO Y POSTURA",
+            "category": "ESTIRAMIENTO Y RECUPERACIÓN (7-10 min)",
             "exercises": [
                 {
-                    "name": "Lateral Raise apoyado en banco inclinado",
-                    "reps": "12-15",
-                    "sets": 3,
-                    "weight": "Aísla el deltoides"
+                    "name": "Estiramiento de pecho en marco de puerta",
+                    "reps": "30s cada lado",
+                    "sets": 2,
+                    "weight": ""
                 },
                 {
-                    "name": "Upright Row (Remo al mentón)",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": "Agarre ancho"
+                    "name": "Estiramiento de tríceps sobre la cabeza",
+                    "reps": "30s cada lado",
+                    "sets": 2,
+                    "weight": ""
                 },
                 {
-                    "name": "Reverse Peck Deck (Pájaros)",
-                    "reps": "15",
-                    "sets": 3,
+                    "name": "Estiramiento cruzado de hombro",
+                    "reps": "30s cada lado",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Sleeper Stretch (Manguito Rotador)",
+                    "reps": "30s cada lado",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Estiramiento lateral de cuello",
+                    "reps": "30s cada lado",
+                    "sets": 1,
                     "weight": ""
                 }
             ],
             "order": 3
         },
         {
-            "category": "CALISTENIA Y TRÍCEPS",
+            "category": "CARDIO",
             "exercises": [
                 {
-                    "name": "Pike Push-ups (Flexiones en V)",
-                    "reps": "8-10",
-                    "sets": 2,
-                    "weight": ""
-                },
-                {
-                    "name": "Bench Dips (Fondos en banco)",
-                    "reps": "Fallo",
-                    "sets": 2,
-                    "weight": ""
-                },
-                {
-                    "name": "Tríceps en Polea + Overhead Extension (Superserie)",
-                    "reps": "12 (cada uno)",
-                    "sets": 3,
-                    "weight": "Sin descanso"
+                    "name": "Clases de Natación",
+                    "reps": "~1 km",
+                    "sets": "",
+                    "weight": "Sesión de 1 hora"
                 }
             ],
             "order": 4
         }
     ],
-    "focus": "VIERNES: 🏊 NATACIÓN + EMPUJE (FOCO HOMBROS)"
+    "focus": "VIERNES: DÍA DE EMPUJE (HOMBROS + PECHO + TRÍCEPS)"
 }

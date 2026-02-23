@@ -1,77 +1,131 @@
 {
     "blocks": [
         {
-            "category": "WARM-UP (10 min)",
+            "category": "WARM-UP (10-12 min)",
             "exercises": [
                 {
-                    "name": "Dynamic Mobility: Leg swings, \"World's Greatest Stretch\" and unweighted glute bridges",
-                    "reps": "15 (bridges)",
+                    "name": "Dynamic Mobility: Ankle mobility, hip circles and \"World's Greatest Stretch\"",
+                    "reps": "10",
                     "sets": 2,
                     "weight": ""
+                },
+                {
+                    "name": "Activation: Bodyweight Squats",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Activation: Glute Bridges (Bodyweight)",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Squeeze glutes at top"
+                },
+                {
+                    "name": "Warm-up Set: Bulgarian Split Squat (very light / bodyweight)",
+                    "reps": "10 each leg",
+                    "sets": 1,
+                    "weight": "Very light"
                 }
             ],
             "order": 1
         },
         {
-            "category": "STRENGTH & POWER (COMPOUNDS)",
+            "category": "STRENGTH & HYPERTROPHY (3 sets · 8-12 reps)",
             "exercises": [
                 {
-                    "name": "Romanian Deadlift (Heavy)",
-                    "reps": "8-10",
-                    "sets": 4,
-                    "weight": "Hamstring & glute focus"
+                    "name": "Bulgarian Split Squat",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Hold dumbbells for balance and load"
                 },
                 {
-                    "name": "Hip Thrust",
-                    "reps": "8-10",
-                    "sets": 4,
-                    "weight": "1s pause at top"
+                    "name": "Hack Squat",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Deep range of motion"
+                },
+                {
+                    "name": "Hip Thrust (Barbell)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Focus on glute contraction at top"
+                },
+                {
+                    "name": "Conventional Deadlift",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Warm up thoroughly; explosive pull, controlled descent"
+                },
+                {
+                    "name": "Leg Extension",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Quadriceps isolation"
+                },
+                {
+                    "name": "Leg Curl",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Hamstring isolation"
                 }
             ],
             "order": 2
         },
         {
-            "category": "FUNCTIONAL FOCUS",
+            "category": "ABDOMINALS",
             "exercises": [
                 {
-                    "name": "Walking Lunges",
-                    "reps": "20 (total steps)",
+                    "name": "Ab Wheel Rollouts",
+                    "reps": "10-12",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Step-ups",
-                    "reps": "10 (per leg)",
+                    "name": "Hanging Knee/Leg Raises",
+                    "reps": "To failure",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Standing Calf Raises",
-                    "reps": "15",
+                    "name": "Russian Twists",
+                    "reps": "20 (total)",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Weighted if possible"
                 }
             ],
             "order": 3
         },
         {
-            "category": "ABS",
+            "category": "STRETCHING & RECOVERY (8-10 min)",
             "exercises": [
                 {
-                    "name": "Plank",
+                    "name": "Standing Quad Stretch",
+                    "reps": "45s each leg",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Pigeon Pose (Hip Flexor & Glute Stretch)",
+                    "reps": "45s each side",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Hamstring Stretch (Seated or Standing)",
+                    "reps": "45s each leg",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Adductor Stretch (Wide Stance)",
                     "reps": "45s",
-                    "sets": 3,
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Machine or Weighted Crunch",
-                    "reps": "15",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Side Plank",
-                    "reps": "30s (per side)",
+                    "name": "Calf Stretch (Against Wall)",
+                    "reps": "30s each leg",
                     "sets": 2,
                     "weight": ""
                 }
@@ -79,5 +133,5 @@
             "order": 4
         }
     ],
-    "focus": "SATURDAY: LEGS (HAMSTRINGS, GLUTES & POSTERIOR) + ABS"
+    "focus": "SATURDAY: LEG DAY (LOWER BODY) + ABS"
 }

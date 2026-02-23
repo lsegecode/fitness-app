@@ -4,122 +4,146 @@
             "category": "CALENTAMIENTO (10 min)",
             "exercises": [
                 {
-                    "name": "Movilidad Articular: Círculos de brazos, rotación de muñecas y Scapular push-ups",
+                    "name": "Movilidad articular: Círculos de brazos, muñecas y flexiones escapulares",
                     "reps": "12",
                     "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Activación Dinámica: Flexiones normales",
+                    "name": "Cinta (Ritmo moderado)",
+                    "reps": "5 min",
+                    "sets": "",
+                    "weight": ""
+                },
+                {
+                    "name": "Activación del manguito rotador: Rotaciones externas con banda",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Banda elástica - muy ligero"
+                },
+                {
+                    "name": "Flexiones dinámicas (Normal)",
                     "reps": "10",
                     "sets": 2,
-                    "weight": "Ritmo rápido"
+                    "weight": ""
                 }
             ],
             "order": 1
         },
         {
-            "category": "FUERZA (FOCO PECHO)",
+            "category": "FUERZA E HIPERTROFIA (3 series · 8-12 reps)",
             "exercises": [
                 {
-                    "name": "Press de Banca Plano (Barra)",
-                    "reps": "6-8",
-                    "sets": 4,
-                    "weight": "Peso pesado"
+                    "name": "Press Militar Sentado (Barra o Polea)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "PRIORIDAD #1 - Sobrecarga progresiva"
                 },
                 {
-                    "name": "Press de Banca Inclinado (Mancuernas)",
-                    "reps": "10",
+                    "name": "Elevación Lateral en Polea",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Enfocarse en el deltoides lateral para amplitud"
+                },
+                {
+                    "name": "Fondos en Paralelas (Dips)",
+                    "reps": "Hasta el fallo",
+                    "sets": 3,
+                    "weight": "Foco en tríceps y pecho"
+                },
+                {
+                    "name": "Press de Banca con Barra (Plano)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Foco en sobrecarga progresiva"
+                },
+                {
+                    "name": "Press Inclinado con Mancuernas",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Foco en pecho superior (estética)"
+                },
+                {
+                    "name": "Pec Deck (Aperturas en máquina)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Aislamiento de pecho"
+                },
+                {
+                    "name": "Extensión de Tríceps en Polea (Barra recta)",
+                    "reps": "8-12",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Peck Deck (Mariposa)",
-                    "reps": "12-15",
+                    "name": "Extensión de Tríceps sobre la Cabeza en Polea",
+                    "reps": "8-12",
                     "sets": 3,
-                    "weight": "Foco en apretar al centro"
+                    "weight": "Foco en cabeza larga del tríceps"
                 }
             ],
             "order": 2
         },
         {
-            "category": "CALISTENIA (EL REMATE)",
+            "category": "ABDOMINALES",
             "exercises": [
                 {
-                    "name": "Dips (Fondos en paralelas)",
-                    "reps": "Fallo técnico",
-                    "sets": 2,
+                    "name": "Rueda Abdominal (Ab Wheel)",
+                    "reps": "10-12",
+                    "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Flexiones Diamante",
-                    "reps": "10-12",
-                    "sets": 2,
+                    "name": "Elevación de Rodillas/Piernas (Colgado)",
+                    "reps": "Hasta el fallo",
+                    "sets": 3,
                     "weight": ""
+                },
+                {
+                    "name": "Giros Rusos (Russian Twists)",
+                    "reps": "20 (totales)",
+                    "sets": 3,
+                    "weight": "Con peso si es posible"
                 }
             ],
             "order": 3
         },
         {
-            "category": "TRÍCEPS Y DETALLES",
+            "category": "ESTIRAMIENTO Y RECUPERACIÓN (7-10 min)",
             "exercises": [
                 {
-                    "name": "Tríceps en Polea (Cuerda)",
-                    "reps": "12",
-                    "sets": 3,
+                    "name": "Estiramiento de pecho en marco de puerta",
+                    "reps": "30s cada lado",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Overhead Extensions (Polea o Mancuerna)",
-                    "reps": "12",
-                    "sets": 3,
+                    "name": "Estiramiento de tríceps sobre la cabeza",
+                    "reps": "30s cada lado",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Estiramiento cruzado de hombro",
+                    "reps": "30s cada lado",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Sleeper Stretch (Manguito Rotador)",
+                    "reps": "30s cada lado",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Estiramiento lateral de cuello",
+                    "reps": "30s cada lado",
+                    "sets": 1,
                     "weight": ""
                 }
             ],
             "order": 4
-        },
-        {
-            "category": "HOMBROS (ACTIVACIÓN LIVIANA)",
-            "exercises": [
-                {
-                    "name": "Lateral Raise (Elevaciones laterales)",
-                    "reps": "15-20",
-                    "sets": 2,
-                    "weight": "Peso bajo, control"
-                },
-                {
-                    "name": "Face Pulls (En polea)",
-                    "reps": "15-20",
-                    "sets": 2,
-                    "weight": "Deltoides posterior"
-                }
-            ],
-            "order": 5
-        },
-        {
-            "category": "ESTIRAMIENTO Y RECUPERACIÓN (Para MMA)",
-            "exercises": [
-                {
-                    "name": "Estiramiento de Pectoral en marco de puerta",
-                    "reps": "30s",
-                    "sets": 2,
-                    "weight": ""
-                },
-                {
-                    "name": "Estiramiento de Tríceps tras nuca",
-                    "reps": "30s",
-                    "sets": 2,
-                    "weight": ""
-                },
-                {
-                    "name": "Liberación de hombros: Cruce de brazo",
-                    "reps": "",
-                    "sets": 1,
-                    "weight": "Soltar tensión"
-                }
-            ],
-            "order": 6
         }
     ],
-    "focus": "MARTES: EMPUJE (FOCO PECHO + TRÍCEPS) + 🥊 MMA"
+    "focus": "MARTES: DÍA DE EMPUJE (HOMBROS + PECHO + TRÍCEPS) + ABDOMINALES"
 }

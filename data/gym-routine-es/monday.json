@@ -1,113 +1,125 @@
 {
     "blocks": [
         {
-            "category": "CALENTAMIENTO (5 min - Post Natación)",
+            "category": "CALENTAMIENTO (10 min)",
             "exercises": [
                 {
-                    "name": "Movilidad Articular: Hombros, muñecas y cuello",
+                    "name": "Movilidad articular: Hombros, cuello y muñecas",
                     "reps": "2 min",
                     "sets": "",
-                    "weight": "Ya calentaste en pileta"
+                    "weight": ""
                 },
                 {
-                    "name": "Face Pulls (Activación)",
+                    "name": "Cinta o Elíptica (Ritmo moderado)",
+                    "reps": "5 min",
+                    "sets": "",
+                    "weight": ""
+                },
+                {
+                    "name": "Activación: Face Pulls (Deltoides posterior)",
                     "reps": "15",
                     "sets": 2,
                     "weight": "Muy poco peso"
+                },
+                {
+                    "name": "Band Pull-Aparts (Apertura de banda)",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Banda elástica"
                 }
             ],
             "order": 1
         },
         {
-            "category": "CALISTENIA (PREPARACIÓN DOMINADA)",
+            "category": "FUERZA E HIPERTROFIA (3 series · 8-12 reps)",
             "exercises": [
                 {
-                    "name": "Dominadas Australianas",
-                    "reps": "10-12",
+                    "name": "Jalón al Pecho (Agarre Ancho)",
+                    "reps": "8-12",
                     "sets": 3,
-                    "weight": "Cuerpo horizontal"
+                    "weight": "Excéntrico controlado (lento al subir)"
                 },
                 {
-                    "name": "Retracciones Escapulares (Colgado)",
-                    "reps": "12",
-                    "sets": 2,
+                    "name": "Remo en Polea Baja (Agarre Neutro)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Juntar escápulas al finalizar"
+                },
+                {
+                    "name": "Remo Unilateral en Máquina (Sentado)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Agarre medio, un brazo a la vez"
+                },
+                {
+                    "name": "Curl en Banco Scott (Barra Z)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Aislar bíceps sobre el banco"
+                },
+                {
+                    "name": "Curl Martillo (Mancuernas)",
+                    "reps": "8-12",
+                    "sets": 3,
                     "weight": ""
+                },
+                {
+                    "name": "Curl de Muñeca (Antebrazos)",
+                    "reps": "15",
+                    "sets": 3,
+                    "weight": "Solo al final de la sesión"
                 }
             ],
             "order": 2
         },
         {
-            "category": "FUERZA E HIPERTROFIA (FOCO BÍCEPS)",
+            "category": "ESTIRAMIENTO Y RECUPERACIÓN (7-10 min)",
             "exercises": [
                 {
-                    "name": "Jalones al Pecho (Agarre ancho)",
-                    "reps": "10-12",
-                    "sets": 4,
+                    "name": "Colgado pasivo (Dead Hang)",
+                    "reps": "30-45s",
+                    "sets": 2,
+                    "weight": "Descompresión de columna"
+                },
+                {
+                    "name": "Estiramiento de bíceps y antebrazo en pared",
+                    "reps": "30s cada lado",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Remo Recostado (Pecho apoyado)",
-                    "reps": "8-10",
-                    "sets": 3,
+                    "name": "Estiramiento cruzado de hombro",
+                    "reps": "30s cada lado",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Preacher Curl (Banco Scott)",
-                    "reps": "10",
-                    "sets": 4,
-                    "weight": "Peso pesado"
+                    "name": "Postura del niño (Estiramiento de dorsal)",
+                    "reps": "1 min",
+                    "sets": 1,
+                    "weight": ""
                 },
                 {
-                    "name": "Curl Martillo (Mancuernas)",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": "Braquial + antebrazos"
+                    "name": "Movilización gateo (Gato-Vaca)",
+                    "reps": "10 repeticiones",
+                    "sets": 1,
+                    "weight": ""
                 }
             ],
             "order": 3
         },
         {
-            "category": "ABS",
+            "category": "CARDIO",
             "exercises": [
                 {
-                    "name": "Rueda Abdominal (Ab Roller)",
-                    "reps": "8-10",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Elevación de Piernas (Colgado o banco)",
-                    "reps": "15",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Russian Twist (Giros rusos)",
-                    "reps": "20 (totales)",
-                    "sets": 3,
-                    "weight": ""
+                    "name": "Clases de Natación",
+                    "reps": "~1 km",
+                    "sets": "",
+                    "weight": "Sesión de 1 hora"
                 }
             ],
             "order": 4
-        },
-        {
-            "category": "ESTIRAMIENTO Y RECUPERACIÓN",
-            "exercises": [
-                {
-                    "name": "Colgado pasivo (Dead Hang)",
-                    "reps": "30s",
-                    "sets": 2,
-                    "weight": ""
-                },
-                {
-                    "name": "Estiramiento de bíceps en pared",
-                    "reps": "30s",
-                    "sets": 2,
-                    "weight": ""
-                }
-            ],
-            "order": 5
         }
     ],
-    "focus": "LUNES: 🏊 NATACIÓN + TIRÓN (FOCO BÍCEPS) + ABS"
+    "focus": "LUNES: DÍA DE TIRÓN (ESPALDA Y BÍCEPS)"
 }

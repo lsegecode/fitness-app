@@ -1,89 +1,137 @@
 {
     "blocks": [
         {
-            "category": "WARM-UP (5 min - Post Swimming)",
+            "category": "WARM-UP (10 min)",
             "exercises": [
                 {
-                    "name": "Mobility: Focus on rotator cuff (Light Face Pulls)",
-                    "reps": "2 min",
+                    "name": "Joint Mobility: Arm circles, wrist rotations and Scapular Push-ups",
+                    "reps": "12",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Treadmill (Moderate pace)",
+                    "reps": "5 min",
                     "sets": "",
-                    "weight": "Already warmed up in pool"
+                    "weight": ""
+                },
+                {
+                    "name": "Rotator Cuff Activation: Band External Rotations",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Elastic band - very light"
+                },
+                {
+                    "name": "Dynamic Push-ups (Normal pace)",
+                    "reps": "10",
+                    "sets": 2,
+                    "weight": ""
                 }
             ],
             "order": 1
         },
         {
-            "category": "STRENGTH (THE \"BIG\" LIFTS)",
+            "category": "STRENGTH & HYPERTROPHY (3 sets · 8-12 reps)",
             "exercises": [
                 {
-                    "name": "Overhead Press (Dumbbells)",
-                    "reps": "8",
-                    "sets": 4,
-                    "weight": ""
+                    "name": "Seated Military Press (Barbell or Cable)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "PRIORITY #1 - Progressive overload"
                 },
                 {
-                    "name": "Flat Bench Press (Barbell)",
-                    "reps": "10",
+                    "name": "Cable Lateral Raise",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Focus on side delt for width"
+                },
+                {
+                    "name": "Dips (Parallel bars)",
+                    "reps": "To failure",
+                    "sets": 3,
+                    "weight": "Focus on triceps and chest"
+                },
+                {
+                    "name": "Barbell Bench Press",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Progressive overload focus"
+                },
+                {
+                    "name": "Incline Dumbbell Press",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Focus on upper chest"
+                },
+                {
+                    "name": "Pec Deck Fly",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Chest isolation"
+                },
+                {
+                    "name": "Straight Bar Triceps Pushdown (Cable)",
+                    "reps": "8-12",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Incline Press (Dumbbells)",
-                    "reps": "12",
+                    "name": "Overhead Cable Triceps Extension",
+                    "reps": "8-12",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Long head focus"
                 }
             ],
             "order": 2
         },
         {
-            "category": "AESTHETIC SHOULDERS & POSTURE",
+            "category": "STRETCHING & RECOVERY (7-10 min)",
             "exercises": [
                 {
-                    "name": "Incline Supported Lateral Raise",
-                    "reps": "12-15",
-                    "sets": 3,
-                    "weight": "Isolates deltoid"
+                    "name": "Doorway Pectoral Stretch",
+                    "reps": "30s each side",
+                    "sets": 2,
+                    "weight": ""
                 },
                 {
-                    "name": "Upright Row",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": "Wide grip"
+                    "name": "Overhead Triceps Stretch",
+                    "reps": "30s each side",
+                    "sets": 2,
+                    "weight": ""
                 },
                 {
-                    "name": "Reverse Peck Deck",
-                    "reps": "15",
-                    "sets": 3,
+                    "name": "Cross-Body Shoulder Stretch",
+                    "reps": "30s each side",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Sleeper Stretch (Rotator Cuff)",
+                    "reps": "30s each side",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Neck Side Stretch",
+                    "reps": "30s each side",
+                    "sets": 1,
                     "weight": ""
                 }
             ],
             "order": 3
         },
         {
-            "category": "CALISTHENICS & TRICEPS",
+            "category": "CARDIO",
             "exercises": [
                 {
-                    "name": "Pike Push-ups",
-                    "reps": "8-10",
-                    "sets": 2,
-                    "weight": ""
-                },
-                {
-                    "name": "Bench Dips",
-                    "reps": "Failure",
-                    "sets": 2,
-                    "weight": ""
-                },
-                {
-                    "name": "Triceps Pushdown + Overhead Extension (Superset)",
-                    "reps": "12 (each)",
-                    "sets": 3,
-                    "weight": "No rest"
+                    "name": "Swimming Lessons",
+                    "reps": "~1 km",
+                    "sets": "",
+                    "weight": "1 hour session"
                 }
             ],
             "order": 4
         }
     ],
-    "focus": "FRIDAY: 🏊 SWIMMING + PUSH (SHOULDER FOCUS)"
+    "focus": "FRIDAY: PUSH DAY (SHOULDERS + CHEST + TRICEPS)"
 }

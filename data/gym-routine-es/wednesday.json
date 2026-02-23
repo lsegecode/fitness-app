@@ -1,59 +1,125 @@
 {
     "blocks": [
         {
-            "category": "CALENTAMIENTO (5 min - Post Natación)",
+            "category": "CALENTAMIENTO (10-12 min)",
             "exercises": [
                 {
-                    "name": "Movilidad Dinámica: Círculos de cadera y \"World's Greatest Stretch\"",
+                    "name": "Movilidad dinámica: Movilidad de tobillos, círculos de cadera y \"El Gran Estiramiento\"",
                     "reps": "10",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Activación: Sentadillas con peso corporal",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Activación: Puentes de Glúteo (peso corporal)",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Contraer glúteos arriba"
+                },
+                {
+                    "name": "Serie de calentamiento: Sentadilla Búlgara (muy ligero / peso corporal)",
+                    "reps": "10 cada pierna",
                     "sets": 1,
-                    "weight": "Ya calentaste en pileta"
+                    "weight": "Muy ligero"
                 }
             ],
             "order": 1
         },
         {
-            "category": "FUERZA E HIPERTROFIA (COMPUESTOS)",
+            "category": "FUERZA E HIPERTROFIA (3 series · 8-12 reps)",
             "exercises": [
                 {
-                    "name": "Sentadilla Hack",
-                    "reps": "8-10",
-                    "sets": 4,
-                    "weight": "Baja profundo y controlado"
+                    "name": "Sentadilla Búlgara (Split Squat)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Sostener mancuernas para equilibrio y carga"
                 },
                 {
-                    "name": "Prensa de Piernas",
-                    "reps": "12",
+                    "name": "Hack Squat",
+                    "reps": "8-12",
                     "sets": 3,
-                    "weight": "Pies en parte baja"
+                    "weight": "Rango completo de movimiento"
+                },
+                {
+                    "name": "Hip Thrust (Barra)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Foco en contracción de glúteos arriba"
+                },
+                {
+                    "name": "Peso Muerto Convencional",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Calentar bien; jalón explosivo, descenso controlado"
+                },
+                {
+                    "name": "Extensión de Cuádriceps (Máquina)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Aislamiento de cuádriceps"
+                },
+                {
+                    "name": "Curl de Femoral (Máquina)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Aislamiento de isquiotibiales"
                 }
             ],
             "order": 2
         },
         {
-            "category": "ENFOQUE (AISLAMIENTO)",
+            "category": "ESTIRAMIENTO Y RECUPERACIÓN (8-10 min)",
             "exercises": [
                 {
-                    "name": "Extensiones de Cuádriceps",
-                    "reps": "15",
-                    "sets": 3,
-                    "weight": "Sostén 1s arriba"
-                },
-                {
-                    "name": "Curl Femoral (Sentado o Tumbado)",
-                    "reps": "12",
-                    "sets": 4,
+                    "name": "Estiramiento de cuádriceps de pie",
+                    "reps": "45s cada pierna",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Gemelos en Prensa",
-                    "reps": "15-20",
-                    "sets": 4,
+                    "name": "Postura de la Paloma (Cadera y glúteos)",
+                    "reps": "45s cada lado",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Estiramiento de isquiotibiales (sentado o de pie)",
+                    "reps": "45s cada pierna",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Estiramiento de aductores (posición amplia)",
+                    "reps": "45s",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Estiramiento de gemelo (contra la pared)",
+                    "reps": "30s cada pierna",
+                    "sets": 2,
                     "weight": ""
                 }
             ],
             "order": 3
+        },
+        {
+            "category": "CARDIO",
+            "exercises": [
+                {
+                    "name": "Clases de Natación",
+                    "reps": "~1 km",
+                    "sets": "",
+                    "weight": "Sesión de 1 hora"
+                }
+            ],
+            "order": 4
         }
     ],
-    "focus": "MIÉRCOLES: 🏊 NATACIÓN + PIERNAS (FOCO CUÁDRICEPS)"
+    "focus": "MIÉRCOLES: DÍA DE PIERNAS (TREN INFERIOR)"
 }

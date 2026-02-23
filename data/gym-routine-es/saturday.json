@@ -1,77 +1,131 @@
 {
     "blocks": [
         {
-            "category": "CALENTAMIENTO (10 min)",
+            "category": "CALENTAMIENTO (10-12 min)",
             "exercises": [
                 {
-                    "name": "Movilidad Dinámica: Balanceo de piernas, \"World's Greatest Stretch\" y puentes de glúteo sin peso",
-                    "reps": "15 (puentes)",
+                    "name": "Movilidad dinámica: Movilidad de tobillos, círculos de cadera y \"El Gran Estiramiento\"",
+                    "reps": "10",
                     "sets": 2,
                     "weight": ""
+                },
+                {
+                    "name": "Activación: Sentadillas con peso corporal",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Activación: Puentes de Glúteo (peso corporal)",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Contraer glúteos arriba"
+                },
+                {
+                    "name": "Serie de calentamiento: Sentadilla Búlgara (muy ligero / peso corporal)",
+                    "reps": "10 cada pierna",
+                    "sets": 1,
+                    "weight": "Muy ligero"
                 }
             ],
             "order": 1
         },
         {
-            "category": "FUERZA Y POTENCIA (COMPUESTOS)",
+            "category": "FUERZA E HIPERTROFIA (3 series · 8-12 reps)",
             "exercises": [
                 {
-                    "name": "Peso Muerto Rumano (Pesado)",
-                    "reps": "8-10",
-                    "sets": 4,
-                    "weight": "Foco isquios y glúteos"
+                    "name": "Sentadilla Búlgara (Split Squat)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Sostener mancuernas para equilibrio y carga"
                 },
                 {
-                    "name": "Hip Thrust (Empuje de Cadera)",
-                    "reps": "8-10",
-                    "sets": 4,
-                    "weight": "Pausa de 1s arriba"
+                    "name": "Hack Squat",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Rango completo de movimiento"
+                },
+                {
+                    "name": "Hip Thrust (Barra)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Foco en contracción de glúteos arriba"
+                },
+                {
+                    "name": "Peso Muerto Convencional",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Calentar bien; jalón explosivo, descenso controlado"
+                },
+                {
+                    "name": "Extensión de Cuádriceps (Máquina)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Aislamiento de cuádriceps"
+                },
+                {
+                    "name": "Curl de Femoral (Máquina)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Aislamiento de isquiotibiales"
                 }
             ],
             "order": 2
         },
         {
-            "category": "ENFOQUE FUNCIONAL",
+            "category": "ABDOMINALES",
             "exercises": [
                 {
-                    "name": "Zancadas (Lunges) Caminando",
-                    "reps": "20 (pasos totales)",
+                    "name": "Rueda Abdominal (Ab Wheel)",
+                    "reps": "10-12",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Subidas al Cajón (Step-ups)",
-                    "reps": "10 (por pierna)",
+                    "name": "Elevación de Rodillas/Piernas (Colgado)",
+                    "reps": "Hasta el fallo",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Gemelos de pie",
-                    "reps": "15",
+                    "name": "Giros Rusos (Russian Twists)",
+                    "reps": "20 (totales)",
                     "sets": 3,
-                    "weight": ""
+                    "weight": "Con peso si es posible"
                 }
             ],
             "order": 3
         },
         {
-            "category": "ABS",
+            "category": "ESTIRAMIENTO Y RECUPERACIÓN (8-10 min)",
             "exercises": [
                 {
-                    "name": "Plancha (Plank)",
+                    "name": "Estiramiento de cuádriceps de pie",
+                    "reps": "45s cada pierna",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Postura de la Paloma (Cadera y glúteos)",
+                    "reps": "45s cada lado",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Estiramiento de isquiotibiales (sentado o de pie)",
+                    "reps": "45s cada pierna",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Estiramiento de aductores (posición amplia)",
                     "reps": "45s",
-                    "sets": 3,
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Crunch en Máquina o con Peso",
-                    "reps": "15",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Plancha Lateral (Side Plank)",
-                    "reps": "30s (por lado)",
+                    "name": "Estiramiento de gemelo (contra la pared)",
+                    "reps": "30s cada pierna",
                     "sets": 2,
                     "weight": ""
                 }
@@ -79,5 +133,5 @@
             "order": 4
         }
     ],
-    "focus": "SÁBADO: PIERNAS (FOCO ISQUIOS, GLÚTEOS Y POSTERIOR) + ABS"
+    "focus": "SÁBADO: DÍA DE PIERNAS (TREN INFERIOR) + ABDOMINALES"
 }

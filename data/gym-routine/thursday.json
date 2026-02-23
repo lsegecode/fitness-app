@@ -5,7 +5,7 @@
             "exercises": [
                 {
                     "name": "Joint Mobility: Shoulders, elbows and wrists",
-                    "reps": "3 min",
+                    "reps": "2 min",
                     "sets": "",
                     "weight": ""
                 },
@@ -16,92 +16,122 @@
                     "weight": ""
                 },
                 {
-                    "name": "Bicep Activation (Light dumbbells)",
+                    "name": "Activation: Bicep Curl (Light dumbbells)",
                     "reps": "15",
                     "sets": 2,
                     "weight": "Very light"
+                },
+                {
+                    "name": "Band Pull-Aparts (Rear delt activation)",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Elastic band"
                 }
             ],
             "order": 1
         },
         {
-            "category": "CALISTHENICS / ACTIVATION",
+            "category": "STRENGTH & HYPERTROPHY (3 sets · 8-12 reps)",
             "exercises": [
                 {
-                    "name": "Face Pulls (Cable)",
-                    "reps": "15-20",
+                    "name": "Wide Grip Lat Pulldown",
+                    "reps": "8-12",
                     "sets": 3,
-                    "weight": "Focus rear delts"
+                    "weight": "Controlled eccentric (slow way up)"
                 },
                 {
-                    "name": "Hyperextensions (45° Bench)",
-                    "reps": "12-15",
+                    "name": "Neutral Grip Cable Row",
+                    "reps": "8-12",
                     "sets": 3,
-                    "weight": "Controlled"
+                    "weight": "Squeeze shoulder blades together"
+                },
+                {
+                    "name": "Unilateral Seated Machine Row",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Medium grip, one arm at a time"
+                },
+                {
+                    "name": "Z-Bar Preacher Curl",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Isolate biceps on the bench"
+                },
+                {
+                    "name": "Dumbbell Hammer Curl",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": ""
+                },
+                {
+                    "name": "Wrist Curls (Forearms)",
+                    "reps": "15",
+                    "sets": 3,
+                    "weight": "End of session only"
                 }
             ],
             "order": 2
         },
         {
-            "category": "STRENGTH & HYPERTROPHY",
+            "category": "ABDOMINALS",
             "exercises": [
                 {
-                    "name": "Lat Pulldowns (Neutral Grip)",
+                    "name": "Ab Wheel Rollouts",
                     "reps": "10-12",
-                    "sets": 4,
-                    "weight": "Less bicep tension"
-                },
-                {
-                    "name": "Meadows Row (Single-arm barbell)",
-                    "reps": "10-12",
-                    "sets": 3,
-                    "weight": "Per side"
-                },
-                {
-                    "name": "Straight-Arm Lat Pulldown",
-                    "reps": "12-15",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Reverse Grip Curl (EZ Bar)",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": "Focus forearms"
-                },
-                {
-                    "name": "Wrist Curl (Barbell/Dumbbell)",
-                    "reps": "15",
+                    "name": "Hanging Knee/Leg Raises",
+                    "reps": "To failure",
                     "sets": 3,
                     "weight": ""
+                },
+                {
+                    "name": "Russian Twists",
+                    "reps": "20 (total)",
+                    "sets": 3,
+                    "weight": "Weighted if possible"
                 }
             ],
             "order": 3
         },
         {
-            "category": "STRETCHING (For MMA)",
+            "category": "STRETCHING & RECOVERY (7-10 min)",
             "exercises": [
                 {
-                    "name": "Biceps and Forearm Stretch",
-                    "reps": "30s",
+                    "name": "Dead Hang (Passive)",
+                    "reps": "30-45s",
+                    "sets": 2,
+                    "weight": "Decompress spine"
+                },
+                {
+                    "name": "Wall Bicep & Forearm Stretch",
+                    "reps": "30s each side",
                     "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Lat Stretch",
-                    "reps": "30s",
+                    "name": "Cross-Body Shoulder Stretch",
+                    "reps": "30s each side",
                     "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Shoulder Release: Arm cross",
-                    "reps": "",
+                    "name": "Child's Pose (Lat stretch)",
+                    "reps": "1 min",
                     "sets": 1,
-                    "weight": "Release tension"
+                    "weight": ""
+                },
+                {
+                    "name": "Cat-Cow Spine Mobilization",
+                    "reps": "10 reps",
+                    "sets": 1,
+                    "weight": ""
                 }
             ],
             "order": 4
         }
     ],
-    "focus": "THURSDAY: LIGHT PULL (BACK FOCUS) + 🥊 MMA"
+    "focus": "THURSDAY: PULL DAY (BACK & BICEPS) + ABS"
 }

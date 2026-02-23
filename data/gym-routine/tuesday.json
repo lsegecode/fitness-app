@@ -4,122 +4,146 @@
             "category": "WARM-UP (10 min)",
             "exercises": [
                 {
-                    "name": "Joint Mobility: Arm circles, wrist rotation and Scapular push-ups",
+                    "name": "Joint Mobility: Arm circles, wrist rotations and Scapular Push-ups",
                     "reps": "12",
                     "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Dynamic Activation: Normal Push-ups",
+                    "name": "Treadmill (Moderate pace)",
+                    "reps": "5 min",
+                    "sets": "",
+                    "weight": ""
+                },
+                {
+                    "name": "Rotator Cuff Activation: Band External Rotations",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Elastic band - very light"
+                },
+                {
+                    "name": "Dynamic Push-ups (Normal pace)",
                     "reps": "10",
                     "sets": 2,
-                    "weight": "Fast pace"
+                    "weight": ""
                 }
             ],
             "order": 1
         },
         {
-            "category": "STRENGTH (CHEST FOCUS)",
+            "category": "STRENGTH & HYPERTROPHY (3 sets · 8-12 reps)",
             "exercises": [
                 {
-                    "name": "Flat Bench Press (Barbell)",
-                    "reps": "6-8",
-                    "sets": 4,
-                    "weight": "Heavy"
+                    "name": "Seated Military Press (Barbell or Cable)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "PRIORITY #1 - Progressive overload"
                 },
                 {
-                    "name": "Incline Bench Press (Dumbbells)",
-                    "reps": "10",
+                    "name": "Cable Lateral Raise",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Focus on side delt for width"
+                },
+                {
+                    "name": "Dips (Parallel bars)",
+                    "reps": "To failure",
+                    "sets": 3,
+                    "weight": "Focus on triceps and chest"
+                },
+                {
+                    "name": "Barbell Bench Press",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Progressive overload focus"
+                },
+                {
+                    "name": "Incline Dumbbell Press",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Focus on upper chest"
+                },
+                {
+                    "name": "Pec Deck Fly",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Chest isolation"
+                },
+                {
+                    "name": "Straight Bar Triceps Pushdown (Cable)",
+                    "reps": "8-12",
                     "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Peck Deck (Butterfly)",
-                    "reps": "12-15",
+                    "name": "Overhead Cable Triceps Extension",
+                    "reps": "8-12",
                     "sets": 3,
-                    "weight": "Focus on squeezing"
+                    "weight": "Long head focus"
                 }
             ],
             "order": 2
         },
         {
-            "category": "CALISTHENICS (THE FINISHER)",
+            "category": "ABDOMINALS",
             "exercises": [
                 {
-                    "name": "Dips (Parallel bars)",
-                    "reps": "Technical Failure",
-                    "sets": 2,
+                    "name": "Ab Wheel Rollouts",
+                    "reps": "10-12",
+                    "sets": 3,
                     "weight": ""
                 },
                 {
-                    "name": "Diamond Push-ups",
-                    "reps": "10-12",
-                    "sets": 2,
+                    "name": "Hanging Knee/Leg Raises",
+                    "reps": "To failure",
+                    "sets": 3,
                     "weight": ""
+                },
+                {
+                    "name": "Russian Twists",
+                    "reps": "20 (total)",
+                    "sets": 3,
+                    "weight": "Weighted if possible"
                 }
             ],
             "order": 3
         },
         {
-            "category": "TRICEPS AND DETAILS",
-            "exercises": [
-                {
-                    "name": "Triceps Pushdown (Rope)",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": ""
-                },
-                {
-                    "name": "Overhead Extensions (Cable or Dumbbell)",
-                    "reps": "12",
-                    "sets": 3,
-                    "weight": ""
-                }
-            ],
-            "order": 4
-        },
-        {
-            "category": "SHOULDERS (LIGHT ACTIVATION)",
-            "exercises": [
-                {
-                    "name": "Lateral Raise",
-                    "reps": "15-20",
-                    "sets": 2,
-                    "weight": "Light weight, controlled"
-                },
-                {
-                    "name": "Face Pulls (Cable)",
-                    "reps": "15-20",
-                    "sets": 2,
-                    "weight": "Rear delts"
-                }
-            ],
-            "order": 5
-        },
-        {
-            "category": "STRETCHING & RECOVERY (For MMA)",
+            "category": "STRETCHING & RECOVERY (7-10 min)",
             "exercises": [
                 {
                     "name": "Doorway Pectoral Stretch",
-                    "reps": "30s",
+                    "reps": "30s each side",
                     "sets": 2,
                     "weight": ""
                 },
                 {
                     "name": "Overhead Triceps Stretch",
-                    "reps": "30s",
+                    "reps": "30s each side",
                     "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Shoulder Release: Arm cross",
-                    "reps": "",
+                    "name": "Cross-Body Shoulder Stretch",
+                    "reps": "30s each side",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Sleeper Stretch (Rotator Cuff)",
+                    "reps": "30s each side",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Neck Side Stretch",
+                    "reps": "30s each side",
                     "sets": 1,
-                    "weight": "Release tension"
+                    "weight": ""
                 }
             ],
-            "order": 6
+            "order": 4
         }
     ],
-    "focus": "TUESDAY: PUSH (CHEST FOCUS + TRICEPS) + 🥊 MMA"
+    "focus": "TUESDAY: PUSH DAY (SHOULDERS + CHEST + TRICEPS) + ABS"
 }

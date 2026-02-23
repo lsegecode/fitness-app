@@ -1,59 +1,125 @@
 {
     "blocks": [
         {
-            "category": "WARM-UP (5 min - Post Swimming)",
+            "category": "WARM-UP (10-12 min)",
             "exercises": [
                 {
-                    "name": "Dynamic Mobility: Hip circles and \"World's Greatest Stretch\"",
+                    "name": "Dynamic Mobility: Ankle mobility, hip circles and \"World's Greatest Stretch\"",
                     "reps": "10",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Activation: Bodyweight Squats",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Activation: Glute Bridges (Bodyweight)",
+                    "reps": "15",
+                    "sets": 2,
+                    "weight": "Squeeze glutes at top"
+                },
+                {
+                    "name": "Warm-up Set: Bulgarian Split Squat (very light / bodyweight)",
+                    "reps": "10 each leg",
                     "sets": 1,
-                    "weight": "Already warmed up in pool"
+                    "weight": "Very light"
                 }
             ],
             "order": 1
         },
         {
-            "category": "STRENGTH & HYPERTROPHY (COMPOUNDS)",
+            "category": "STRENGTH & HYPERTROPHY (3 sets · 8-12 reps)",
             "exercises": [
                 {
-                    "name": "Hack Squat",
-                    "reps": "8-10",
-                    "sets": 4,
-                    "weight": "Deep and controlled"
+                    "name": "Bulgarian Split Squat",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Hold dumbbells for balance and load"
                 },
                 {
-                    "name": "Leg Press",
-                    "reps": "12",
+                    "name": "Hack Squat",
+                    "reps": "8-12",
                     "sets": 3,
-                    "weight": "Feet low on platform"
+                    "weight": "Deep range of motion"
+                },
+                {
+                    "name": "Hip Thrust (Barbell)",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Focus on glute contraction at top"
+                },
+                {
+                    "name": "Conventional Deadlift",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Warm up thoroughly; explosive pull, controlled descent"
+                },
+                {
+                    "name": "Leg Extension",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Quadriceps isolation"
+                },
+                {
+                    "name": "Leg Curl",
+                    "reps": "8-12",
+                    "sets": 3,
+                    "weight": "Hamstring isolation"
                 }
             ],
             "order": 2
         },
         {
-            "category": "ISOLATION FOCUS",
+            "category": "STRETCHING & RECOVERY (8-10 min)",
             "exercises": [
                 {
-                    "name": "Leg Extensions",
-                    "reps": "15",
-                    "sets": 3,
-                    "weight": "Hold 1s at top"
-                },
-                {
-                    "name": "Leg Curl (Seated or Lying)",
-                    "reps": "12",
-                    "sets": 4,
+                    "name": "Standing Quad Stretch",
+                    "reps": "45s each leg",
+                    "sets": 2,
                     "weight": ""
                 },
                 {
-                    "name": "Calf Raises on Leg Press",
-                    "reps": "15-20",
-                    "sets": 4,
+                    "name": "Pigeon Pose (Hip Flexor & Glute Stretch)",
+                    "reps": "45s each side",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Hamstring Stretch (Seated or Standing)",
+                    "reps": "45s each leg",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Adductor Stretch (Wide Stance)",
+                    "reps": "45s",
+                    "sets": 2,
+                    "weight": ""
+                },
+                {
+                    "name": "Calf Stretch (Against Wall)",
+                    "reps": "30s each leg",
+                    "sets": 2,
                     "weight": ""
                 }
             ],
             "order": 3
+        },
+        {
+            "category": "CARDIO",
+            "exercises": [
+                {
+                    "name": "Swimming Lessons",
+                    "reps": "~1 km",
+                    "sets": "",
+                    "weight": "1 hour session"
+                }
+            ],
+            "order": 4
         }
     ],
-    "focus": "WEDNESDAY: 🏊 SWIMMING + LEGS (QUAD FOCUS)"
+    "focus": "WEDNESDAY: LEG DAY (LOWER BODY)"
 }
